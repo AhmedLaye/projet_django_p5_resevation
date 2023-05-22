@@ -31,10 +31,10 @@
             </div>
         </header> 
         <div id="menu">
-            <a href="" style="background-color: #331610; color: white;">Accueil</a>
-            <a href="">Vols</a>
-            <a href="">Restaurants</a>
-            <a href="">Location de voitures</a>
+            <a href="/" style="background-color: #331610; color: white;">Accueil</a>
+            <a href="{% url 'vol' %}">Vols</a>
+            <a href="{% url 'resto' %}">Restaurants</a>
+            <a href="{% url 'voiture' %}">Location de voitures</a>
         </div>
 <body> 
     {% block content %}
