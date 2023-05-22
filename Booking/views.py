@@ -4,3 +4,7 @@ from django.shortcuts import render
 def index_view(request):
 
     return render(request,  'booking/index.html')
+
+def voiture_view(request):
+
+    return render(request,  'booking/voiture.html')
