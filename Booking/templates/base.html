@@ -1,15 +1,75 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <title>Kaay Reserver</title>
 </head>
-<p>je suis un menu je doit être  partout ! mangui si fichier base.html, et je peux pas l'ecrire a chaque fois donc je l'inclue </p>
 <body>
+        <header>
+            <div class="login">
+                <div>
+                    <img src="{% static 'images/logo.png' %}">
+                </div>
+                <div class="icone">
+                    <div class="icone_login">
+                        <img src="{% static 'images/user (1).png' %}" alt="user" width="50px" height="50px">
+                        <a href="">S'inscrire</a>
+                    </div>
+                    <div class="icone_login">
+                       <img src="{% static 'images/user(1).png' %}" alt="account" width="40px" height="44px">
+                       <a href="">Connexion</a>
+                    </div>
+                    <div class="icone_login">
+                        <img src="./images/cart.png" alt="cart" width="50px" height="50px">
+                       <a href="">Panier</a>
+                    </div>  
+                </div>              
+            </div>
+        </header> 
+        <div id="menu">
+            <a href="" style="background-color: #331610; color: white;">Accueil</a>
+            <a href="">Vols</a>
+            <a href="">Restaurants</a>
+            <a href="">Location de voitures</a>
+        </div>
+<body> 
     {% block content %}
     {% endblock %}
     
 </body>
+<footer>
+    <div class="infos">
+        <p>A Propos de Kaay Reserver</p>    
+        <p>Explorez</p>
+        <p>Nos Partenaires</p>
+    </div>
+    <div class="sinfo">
+        <div class="first">
+            <p>Nous contacter</p>
+            <p>Fonctionnement du site</p>
+            <p>Confidentialité et sécurité</p>
+        </div>
+        <div class="second">
+            <p>Assistance voyage</p>
+            <p>Ajouter un lieu</p>
+            <p> S'inscrire</p>
+        </div>
+        <div class="third">
+            <p>Novotel</p>
+            <p>Terrou Bi</p>
+            <p>Les flamboyants</p>
+        </div>
+    </div>
+    <div class="reseau">
+        <p>Suivez-nous :</p>
+        <img src="./images/facebook.png" alt="" width="10%">
+        <img src="./images/whatsapp.png" alt="" width="10%">
+        <img src="./images/instagram.png" alt="" width="10%">
+        <img src="./images/twitter.png" alt="" width="10%">
+    </div>
+</footer>
 </html>

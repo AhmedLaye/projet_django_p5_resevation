@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 2%;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.icone_login{
+    display: flex;
+}
+h3{
+    margin-top: 4px;
+    text-align: center;
+}
+.icone{
+    width: 420px;
+    display: flex; 
+    justify-content: space-around;
+
+}
+.icone a{
+    color: #331610;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-left: 3px;
+}
+#menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+#menu a{
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #331610;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+#menu a:hover{
+    background-color: #331610;
+    color: white;
+}
+.reserve{
+    width: 44%;
+    margin-left: 25%;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.reserve img{
+    margin-top: 32%;
+}
+.text h1{
+    font-size: 60px;
+    font-weight: 500px;
+    text-align: center;
+    margin-left: 50px;
+}
+.text p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+#back{
+    background-image:url("{ % static 'images/1407953244000-177513283.webp' %}") ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 220px;
+}
+
+.decouverte{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.decouverte p{
+    color: #331610;
+    font-size: 22px;
+}
+.decouverte1 a{
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #331610;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.decouverte1 a:hover{
+    background-color: #331610;
+    color: white;
+}
+.decouverte1{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+  justify-content: space-between;
+  margin-top: -20px;
+}
+   
+.endroit{
+    display: flex;
+    flex-direction: column;
+}
+.ville{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.ville p{
+    margin-left: 6%;
+    margin-top: -10px;
+}
+.photo{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.endroit a{
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #331610;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px 1px gray;
+    width: 5%;
+    margin-left:46% ;
+}
+footer{
+    background-color: #331610;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2%;
+}
+.infos{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.reseau{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+}
+.reseau p{
+    color: white;
+    font-size: 20px;
+}
+.sinfo{
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: -20px;
+    width: 93%;
+    margin-bottom: 3%;
+
+}
+.sinfo p{
+    text-align: center;
+    margin-top: 1%;
+}
