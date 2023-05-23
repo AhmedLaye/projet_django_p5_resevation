@@ -76,11 +76,16 @@ WSGI_APPLICATION = 'django_proj.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+'default': {
+    'ENGINE': 'django.db.backends.mysql',
+    'NAME': 'gestion_reservation',
+    'USER': 'el_rawane',
+    'PASSWORD': '007700',
+    'HOST': 'localhost',
+    'PORT': '3306',
+}
 }
 
 
