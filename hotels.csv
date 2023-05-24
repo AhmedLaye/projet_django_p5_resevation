@@ -1,0 +1,8 @@
+chainCode,iataCode,dupeId,name,hotelId,geoCode,address,lastUpdate
+FG,DKR,700120813,LODGE DU DELTA NIOMINKA-ILE DE DIONEWAR,FGDKRLDN,"{'latitude': 14.35962, 'longitude': -14.46846}",{'countryCode': 'SN'},
+HS,DKR,700099130,HOTEL DU PHARE LES MAMELLES - GUESTHOUSE,HSDKRAAL,"{'latitude': 14.6953, 'longitude': -17.4439}",{'countryCode': 'SN'},2022-11-29T06:01:25
+IQ,DKR,700120821,TERROU-BI HOTEL CASINO MARINA,IQDKRTER,"{'latitude': 14.67733, 'longitude': -17.46638}",{'countryCode': 'SN'},2022-11-29T06:04:51
+RD,DKR,700127981,RADISSON BLU DAKAR,RDDKR117,"{'latitude': 14.69497, 'longitude': -17.47346}",{'countryCode': 'SN'},2022-11-29T09:06:30
+TY,DKR,700887246,HOTEL LA VILLA RACINE,TYDKRRAC,"{'latitude': 14.66638, 'longitude': -17.43607}",{'countryCode': 'SN'},2022-11-29T09:07:04
+TY,DKR,700171220,THE RHINO HOTEL RESORT & SPA,TYDKRRHI,"{'latitude': 14.44322, 'longitude': -17.01323}",{'countryCode': 'SN'},2022-11-29T09:07:04
+WK,DKR,700120820,HOTEL JARDIN SAVANA DAKAR,WKDKR563,"{'latitude': 14.654, 'longitude': -17.4318}",{'countryCode': 'SN'},2022-11-29T09:06:54
