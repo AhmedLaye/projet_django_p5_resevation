@@ -42,12 +42,12 @@ class Hotels(models.Model):
                     telephone = row[0]
 
                     # Vérifier l'existence des données avant de les insérer
-                    query_check = "SELECT * FROM Hotels WHERE nom = %s"
+                    query_check = "SELECT * FROM Booking_hotels WHERE nom = %s"
                     cursor.execute(query_check, [nom])
                     result = cursor.fetchone()
                     if not result:
                         query_insert = """
-                            INSERT INTO Hotels (nom, adresse, description, note_moyenne, site_web, telephone)
+                            INSERT INTO Booking_hotels (nom, adresse, description, note_moyenne, site_web, telephone)
                             VALUES (%s, %s, %s, %s, %s, %s)
                         """
                         cursor.execute(query_insert, [nom, adresse, description, note_moyenne, site_web, telephone])

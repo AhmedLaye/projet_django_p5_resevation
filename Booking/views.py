@@ -36,5 +36,5 @@ def vol_view(request):
     return render(request,  'booking/vol.html')
 
 def resto_view(request):
-    hotels = Hotels.objects.raw("SELECT * FROM  Hotels")
+    hotels = Hotels.objects.raw("SELECT * FROM  Booking_hotels")
     return render(request,  'booking/resto.html', {'hotels':hotels})
