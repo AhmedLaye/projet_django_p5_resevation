@@ -1,5 +1,7 @@
 from django.db import models
 import csv
+import json
+import mysql.connector
 
 
 
@@ -85,3 +87,27 @@ class voiture(models.Model):
     transmission = models.CharField(choices = transmission.choices,max_length=12)
 
     
+with open('car_data.json') as file:
+    data = json.load(file)
+    
+# Connexion à la base de données
+cnx = mysql.connector.connect(
+    host='localhost',
+    user='el_rawane',
+    password='007700',
+    database='gestion_reservation'
+)
+
+# Création d'un curseur pour exécuter des requêtes SQL
+cursor = cnx.cursor()
+for record in data:
+    query = "INSERT INTO Booking_voiture (marque, model, year, fuel_type, capacity, transmission) VALUES (%s, %s, %s, %s, %s, %s)"
+    values = (record['marque'], record['model'], record['year'], record['fuel_type'], record['capacity'], record['transmission'])
+    cursor.execute(query, values)
+
+# Valider les modifications dans la base de données
+cnx.commit()
+
+# Fermer le curseur et la connexion
+cursor.close()
+cnx.close()
