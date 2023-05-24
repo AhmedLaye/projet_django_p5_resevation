@@ -4,15 +4,14 @@ from django.db import models
 class voiture(models.Model):
     
     class transmission(models.TextChoices):
-        Essence = 'essence'
-        Gazoil = 'Gazoil'
-        Hybride = 'Hybrid'
+        Automatique = 'Automatique'
+        Manuelle= 'Manuelle'
 
     marque = models.CharField(max_length=100)
     model = models.CharField(max_length=100)
     year = models.IntegerField()
     fuel_type = models.CharField(max_length=100)
     capacity = models.IntegerField()
-    transmission = models.CharField(choices = transmission.choices,max_length=10)
+    transmission = models.CharField(choices = transmission.choices,max_length=12)
 
     
