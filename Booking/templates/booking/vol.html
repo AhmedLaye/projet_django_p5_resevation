@@ -6,9 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'css/vol.css' %}">
-    <title>Document</title>
+    <title>Vol</title>
 </head>
 <body>
-    
+    <header>
+        <div class="login">
+            <div>
+                <img src="{% static 'images/logo1.png' %}">
+            </div>
+            <div class="icone">
+                <div class="icone_login">
+                    <img src="{% static 'images/user (1).png' %}" alt="user" width="50px" height="50px">
+                    <a href="">S'inscrire</a>
+                </div>
+                <div class="icone_login">
+                   <img src="{% static 'images/user(1).png' %}" alt="account" width="40px" height="44px">
+                   <a href="">Connexion</a>
+                </div>
+                <div class="icone_login">
+                    <img src="{% static 'images/cart.png' %}" alt="cart" width="50px" height="50px">
+                   <a href="">Panier</a>
+                </div>  
+            </div>              
+        </div>
+        <div id="menu">
+            <a href="/">Accueil</a>
+            <a href="{% url 'vol' %}" style="background-color: #331610; color: white;">Vols</a>
+            <a href="{% url 'resto' %}">Restaurants</a>
+            <a href="{% url 'voiture' %}">Location de voitures</a>
+        </div>
+    </header> 
 </body>
 </html>

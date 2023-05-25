@@ -1,7 +1,7 @@
-from django.db import models
+from django.db import models, connection
 import csv
 import json
-import mysql.connector
+
 
 
 
@@ -9,6 +9,33 @@ from django.db import models
 import pandas as pd
 from django.db import connection
 import csv
+#class du service vol
+class Client(models.Model):
+    nom = models.CharField(max_length=50)
+    prenom = models.CharField(max_length=50)
+    email = models.EmailField(unique=True)
+# Autres champs utilisateur
+numero_telephone = models.CharField(max_length=20)
+adresse = models.CharField(max_length=100)
+
+class Passager(models.Model):
+    nom = models.CharField(max_length=50)
+    prenom = models.CharField(max_length=50)
+class Vol(models.Model):
+    dateDepart = models.DateField(max_length=50)
+    heureDepart = models.DateTimeField(max_length=50)
+    dateArrivee = models.DateField(max_length=50)
+    heureArrivee = models.DateTimeField(max_length=50)
+class Reserve(models.Model):
+    date = models.DateTimeField(max_length=50)
+    numero = models.CharField(max_length=50)
+class Compagnie(models.Model):
+    nom = models.CharField(max_length=50)
+class Ville(models.Model):
+    nom = models.CharField(max_length=50)
+class Aeroport(models.Model):
+    nom = models.CharField(max_length=50)
+#class du service vol
 # Create your models here.
 class Utilisateur(models.Model):
     nom = models.CharField(max_length=50)
@@ -91,23 +118,12 @@ with open('car_data.json') as file:
     data = json.load(file)
     
 # Connexion à la base de données
-cnx = mysql.connector.connect(
-    host='localhost',
-    user='el_rawane',
-    password='007700',
-    database='gestion_reservation'
-)
-
+with connection.cursor() as cursor:
 # Création d'un curseur pour exécuter des requêtes SQL
-cursor = cnx.cursor()
-for record in data:
-    query = "INSERT INTO Booking_voiture (marque, model, year, fuel_type, capacity, transmission) VALUES (%s, %s, %s, %s, %s, %s)"
-    values = (record['marque'], record['model'], record['year'], record['fuel_type'], record['capacity'], record['transmission'])
-    cursor.execute(query, values)
+    
+    for record in data:
+        query = "INSERT INTO Booking_voiture (marque, model, year, fuel_type, capacity, transmission) VALUES (%s, %s, %s, %s, %s, %s)"
+        values = (record['marque'], record['model'], record['year'], record['fuel_type'], record['capacity'], record['transmission'])
+        cursor.execute(query, values)
 
-# Valider les modifications dans la base de données
-cnx.commit()
-
-# Fermer le curseur et la connexion
-cursor.close()
-cnx.close()
+   
