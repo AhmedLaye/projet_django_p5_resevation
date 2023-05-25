@@ -4,7 +4,6 @@ import json
 import mysql.connector
 
 
-
 from django.db import models
 import pandas as pd
 from django.db import connection
