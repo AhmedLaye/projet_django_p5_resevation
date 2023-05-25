@@ -30,16 +30,17 @@ def voiture_view(request):
 
     return render(request,  'booking/voiture.html')
 
+
+
 def vol_view(request):
+
 
     return render(request,  'booking/vol.html')
 
+
+
 def resto_view(request):
     hotels = Hotels.objects.raw("SELECT * FROM  Booking_hotels")
-    
-   
-        
-
     return render(request,  'booking/resto.html', {'hotels':hotels,})
 
 def hotel_detail(request, id):
@@ -59,27 +60,8 @@ def reserver_hotel(request, id):
         if form.is_valid():
             date_arrive = form.cleaned_data['date_arrive']
             date_depart = form.cleaned_data['date_depart']
-            # try:
-            #     # Hotel List API to get list of Hotels by city code
-            #     # Hotel Search API to get list of offers for a specific hotel
-            #     hotel_offers = amadeus.shopping.hotel_offers_search.get(
-            #         hotelIds=hotel.site_web, adults='1', checkInDate=date_arrive, checkOutDate=date_depart)
-            #     print(f" liste des offres disponible: {hotel_offers.data}")
-                
-            #     # offerId = hotel_offers.data[0]['offers'][0]['id']
-
-            #     # guests = [{'id': 1, 'name': {'title': 'MR', 'firstName': 'BOB', 'lastName': 'SMITH'},
-            #     #         'contact': {'phone': '+33679278416', 'email': 'bob.smith@email.com'}}]
-            #     # payments = {'id': 1, 'method': 'creditCard', 'card': {
-            #     #     'vendorCode': 'VI', 'cardNumber': '4151289722471370', 'expiryDate': '2027-08'}}
-                    
-            #     # hotel_booking = amadeus.booking.hotel_bookings.post(
-            #     #     offerId, guests, payments)
-            #     # print(hotel_booking.data)
-            #     message="succes"
-            # except ResponseError as error:
-            #     raise error
-            #     # Hotel booking API to book the offer 
+            
+            message="succes"
                 
            
             return render(request, 'booking/hotel_detail.html',{'hotel':hotel, 'message':message, 'date_arrive': date_arrive, 'date_depart': date_depart})
