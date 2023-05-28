@@ -1,562 +1,482 @@
 [
     {
-        "marque": "Nissan",
-        "model": "Maxima",
-        "year": 2003,
-        "fuel_type": "Essence",
-        "capacity": 3,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Hyundai",
-        "model": "Tucson",
-        "year": 2005,
-        "fuel_type": "Gazoil",
-        "capacity": 1,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Hyundai",
-        "model": "Elantra",
-        "year": 2001,
-        "fuel_type": "Gazoil",
-        "capacity": 2,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Kia",
-        "model": "Telluride",
-        "year": 2001,
-        "fuel_type": "Hybride",
-        "capacity": 1,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Ford",
-        "model": "F-150",
-        "year": 2006,
-        "fuel_type": "Gazoil",
-        "capacity": 5,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Honda",
-        "model": "Civic",
-        "year": 2016,
-        "fuel_type": "Gazoil",
-        "capacity": 5,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Hyundai",
-        "model": "Tucson",
-        "year": 2004,
-        "fuel_type": "Hybride",
-        "capacity": 4,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Kia",
-        "model": "Sorento",
-        "year": 2008,
-        "fuel_type": "Hybride",
-        "capacity": 1,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Audi",
-        "model": "Q5",
-        "year": 2009,
-        "fuel_type": "Hybride",
-        "capacity": 3,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Toyota",
-        "model": "Camry",
-        "year": 2009,
-        "fuel_type": "Hybride",
-        "capacity": 2,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Toyota",
-        "model": "RAV4",
-        "year": 2000,
-        "fuel_type": "Essence",
-        "capacity": 5,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Honda",
-        "model": "Accord",
-        "year": 2010,
+        "marque": "Chevrolet",
+        "model": "Silverado",
         "fuel_type": "Hybride",
         "capacity": 5,
-        "transmission": "Automatique"
+        "transmission": "Automatique",
+        "image": "Chevrolet_Silverado.png"
     },
     {
         "marque": "Volkswagen",
-        "model": "Passat",
-        "year": 2007,
-        "fuel_type": "Hybride",
-        "capacity": 1,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Chevrolet",
-        "model": "Silverado",
-        "year": 2000,
-        "fuel_type": "Essence",
-        "capacity": 3,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Audi",
-        "model": "A6",
-        "year": 2015,
-        "fuel_type": "Essence",
-        "capacity": 4,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Chevrolet",
-        "model": "Silverado",
-        "year": 2002,
+        "model": "Golf",
         "fuel_type": "Essence",
         "capacity": 2,
-        "transmission": "Manuelle"
+        "transmission": "Manuelle",
+        "image": "Volkswagen_Golf.png"
     },
     {
-        "marque": "Honda",
-        "model": "Pilot",
-        "year": 2021,
-        "fuel_type": "Gazoil",
-        "capacity": 1,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Kia",
-        "model": "Sportage",
-        "year": 2009,
-        "fuel_type": "Gazoil",
-        "capacity": 3,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Mercedes-Benz",
-        "model": "C-Class",
-        "year": 2018,
-        "fuel_type": "Hybride",
-        "capacity": 1,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Hyundai",
-        "model": "Tucson",
-        "year": 2015,
-        "fuel_type": "Hybride",
-        "capacity": 3,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "BMW",
-        "model": "X3",
-        "year": 2020,
-        "fuel_type": "Gazoil",
-        "capacity": 1,
-        "transmission": "Automatique"
+        "marque": "Nissan",
+        "model": "Maxima",
+        "fuel_type": "Essence",
+        "capacity": 2,
+        "transmission": "Automatique",
+        "image": "Nissan_Maxima.png"
     },
     {
         "marque": "Volkswagen",
         "model": "Atlas",
-        "year": 2014,
-        "fuel_type": "Gazoil",
-        "capacity": 3,
-        "transmission": "Automatique"
+        "fuel_type": "Hybride",
+        "capacity": 1,
+        "transmission": "Automatique",
+        "image": "Volkswagen_Atlas.png"
+    },
+    {
+        "marque": "Mercedes-Benz",
+        "model": "S-Class",
+        "fuel_type": "Essence",
+        "capacity": 2,
+        "transmission": "Automatique",
+        "image": "Mercedes-Benz_S-Class.png"
     },
     {
         "marque": "Hyundai",
         "model": "Elantra",
-        "year": 2014,
+        "fuel_type": "Gazoil",
+        "capacity": 1,
+        "transmission": "Manuelle",
+        "image": "Hyundai_Elantra.png"
+    },
+    {
+        "marque": "Audi",
+        "model": "Q5",
+        "fuel_type": "Essence",
+        "capacity": 4,
+        "transmission": "Manuelle",
+        "image": "Audi_Q5.png"
+    },
+    {
+        "marque": "BMW",
+        "model": "X3",
+        "fuel_type": "Essence",
+        "capacity": 3,
+        "transmission": "Automatique",
+        "image": "BMW_X3.png"
+    },
+    {
+        "marque": "Honda",
+        "model": "Civic",
+        "fuel_type": "Hybride",
+        "capacity": 4,
+        "transmission": "Manuelle",
+        "image": "Honda_Civic.png"
+    },
+    {
+        "marque": "Kia",
+        "model": "Sportage",
         "fuel_type": "Essence",
         "capacity": 2,
-        "transmission": "Automatique"
+        "transmission": "Manuelle",
+        "image": "Kia_Sportage.png"
     },
     {
-        "marque": "Nissan",
-        "model": "Rogue",
-        "year": 2001,
+        "marque": "Honda",
+        "model": "Pilot",
         "fuel_type": "Gazoil",
-        "capacity": 2,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Chevrolet",
-        "model": "Cruze",
-        "year": 2015,
-        "fuel_type": "Hybride",
-        "capacity": 5,
-        "transmission": "Automatique"
+        "capacity": 3,
+        "transmission": "Automatique",
+        "image": "Honda_Pilot.png"
     },
     {
         "marque": "Hyundai",
         "model": "Sonata",
-        "year": 2011,
-        "fuel_type": "Essence",
+        "fuel_type": "Gazoil",
         "capacity": 4,
-        "transmission": "Manuelle"
+        "transmission": "Automatique",
+        "image": "Hyundai_Sonata.png"
+    },
+    {
+        "marque": "Ford",
+        "model": "Focus",
+        "fuel_type": "Hybride",
+        "capacity": 3,
+        "transmission": "Manuelle",
+        "image": "Ford_Focus.png"
+    },
+    {
+        "marque": "Hyundai",
+        "model": "Elantra",
+        "fuel_type": "Essence",
+        "capacity": 1,
+        "transmission": "Manuelle",
+        "image": "Hyundai_Elantra.png"
+    },
+    {
+        "marque": "Audi",
+        "model": "Q5",
+        "fuel_type": "Hybride",
+        "capacity": 5,
+        "transmission": "Manuelle",
+        "image": "Audi_Q5.png"
+    },
+    {
+        "marque": "Honda",
+        "model": "Accord",
+        "fuel_type": "Gazoil",
+        "capacity": 3,
+        "transmission": "Automatique",
+        "image": "Honda_Accord.png"
     },
     {
         "marque": "Toyota",
-        "model": "Corolla",
-        "year": 2003,
-        "fuel_type": "Gazoil",
-        "capacity": 4,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Mercedes-Benz",
-        "model": "GLC",
-        "year": 2008,
-        "fuel_type": "Essence",
-        "capacity": 4,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Volkswagen",
-        "model": "Tiguan",
-        "year": 2003,
-        "fuel_type": "Essence",
-        "capacity": 5,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Chevrolet",
-        "model": "Silverado",
-        "year": 2010,
-        "fuel_type": "Essence",
-        "capacity": 5,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Mercedes-Benz",
-        "model": "GLC",
-        "year": 2006,
+        "model": "Prius",
         "fuel_type": "Gazoil",
         "capacity": 3,
-        "transmission": "Manuelle"
+        "transmission": "Manuelle",
+        "image": "Toyota_Prius.png"
+    },
+    {
+        "marque": "Honda",
+        "model": "Civic",
+        "fuel_type": "Hybride",
+        "capacity": 3,
+        "transmission": "Automatique",
+        "image": "Honda_Civic.png"
     },
     {
         "marque": "Kia",
         "model": "Optima",
-        "year": 2012,
-        "fuel_type": "Gazoil",
-        "capacity": 1,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Chevrolet",
-        "model": "Cruze",
-        "year": 2016,
-        "fuel_type": "Hybride",
-        "capacity": 1,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Audi",
-        "model": "Q7",
-        "year": 2002,
-        "fuel_type": "Hybride",
-        "capacity": 1,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Nissan",
-        "model": "Altima",
-        "year": 2018,
         "fuel_type": "Essence",
-        "capacity": 3,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Hyundai",
-        "model": "Tucson",
-        "year": 2004,
-        "fuel_type": "Essence",
-        "capacity": 1,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "BMW",
-        "model": "Series 3",
-        "year": 2018,
-        "fuel_type": "Essence",
-        "capacity": 2,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "BMW",
-        "model": "X3",
-        "year": 2016,
-        "fuel_type": "Hybride",
-        "capacity": 3,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Chevrolet",
-        "model": "Silverado",
-        "year": 2000,
-        "fuel_type": "Hybride",
         "capacity": 5,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Chevrolet",
-        "model": "Silverado",
-        "year": 2010,
-        "fuel_type": "Gazoil",
-        "capacity": 3,
-        "transmission": "Automatique"
+        "transmission": "Manuelle",
+        "image": "Kia_Optima.png"
     },
     {
         "marque": "Volkswagen",
         "model": "Passat",
-        "year": 2007,
         "fuel_type": "Essence",
-        "capacity": 4,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Honda",
-        "model": "Pilot",
-        "year": 2006,
-        "fuel_type": "Essence",
-        "capacity": 3,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "BMW",
-        "model": "X3",
-        "year": 2013,
-        "fuel_type": "Essence",
-        "capacity": 2,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Audi",
-        "model": "Q5",
-        "year": 2006,
-        "fuel_type": "Essence",
-        "capacity": 5,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Hyundai",
-        "model": "Elantra",
-        "year": 2014,
-        "fuel_type": "Gazoil",
         "capacity": 1,
-        "transmission": "Automatique"
+        "transmission": "Manuelle",
+        "image": "Volkswagen_Passat.png"
     },
     {
         "marque": "Audi",
         "model": "Q7",
-        "year": 2010,
-        "fuel_type": "Essence",
-        "capacity": 1,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "BMW",
-        "model": "Series 3",
-        "year": 2003,
-        "fuel_type": "Hybride",
+        "fuel_type": "Gazoil",
         "capacity": 3,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Mercedes-Benz",
-        "model": "S-Class",
-        "year": 2018,
-        "fuel_type": "Hybride",
-        "capacity": 2,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Audi",
-        "model": "A6",
-        "year": 2018,
-        "fuel_type": "Essence",
-        "capacity": 1,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "BMW",
-        "model": "X3",
-        "year": 2003,
-        "fuel_type": "Essence",
-        "capacity": 5,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Kia",
-        "model": "Sportage",
-        "year": 2009,
-        "fuel_type": "Hybride",
-        "capacity": 4,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Kia",
-        "model": "Telluride",
-        "year": 2019,
-        "fuel_type": "Hybride",
-        "capacity": 4,
-        "transmission": "Automatique"
+        "transmission": "Automatique",
+        "image": "Audi_Q7.png"
     },
     {
         "marque": "Volkswagen",
         "model": "Atlas",
-        "year": 2008,
         "fuel_type": "Essence",
-        "capacity": 3,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Audi",
-        "model": "A6",
-        "year": 2013,
-        "fuel_type": "Gazoil",
-        "capacity": 5,
-        "transmission": "Manuelle"
+        "capacity": 2,
+        "transmission": "Manuelle",
+        "image": "Volkswagen_Atlas.png"
     },
     {
         "marque": "Mercedes-Benz",
-        "model": "S-Class",
-        "year": 2007,
-        "fuel_type": "Essence",
+        "model": "E-Class",
+        "fuel_type": "Gazoil",
         "capacity": 1,
-        "transmission": "Manuelle"
+        "transmission": "Automatique",
+        "image": "Mercedes-Benz_E-Class.png"
     },
     {
-        "marque": "Kia",
-        "model": "Sportage",
-        "year": 2006,
-        "fuel_type": "Essence",
-        "capacity": 4,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Hyundai",
-        "model": "Sonata",
-        "year": 2015,
+        "marque": "Toyota",
+        "model": "Prius",
         "fuel_type": "Hybride",
+        "capacity": 3,
+        "transmission": "Automatique",
+        "image": "Toyota_Prius.png"
+    },
+    {
+        "marque": "Ford",
+        "model": "F-150",
+        "fuel_type": "Gazoil",
         "capacity": 2,
-        "transmission": "Automatique"
+        "transmission": "Manuelle",
+        "image": "Ford_F-150.png"
     },
     {
         "marque": "Hyundai",
         "model": "Santa Fe",
-        "year": 2002,
         "fuel_type": "Gazoil",
-        "capacity": 1,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Nissan",
-        "model": "Altima",
-        "year": 2000,
-        "fuel_type": "Essence",
-        "capacity": 2,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Honda",
-        "model": "Pilot",
-        "year": 2012,
-        "fuel_type": "Gazoil",
-        "capacity": 3,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Honda",
-        "model": "Civic",
-        "year": 2020,
-        "fuel_type": "Essence",
-        "capacity": 1,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Kia",
-        "model": "Telluride",
-        "year": 2011,
-        "fuel_type": "Essence",
-        "capacity": 4,
-        "transmission": "Automatique"
-    },
-    {
-        "marque": "Mercedes-Benz",
-        "model": "C-Class",
-        "year": 2015,
-        "fuel_type": "Essence",
-        "capacity": 4,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Hyundai",
-        "model": "Tucson",
-        "year": 2003,
-        "fuel_type": "Essence",
         "capacity": 5,
-        "transmission": "Automatique"
+        "transmission": "Automatique",
+        "image": "Hyundai_Santa Fe.png"
     },
     {
         "marque": "Audi",
-        "model": "Q5",
-        "year": 2003,
+        "model": "A4",
         "fuel_type": "Gazoil",
-        "capacity": 5,
-        "transmission": "Automatique"
+        "capacity": 2,
+        "transmission": "Manuelle",
+        "image": "Audi_A4.png"
     },
     {
         "marque": "Volkswagen",
-        "model": "Passat",
-        "year": 2002,
+        "model": "Golf",
+        "fuel_type": "Gazoil",
+        "capacity": 3,
+        "transmission": "Manuelle",
+        "image": "Volkswagen_Golf.png"
+    },
+    {
+        "marque": "Chevrolet",
+        "model": "Silverado",
+        "fuel_type": "Essence",
+        "capacity": 5,
+        "transmission": "Automatique",
+        "image": "Chevrolet_Silverado.png"
+    },
+    {
+        "marque": "BMW",
+        "model": "Series 5",
+        "fuel_type": "Hybride",
+        "capacity": 5,
+        "transmission": "Automatique",
+        "image": "BMW_Series 5.png"
+    },
+    {
+        "marque": "Chevrolet",
+        "model": "Equinox",
         "fuel_type": "Essence",
         "capacity": 4,
-        "transmission": "Automatique"
+        "transmission": "Automatique",
+        "image": "Chevrolet_Equinox.png"
+    },
+    {
+        "marque": "Mercedes-Benz",
+        "model": "S-Class",
+        "fuel_type": "Gazoil",
+        "capacity": 5,
+        "transmission": "Automatique",
+        "image": "Mercedes-Benz_S-Class.png"
     },
     {
         "marque": "BMW",
         "model": "X5",
-        "year": 2020,
-        "fuel_type": "Hybride",
+        "fuel_type": "Gazoil",
         "capacity": 1,
-        "transmission": "Manuelle"
+        "transmission": "Manuelle",
+        "image": "BMW_X5.png"
+    },
+    {
+        "marque": "Toyota",
+        "model": "RAV4",
+        "fuel_type": "Hybride",
+        "capacity": 3,
+        "transmission": "Manuelle",
+        "image": "Toyota_RAV4.png"
+    },
+    {
+        "marque": "Nissan",
+        "model": "Pathfinder",
+        "fuel_type": "Hybride",
+        "capacity": 5,
+        "transmission": "Manuelle",
+        "image": "Nissan_Pathfinder.png"
     },
     {
         "marque": "Audi",
         "model": "A4",
-        "year": 2002,
         "fuel_type": "Hybride",
-        "capacity": 1,
-        "transmission": "Manuelle"
-    },
-    {
-        "marque": "Audi",
-        "model": "A4",
-        "year": 2020,
-        "fuel_type": "Essence",
         "capacity": 4,
-        "transmission": "Automatique"
+        "transmission": "Automatique",
+        "image": "Audi_A4.png"
     },
     {
         "marque": "Honda",
-        "model": "Accord",
-        "year": 2007,
+        "model": "Pilot",
+        "fuel_type": "Essence",
+        "capacity": 2,
+        "transmission": "Automatique",
+        "image": "Honda_Pilot.png"
+    },
+    {
+        "marque": "Honda",
+        "model": "CR-V",
+        "fuel_type": "Essence",
+        "capacity": 3,
+        "transmission": "Manuelle",
+        "image": "Honda_CR-V.png"
+    },
+    {
+        "marque": "Honda",
+        "model": "Pilot",
+        "fuel_type": "Hybride",
+        "capacity": 1,
+        "transmission": "Automatique",
+        "image": "Honda_Pilot.png"
+    },
+    {
+        "marque": "Ford",
+        "model": "F-150",
         "fuel_type": "Gazoil",
         "capacity": 4,
-        "transmission": "Manuelle"
+        "transmission": "Manuelle",
+        "image": "Ford_F-150.png"
+    },
+    {
+        "marque": "Mercedes-Benz",
+        "model": "E-Class",
+        "fuel_type": "Hybride",
+        "capacity": 3,
+        "transmission": "Automatique",
+        "image": "Mercedes-Benz_E-Class.png"
+    },
+    {
+        "marque": "Chevrolet",
+        "model": "Cruze",
+        "fuel_type": "Hybride",
+        "capacity": 3,
+        "transmission": "Manuelle",
+        "image": "Chevrolet_Cruze.png"
+    },
+    {
+        "marque": "Ford",
+        "model": "F-150",
+        "fuel_type": "Hybride",
+        "capacity": 5,
+        "transmission": "Manuelle",
+        "image": "Ford_F-150.png"
+    },
+    {
+        "marque": "Kia",
+        "model": "Telluride",
+        "fuel_type": "Hybride",
+        "capacity": 1,
+        "transmission": "Manuelle",
+        "image": "Kia_Telluride.png"
+    },
+    {
+        "marque": "Volkswagen",
+        "model": "Passat",
+        "fuel_type": "Essence",
+        "capacity": 4,
+        "transmission": "Automatique",
+        "image": "Volkswagen_Passat.png"
+    },
+    {
+        "marque": "Honda",
+        "model": "CR-V",
+        "fuel_type": "Essence",
+        "capacity": 3,
+        "transmission": "Automatique",
+        "image": "Honda_CR-V.png"
+    },
+    {
+        "marque": "Toyota",
+        "model": "RAV4",
+        "fuel_type": "Essence",
+        "capacity": 3,
+        "transmission": "Automatique",
+        "image": "Toyota_RAV4.png"
+    },
+    {
+        "marque": "Kia",
+        "model": "Sorento",
+        "fuel_type": "Essence",
+        "capacity": 2,
+        "transmission": "Automatique",
+        "image": "Kia_Sorento.png"
+    },
+    {
+        "marque": "Mercedes-Benz",
+        "model": "E-Class",
+        "fuel_type": "Hybride",
+        "capacity": 5,
+        "transmission": "Automatique",
+        "image": "Mercedes-Benz_E-Class.png"
+    },
+    {
+        "marque": "Kia",
+        "model": "Sorento",
+        "fuel_type": "Gazoil",
+        "capacity": 2,
+        "transmission": "Manuelle",
+        "image": "Kia_Sorento.png"
+    },
+    {
+        "marque": "Nissan",
+        "model": "Maxima",
+        "fuel_type": "Hybride",
+        "capacity": 4,
+        "transmission": "Manuelle",
+        "image": "Nissan_Maxima.png"
+    },
+    {
+        "marque": "Audi",
+        "model": "Q7",
+        "fuel_type": "Essence",
+        "capacity": 5,
+        "transmission": "Manuelle",
+        "image": "Audi_Q7.png"
+    },
+    {
+        "marque": "BMW",
+        "model": "Series 5",
+        "fuel_type": "Hybride",
+        "capacity": 5,
+        "transmission": "Automatique",
+        "image": "BMW_Series 5.png"
+    },
+    {
+        "marque": "Audi",
+        "model": "Q7",
+        "fuel_type": "Essence",
+        "capacity": 2,
+        "transmission": "Manuelle",
+        "image": "Audi_Q7.png"
+    },
+    {
+        "marque": "Toyota",
+        "model": "Prius",
+        "fuel_type": "Hybride",
+        "capacity": 2,
+        "transmission": "Manuelle",
+        "image": "Toyota_Prius.png"
+    },
+    {
+        "marque": "Ford",
+        "model": "Explorer",
+        "fuel_type": "Gazoil",
+        "capacity": 2,
+        "transmission": "Manuelle",
+        "image": "Ford_Explorer.png"
+    },
+    {
+        "marque": "Hyundai",
+        "model": "Sonata",
+        "fuel_type": "Essence",
+        "capacity": 1,
+        "transmission": "Automatique",
+        "image": "Hyundai_Sonata.png"
+    },
+    {
+        "marque": "Mercedes-Benz",
+        "model": "GLC",
+        "fuel_type": "Gazoil",
+        "capacity": 5,
+        "transmission": "Automatique",
+        "image": "Mercedes-Benz_GLC.png"
+    },
+    {
+        "marque": "Kia",
+        "model": "Optima",
+        "fuel_type": "Gazoil",
+        "capacity": 1,
+        "transmission": "Manuelle",
+        "image": "Kia_Optima.png"
+    },
+    {
+        "marque": "Chevrolet",
+        "model": "Malibu",
+        "fuel_type": "Gazoil",
+        "capacity": 4,
+        "transmission": "Automatique",
+        "image": "Chevrolet_Malibu.png"
     }
 ]

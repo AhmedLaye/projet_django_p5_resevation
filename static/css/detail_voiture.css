@@ -1,0 +1,90 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerE {
+    
+    max-width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:2px solid #4CAF50;
+    margin-top: 15px;
+}
+
+.annonce_reservation{
+    width: 60%;
+    height: 100px;
+    background-color: #4CAF50;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 80px;
+}
+
+
+.car-details {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.car-details img {
+    width: 300px;
+    height: auto;
+}
+
+.car-details h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.car-details p {
+    font-size: 16px;
+}
+
+.reservation-form {
+    text-align: center;
+}
+
+.reservation-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.reservation-form form {
+    display: inline-block;
+    text-align: left;
+}
+
+.reservation-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.reservation-form input[type="date"],
+.reservation-form input[type="submit"] {
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.reservation-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.reservation-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
