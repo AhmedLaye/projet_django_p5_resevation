@@ -84,14 +84,13 @@
     
             <div class="reservation-form">
                 <h2>Réserver cette voiture</h2>
-                <form method="post" action="#">
+                <form method="post" action="{% url 'reservation' car.id %}">
+                    {% csrf_token %}
                     <label for="start_date">Date de début:</label>
-                    <input type="date" id="start_date" name="start_date" required><br><br>
+                    <input type="date" id="start_date" name="date_debut" required><br><br>
             
                     <label for="end_date">Date de fin:</label>
-                    <input type="date" id="end_date" name="end_date" required><br><br>
-            
-                    <!-- Ajoutez ici d'autres champs de formulaire nécessaires pour la réservation -->
+                    <input type="date" id="end_date" name="date_fin" required><br><br>
             
                     <input type="submit" value="Réserver">
                 </form>

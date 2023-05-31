@@ -83,6 +83,7 @@ class voiture(models.Model):
     fuel_type = models.CharField(max_length=100)
     capacity = models.IntegerField()
     transmission = models.CharField(choices = boite.choices,max_length=12)
+    prix_location= models.IntegerField( default= 30000)
     image = models.CharField(max_length=100 , default='')
 
     
@@ -100,8 +101,8 @@ cnx = mysql.connector.connect(
 # Création d'un curseur pour exécuter des requêtes SQL
 cursor = cnx.cursor()
 for record in data:
-    query = "INSERT INTO Booking_voiture (marque, model, fuel_type, capacity, transmission, image) VALUES (%s, %s, %s, %s, %s, %s)"
-    values = (record['marque'], record['model'], record['fuel_type'], record['capacity'], record['transmission'],record['image'])
+    query = "INSERT INTO Booking_voiture (marque, model, fuel_type, capacity, transmission, prix_location, image) VALUES (%s, %s, %s, %s,%s , %s, %s)"
+    values = (record['marque'], record['model'], record['fuel_type'], record['capacity'], record['transmission'], record['prix_location'],record['image'])
     cursor.execute(query, values)
 
 # Valider les modifications dans la base de données
@@ -110,3 +111,11 @@ cnx.commit()
 # Fermer le curseur et la connexion
 cursor.close()
 cnx.close()
+
+class Reservation_voiture(models.Model):
+    id_voiture = models.ForeignKey(voiture, on_delete=models.CASCADE)
+    date_debut_location = models.DateField()
+    date_fin_location = models.DateField()
+    # Autres champs de la réservation
+    
+

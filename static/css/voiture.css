@@ -99,12 +99,18 @@ a {
    
   }
 
+  .cont_rech{
+    width: 300px;
+    height: 35px;
+    background-color: #24bdff;
+  }
   .plus{
     width: 280px;
     height: 110px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: -36px;
 
    
   }
@@ -241,3 +247,13 @@ a {
    .model{
     font-size: 15px;
    }
+
+  .recherches{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(246, 243, 243, 0.953);
+    margin-bottom: 90px;
+    display: flex;
+  }
+
+  

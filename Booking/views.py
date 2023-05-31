@@ -1,9 +1,12 @@
-from django.shortcuts import render , get_object_or_404
+from django.shortcuts import render , get_object_or_404 ,redirect
 from amadeus import Client, ResponseError
 import pandas as pd
 import os
 from Booking.models import Hotels
 from Booking.models import voiture
+from Booking.models import Reservation_voiture
+from Booking.forms import ReservCarForm
+from Booking.models import Utilisateur
 # Create your views here.
 def index_view(request):
     amadeus = Client(
@@ -29,7 +32,7 @@ def index_view(request):
     return render(request,  'booking/index.html')
 
 def voiture_view(request):
-    voitures=voiture.objects.raw("SELECT * FROM Booking_voiture WHERE id IN (1,2,3,4,5)")
+    voitures=voiture.objects.raw("SELECT * FROM Booking_voiture WHERE id IN (1,2,3,4,5,6)")
 
     return render(request,  'booking/voiture.html',{'voitures':voitures})
 
@@ -45,3 +48,24 @@ def detail_voiture_view(request ,car_id):
     car = get_object_or_404( voiture, id = car_id)
 
     return render(request,  'booking/detail_voiture.html' , {'car':car})
+
+
+def car_reservation(request ,car_id):
+    
+    car = get_object_or_404( voiture, id = car_id)
+    
+    if request.method == 'POST':
+
+        date_debut = request.POST['date_debut']  # Date de début de réservation
+        date_fin = request.POST['date_fin']  # Date de fin de réservation
+
+    
+        # Création de l'objet réservation
+        reservation = Reservation_voiture( id_voiture =car_id, date_debut=date_debut, date_fin=date_fin)
+        reservation.save()
+        
+        return redirect('page_de_confirmation')  # Rediriger vers une page de confirmation
+
+    return render(request, 'booking/voiture.html')
+
+    
