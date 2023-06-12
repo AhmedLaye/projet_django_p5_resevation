@@ -141,14 +141,13 @@ a {
   }
 
   .v1:hover{
-    background-color: #ECC4C4
-    ;
+    background-color: #ECC4C4;
     
   }
   .v2{
-    width: 1294px;
+    width: 1170px;
     height: 522px;
-    border: #24bdff solid 2px;
+    background-color: rgba(230, 223, 223,0.3) ;
     border-radius: 15px;
     margin: 30px;
     display: flex;
@@ -239,6 +238,9 @@ a {
     transform: scale(1.1);
   }
    
+  .v2:hover img {
+    transform: scale(1.1);
+  }
    .name{
     font-size: 30px;
     font-family: 'Abril Fatface', cursive;
@@ -255,5 +257,19 @@ a {
     margin-bottom: 90px;
     display: flex;
   }
+  .modal-body {
+    
+    background-color: #24bdff;
+  }
 
+  .connect{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+  }
   
+  
+  .lien-voiture{
+    text-decoration: none;
+    color: black;
+  }

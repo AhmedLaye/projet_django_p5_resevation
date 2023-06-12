@@ -7,6 +7,9 @@ from Booking.models import voiture
 from Booking.models import Reservation_voiture
 from Booking.forms import ReservCarForm
 from Booking.models import Utilisateur
+from django.contrib.auth.models import User
+from django.contrib.auth import authenticate , login 
+from django.contrib import messages
 # Create your views here.
 def index_view(request):
     amadeus = Client(
@@ -50,9 +53,8 @@ def detail_voiture_view(request ,car_id):
     return render(request,  'booking/detail_voiture.html' , {'car':car})
 
 
-def car_reservation(request ,car_id):
+def car_reservation(request):
     
-    car = get_object_or_404( voiture, id = car_id)
     
     if request.method == 'POST':
 
@@ -61,11 +63,46 @@ def car_reservation(request ,car_id):
 
     
         # Création de l'objet réservation
-        reservation = Reservation_voiture( id_voiture =car_id, date_debut=date_debut, date_fin=date_fin)
+        reservation = Reservation_voiture( date_debut_location=date_debut, date_fin_location=date_fin)
         reservation.save()
         
-        return redirect('page_de_confirmation')  # Rediriger vers une page de confirmation
+        return redirect('voiture')  # Rediriger vers une page de confirmation
 
-    return render(request, 'booking/voiture.html')
+    return render(request, 'voiture')
 
+def register(request):
+    if request.method =='POST':
+        nom_utilisateur=request.POST['name']
+        email=request.POST['email']
+        password=request.POST['pass']
+        password1=request.POST['re_pass']
+       
+        if password != password1:
+            message_erreur='les mots de pass ne sont pas conformes'
+            return render(request, 'booking/register.html', {'message_erreur': message_erreur})
+            
+        user= User.objects.create_user(nom_utilisateur,email,password)
+
+        user.save()
+    
+    return render(request, 'booking/register.html')
+
+
+def connection(request):
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['pass']
+        
+        user = authenticate(request, username=username, password=password)
+        
+        if user is not None and user.is_active:
+            login(request, user)
+            messages.success(request, 'Connexion réussie')
+            return redirect('voiture')
+        else:
+            messages.error(request, "Nom d'utilisateur ou mot de passe incorrect")
+     
+    return render(request, 'booking/connection.html')
+
+    
     
