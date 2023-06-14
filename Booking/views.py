@@ -8,8 +8,9 @@ from Booking.models import Reservation_voiture
 from Booking.forms import ReservCarForm
 from Booking.models import Utilisateur
 from django.contrib.auth.models import User
-from django.contrib.auth import authenticate , login 
+from django.contrib.auth import authenticate , login ,logout
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 # Create your views here.
 def index_view(request):
     amadeus = Client(
@@ -52,18 +53,19 @@ def detail_voiture_view(request ,car_id):
 
     return render(request,  'booking/detail_voiture.html' , {'car':car})
 
-
+@login_required (login_url='connection')
 def car_reservation(request):
     
     
     if request.method == 'POST':
-
+        
         date_debut = request.POST['date_debut']  # Date de début de réservation
-        date_fin = request.POST['date_fin']  # Date de fin de réservation
-
+        date_fin = request.POST['date_fin']# Date de fin de réservation
+        voiture_id = request.POST['identifiant_voiture']
+        utilisateur_id=request.user.id
     
         # Création de l'objet réservation
-        reservation = Reservation_voiture( date_debut_location=date_debut, date_fin_location=date_fin)
+        reservation = Reservation_voiture( utilisateur_id=utilisateur_id ,voiture_id=voiture_id,date_debut_location=date_debut, date_fin_location=date_fin)
         reservation.save()
         
         return redirect('voiture')  # Rediriger vers une page de confirmation
@@ -97,12 +99,16 @@ def connection(request):
         
         if user is not None and user.is_active:
             login(request, user)
-            messages.success(request, 'Connexion réussie')
+            messages.success(request, 'Connexion réussie ')
             return redirect('voiture')
         else:
             messages.error(request, "Nom d'utilisateur ou mot de passe incorrect")
      
     return render(request, 'booking/connection.html')
+
+def deconnection(request):
+    logout(request)
+    return redirect('voiture')
 
     
     

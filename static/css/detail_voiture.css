@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #e0e0e0;
 }
 
 .containerE {
@@ -15,14 +16,14 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border:2px solid #4CAF50;
+    border:2px solid #942929;
     margin-top: 15px;
 }
 
 .annonce_reservation{
     width: 60%;
     height: 100px;
-    background-color: #4CAF50;
+    background-color: #942929;
     display:flex ;
     justify-content: center;
     align-items: center;
@@ -79,12 +80,12 @@ body{
 }
 
 .reservation-form input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #942929;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 .reservation-form input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #1190b6;
 }

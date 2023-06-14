@@ -1,4 +1,5 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +29,12 @@
     <!-- main css -->
     <link rel="stylesheet" href="{% static 'css/css_resto/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/css_resto/responsive.css' %}">
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="{% static 'css/css_recherche/fonts/material-icon/css/material-design-iconic-font.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_recherche/vendor/jquery-ui/jquery-ui.min.css' %}">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <script src="{% static 'js/voiture.js' %}"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -52,21 +59,21 @@
                     <ul class="nav navbar-nav menu_nav ml-auto">
                         <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
                         <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="accomodation.html">Accomodation</a></li>
-                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                        <li class="nav-item submenu dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog Details</a></li>
-                            </ul>
-                        </li> 
-                        <li class="nav-item"><a class="nav-link" href="{% url 'register' %}">Elemests</a></li>
-
+                        
+                         {% if user.is_authenticated %}
+                        <li class="nav-item"><a class="nav-link" href="#"><img src="{% static 'images/user.png' %}" alt="Utilisateur connecté"> {{ user.username }}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'deconnection' %}"> Deconnection</a></li>
+                                                
+                       
+                        {% endif%}
+                        {% if not user.is_authenticated %}
+                        <li class="nav-item"><a class="nav-link" href="{% url 'connection' %}">Se connecter</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'register' %}">S'inscrire</a></li>
+                        {% endif%}
                                                     <!-- Button trigger modal -->
-                        <li class=""><button type="button" class="nav-link btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        {% comment %} <li class=""><button type="button" class="nav-link btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                             s'inscrire
-                        </button></li>
+                        </button></li> {% endcomment %}
 
                            
                     </ul>
@@ -75,32 +82,35 @@
         </div>
     </header>
     <!--================ HEader =================-->
+     {% block content %}
+    
+    
     <section class="banner_area">
             <div class="booking_table d_flex align-items-center">
             	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" style="background-image: url('{% static 'images/fond.jpg'%}');background-attachment: fixed;"></div>
 				<div class="container recherches">
-                    <form class="row g-3">
-                       
-                        <div class="col-auto">
-                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                                <option selected>Choisissez le ville de retrait</option>
-                                <option value="1">Dakar</option>
-                                <option value="2">Saint-Louis</option>
-                              </select>
-                        </div>
-                        <div class="col-auto">
-                            <label for="end_date">Date de debut:</label>
-                            <input type="date" id="start_date" name="date_debut" required><br>
-                        </div>
-                        <div class="col-auto">
-                            <label for="end_date">Date de fin:</label>
-                            <input type="date" id="end_date" name="date_fin" required><br>
-                        </div>
-                        
-                        <div class="col-auto">
-                          <button type="submit" class="btn btn-primary mb-3">Voir les voitures</button>
-                        </div>
-                    </form>
+                    <form id="booking-form" class="booking-form" method="POST">
+                            <div class="form-group">
+                                <div class="form-destination">
+                                    <label for="destination">Destination</label>
+                                    <input type="text" id="destination" name="destination" placeholder="EG. HAWAII" />
+                                </div>
+                                <div class="form-date-from form-icon">
+                                    <label for="date_from">From</label>
+                                    <input type="date" id="date_to" class="date_from" placeholder="Pick a date" />
+                                    <!-- <span class="icon"><i class="zmdi zmdi-calendar-alt"></i></span> -->
+                                </div>
+                                <div class="form-date-to form-icon">
+                                    <label for="date_to">To</label>
+                                    <input type="date" id="date_to" class="date_to" placeholder="Pick a date" />
+                                    <!-- <span class="icon"><i class="zmdi zmdi-calendar-alt"></i></span> -->
+                                </div>
+                                
+                                <div class="form-submit">
+                                    <input type="submit" id="submit" class="submit" value="Voir les Voitures" />
+                                </div>
+                            </div>
+                </form>
         
 				</div>
             </div>
@@ -154,15 +164,15 @@
             </div>
             <div class="plus">
 
-                <div class="siege"><img src="{% static 'images/siege.png' %}" alt="" width="37">
+                <div class="siege"><img src="{% static 'images/siege.png' %}" alt="" width="30">
                     <div>{{voiture.capacity}}</div>
                 </div>
 
-                <div class="siege"><img src="{% static 'images/essence.png' %}" alt="" width="37">
+                <div class="siege"><img src="{% static 'images/essence.png' %}" alt="" width="30">
                     <div>{{voiture.fuel_type}}</div>
                 </div>
 
-                <div class="siege"><img src="{% static 'images/car-gear.png' %}" alt="" width="37">
+                <div class="siege"><img src="{% static 'images/car-gear.png' %}" alt="" width="30">
                     <div>{{voiture.transmission}}</div>
                 </div>
 
@@ -274,6 +284,9 @@
             </div>
         </div>
     </footer>
+
+
+    {% endblock%}
     <!-- Modal -->
                 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
@@ -323,6 +336,7 @@
     <script src="{% static 'js_resto/stellar.js' %}"></script>
     <script src="{% static 'js_resto/vendors/lightbox/simpleLightbox.min.js' %}"></script>
     <script src="{% static 'js_resto/custom.js' %}"></script>
+    
 </body>
 
 </html>

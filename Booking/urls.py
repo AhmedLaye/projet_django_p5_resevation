@@ -11,7 +11,8 @@ urlpatterns =[
     path('voiture/<int:car_id>/', detail_voiture_view, name='details') ,
     path('reservation/', views.car_reservation, name='reservation'),
     path('register/', views.register, name='register'),
-    path('connection/', views.connection, name='connection')
+    path('connection/', views.connection, name='connection'),
+    path('deconnection/', views.deconnection, name='deconnection')
 
     
 ]

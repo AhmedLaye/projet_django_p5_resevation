@@ -6,6 +6,7 @@ body .contener_page{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #e0e0e0;
 
 }
 /* .contener_haut{
@@ -81,11 +82,17 @@ a {
 } */
 
 
+.navbar {
+  background-color:rgba(230, 223, 223,0.3); 
+}
+
   .v1{
     width: 376px;
     height: 422px;
-    border-radius: 15px;
-    background-color: rgba(230, 223, 223,0.3) ;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -147,7 +154,7 @@ a {
   .v2{
     width: 1170px;
     height: 522px;
-    background-color: rgba(230, 223, 223,0.3) ;
+    background-color: #e0e0e0;
     border-radius: 15px;
     margin: 30px;
     display: flex;
@@ -160,6 +167,7 @@ a {
     background-color: #ECC4C4
     ;
   }
+
 
   /* .group {
     display: flex;
@@ -273,3 +281,100 @@ a {
     text-decoration: none;
     color: black;
   }
+
+
+  .container.recherches {
+    width: 50%;
+    height: 20%;
+    background: rgba(11, 13, 24, 0.6);
+    margin: 65px auto;
+    border-radius: 40px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .booking-form {
+    padding: 35px 70px 51px 70px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+ 
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="number"],
+  .form-group input[type="submit"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .form-destination,
+  .form-date-from,
+  .form-date-to,
+  .form-quantity,
+  .form-submit {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  .form-icon {
+    position: relative;
+  }
+  
+  .form-icon .icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .modify-qty {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  .submit {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 29px;
+  }
+  #date_to{
+    height: 47px;
+    border-radius: 5px;
+    border: #530808df solid 2px;
+  }
+  .submit:hover{
+    background-color:#530808df ;
+  }
+  
+  /* Rest of the CSS styles */
+  

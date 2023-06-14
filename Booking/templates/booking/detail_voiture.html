@@ -91,6 +91,11 @@
             
                     <label for="date_fin">Date de fin:</label>
                     <input type="date" id="date_fin" name="date_fin" required><br><br>
+
+                    <label for="identifiant_voiture">Identifiant Voiture:</label>
+                    <input type="hidden" name="identifiant_voiture" value="{{car.id}}" readonly>
+                    <p>DK-098{{car.id}}-AT</p>
+
             
                     <input type="submit" value="Réserver">
                 </form>
