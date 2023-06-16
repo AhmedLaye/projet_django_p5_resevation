@@ -1,39 +1,47 @@
 
-body{
+body .contener_page{
     margin: 0px;
     padding: Opx;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #e0e0e0;
 
 }
-.contener_haut{
+/* .contener_haut{
     width: 100%;
-    height: 400px;
+    height: 600px;
     background-image: url("../images/fond_1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }   
 .contenu_haut{
     
     display: flex;
     float: right;
     flex-direction: column;
+    margin-top: 30px;
+    margin-right: 15px;
+    width: 80%;
+    justify-content: center;
     
     
 
-}
+} */
 
-
+/* 
 .icons{
     display: flex;
     justify-content: space-around;
     float: right;
     align-items: center;
     width: 230px;
-    margin-left: 510px;
+    margin-left: 81%;
 
 };
 
@@ -44,9 +52,9 @@ body{
   
     width: 100%;
     
-}
+} */
 
-
+/* 
 .nav{
     display: flex;
     font-family: 'DynaPuff', cursive;
@@ -54,9 +62,9 @@ body{
     font-family: 'Righteous', cursive;
     font-size: 20px;
    
-}
-.trait{
-    width: 98%;
+} */
+/* .trait{
+    width: 100%;
     height: 6px;
     background-color: #fff;
     float: right;
@@ -65,27 +73,72 @@ body{
   
 
 a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #fff;
-    margin: 15px;
-    
-  }
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  margin: 15px;
+  
+} */
+
+
+.navbar {
+  background-color:rgba(230, 223, 223,0.3); 
+}
 
   .v1{
-    width: 615px;
+    width: 376px;
     height: 422px;
-    border-radius: 15px;
-    background-color: rgba(230, 223, 223,0.3) ;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
     margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+  .box_voiture{
+    width: 376px;
+    height: 210px;
+    margin-top: 20px;
+   
+  }
 
-  .voitures{
+  .cont_rech{
+    width: 300px;
+    height: 35px;
+    background-color: #24bdff;
+  }
+  .plus{
+    width: 280px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -36px;
+
+   
+  }
+
+  .v1 .box_voiture{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .siege{
+    width: 60px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cars{
     width: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -95,14 +148,13 @@ a {
   }
 
   .v1:hover{
-    background-color: #ECC4C4
-    ;
+    background-color: #ECC4C4;
     
   }
   .v2{
-    width: 1294px;
+    width: 1170px;
     height: 522px;
-    border: #24bdff solid 2px;
+    background-color: #e0e0e0;
     border-radius: 15px;
     margin: 30px;
     display: flex;
@@ -116,7 +168,8 @@ a {
     ;
   }
 
-  .group {
+
+  /* .group {
     display: flex;
     line-height: 28px;
     align-items: center;
@@ -124,9 +177,9 @@ a {
     top: 88px;
     max-width: 376px;
     left: 96px;
-   }
+   } */
    
-   .input {
+   /* .input {
     width: 100%;
     height: 40px;
     line-height: 28px;
@@ -142,8 +195,8 @@ a {
    
    .input::placeholder {
     color: #9e9ea7;
-   }
-   
+   } */
+/*    
    .input:focus, input:hover {
     outline: none;
     border-color: rgba(238, 9, 28, 0.4);
@@ -157,14 +210,14 @@ a {
     fill: #9e9ea7;
     width: 1rem;
     height: 1rem;
-   }
+   } */
 
-   .plus{
+   /* .plus{
     display: flex;
     width: 450px;
     justify-content: space-around;
     margin-bottom: 70px;
-   }
+   } */
 
 
    .voir{
@@ -190,10 +243,138 @@ a {
    }
   
    .v1:hover img {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
    
-   
-   
-   
-   
+  .v2:hover img {
+    transform: scale(1.1);
+  }
+   .name{
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Permanent Marker', cursive;
+   }
+   .model{
+    font-size: 15px;
+   }
+
+  .recherches{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(246, 243, 243, 0.953);
+    margin-bottom: 90px;
+    display: flex;
+  }
+  .modal-body {
+    
+    background-color: #24bdff;
+  }
+
+  .connect{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+  }
+  
+  
+  .lien-voiture{
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .container.recherches {
+    width: 50%;
+    height: 20%;
+    background: rgba(11, 13, 24, 0.6);
+    margin: 65px auto;
+    border-radius: 40px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .booking-form {
+    padding: 35px 70px 51px 70px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+ 
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="number"],
+  .form-group input[type="submit"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .form-destination,
+  .form-date-from,
+  .form-date-to,
+  .form-quantity,
+  .form-submit {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  .form-icon {
+    position: relative;
+  }
+  
+  .form-icon .icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .modify-qty {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  .submit {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 29px;
+  }
+  #date_to{
+    height: 47px;
+    border-radius: 5px;
+    border: #530808df solid 2px;
+  }
+  .submit:hover{
+    background-color:#530808df ;
+  }
+  
+  /* Rest of the CSS styles */
+  

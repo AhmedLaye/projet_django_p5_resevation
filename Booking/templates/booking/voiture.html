@@ -1,4 +1,5 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,15 +13,111 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Mogra&family=Permanent+Marker&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/voiture.css' %}" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/css_resto/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_resto/vendors/linericon/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_resto/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_resto/vendors/owl-carousel/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_resto/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_resto/vendors/nice-select/css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_resto/vendors/owl-carousel/owl.carousel.min.css' %}">
+    <!-- main css -->
+    <link rel="stylesheet" href="{% static 'css/css_resto/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_resto/responsive.css' %}">
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="{% static 'css/css_recherche/fonts/material-icon/css/material-design-iconic-font.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_recherche/vendor/jquery-ui/jquery-ui.min.css' %}">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/voiture.js' %}"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+
     <title>location voiture</title>
 </head>
 <body>
-    <div class="contener_haut">
-        <div class="group">
-            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
-            <input placeholder="Search" type="search" class="input">
-          </div>
+    <!--================Header =================-->
+    <header class="header_area">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <a class="navbar-brand logo_h" href="index.html"><span class="fs-1 h1 ">K</span>aay reserver</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav menu_nav ml-auto">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
+                        <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+                        
+                         {% if user.is_authenticated %}
+                        <li class="nav-item"><a class="nav-link" href="#"><img src="{% static 'images/user.png' %}" alt="Utilisateur connecté"> {{ user.username }}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'deconnection' %}"> Deconnection</a></li>
+                                                
+                       
+                        {% endif%}
+                        {% if not user.is_authenticated %}
+                        <li class="nav-item"><a class="nav-link" href="{% url 'connection' %}">Se connecter</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'register' %}">S'inscrire</a></li>
+                        {% endif%}
+                                                    <!-- Button trigger modal -->
+                        {% comment %} <li class=""><button type="button" class="nav-link btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            s'inscrire
+                        </button></li> {% endcomment %}
+
+                           
+                    </ul>
+                </div> 
+            </nav>
+        </div>
+    </header>
+    <!--================ HEader =================-->
+     {% block content %}
+    
+    
+    <section class="banner_area">
+            <div class="booking_table d_flex align-items-center">
+            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" style="background-image: url('{% static 'images/fond.jpg'%}');background-attachment: fixed;"></div>
+				<div class="container recherches">
+                    <form id="booking-form" class="booking-form" method="POST">
+                            <div class="form-group">
+                                <div class="form-destination">
+                                    <label for="destination">Destination</label>
+                                    <input type="text" id="destination" name="destination" placeholder="EG. HAWAII" />
+                                </div>
+                                <div class="form-date-from form-icon">
+                                    <label for="date_from">From</label>
+                                    <input type="date" id="date_to" class="date_from" placeholder="Pick a date" />
+                                    <!-- <span class="icon"><i class="zmdi zmdi-calendar-alt"></i></span> -->
+                                </div>
+                                <div class="form-date-to form-icon">
+                                    <label for="date_to">To</label>
+                                    <input type="date" id="date_to" class="date_to" placeholder="Pick a date" />
+                                    <!-- <span class="icon"><i class="zmdi zmdi-calendar-alt"></i></span> -->
+                                </div>
+                                
+                                <div class="form-submit">
+                                    <input type="submit" id="submit" class="submit" value="Voir les Voitures" />
+                                </div>
+                            </div>
+                </form>
+        
+				</div>
+            </div>
+        </section>
+        
+    {% comment %} <div class="contener_haut">
+
         <div class="contenu_haut">
     
         <div class="icons">
@@ -38,62 +135,208 @@
             <a href="#">À propos</a>
             <a href="#">Services</a>
             <a href="#">Contact</a> 
-          </div>
         </div>
+    </div>
      
-    </div>
+    </div> {% endcomment %}
+    
+    <div class="contener_page">
     <div class="nos_voitures">Decouvrez nos voitures</div>
+    {% for message in messages %}
 
-    <div class="voitures">
+                            <h2> {{ message }}</h2>
+    {% endfor%}	
+
+
+    <div class="cars">
+
+    {%for voiture in voitures%}
+        <a href="{% url 'details' voiture.id %}" class="lien-voiture">    
+
         <div class="v1">
 
-            <div><img src="{% static 'images/Mercedes1.png' %}" alt=""></div>
-            <div class="plus">
-                <button class="voir">voir..</button>
-                <button class="ajouter"> ajouter</button>
+            <div class="name"> {{voiture.marque}}</div>
+            <div class="model"> {{voiture.model}}</div>
 
+            <div class="box_voiture">
+                <img src="{% static 'images/' %}{{ voiture.image }}" alt="" width="340">
+
+            </div>
+            <div class="plus">
+
+                <div class="siege"><img src="{% static 'images/siege.png' %}" alt="" width="30">
+                    <div>{{voiture.capacity}}</div>
+                </div>
+
+                <div class="siege"><img src="{% static 'images/essence.png' %}" alt="" width="30">
+                    <div>{{voiture.fuel_type}}</div>
+                </div>
+
+                <div class="siege"><img src="{% static 'images/car-gear.png' %}" alt="" width="30">
+                    <div>{{voiture.transmission}}</div>
+                </div>
+
+            </div>
+            <div class="prix">
+                <div>{{voiture.prix_location}}</div>
             </div>
 
         </div>
-        <div class="v1" id="range">
-            <img src="{% static 'images/range1-removebg-preview.png' %}" alt="" width="650">
-            <div class="plus">
-                <button class="voir">voir..</button>
-                <button class="ajouter"> ajouter</button>
-
-            </div>
-
-        </div>
-        <div class="v1" >
-            <img src= "{% static 'images/voiture_6.png'%}" alt="" width="650">
-            <div class="plus">
-                <button class="voir">voir..</button>
-                <button class="ajouter"> ajouter</button>
-
-            </div>
-           
-
-        </div>
-        <div class="v1">
-            <img src="{% static 'images/ford-2.png'%}" alt="" width="600">
-            <div class="plus">
-                <button class="voir">voir..</button>
-                <button class="ajouter"> ajouter</button>
-
-            </div>
-
-        </div>
+    </a>
+        {% endfor%}
+    
+        
         <div class="v2">
-            <img src="{% static 'images/land-cuirser.png'%}" alt="" width="900">
-            <div class="plus">
-                <button class="voir">voir..</button>
-                <button class="ajouter"> ajouter</button>
+            <img src="{% static 'images/land-cuirser.png'%}" alt="" width="700">
+                <div class="plus">
+
+                <div class="siege"><img src="{% static 'images/siege.png' %}" alt="" width="37">
+                    <div>{{voiture.capacity}}</div>
+                </div>
+
+                <div class="siege"><img src="{% static 'images/essence.png' %}" alt="" width="37">
+                    <div>{{voiture.fuel_type}}</div>
+                </div>
+
+                <div class="siege"><img src="{% static 'images/car-gear.png' %}" alt="" width="37">
+                    <div>{{voiture.transmission}}</div>
+                </div>
 
             </div>
 
         </div>
     </div>
-   
 
+    </div>
+    
+       <!--================ start footer Area  =================-->	
+       <footer class="footer-area section_gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6 class="footer_title">About Agency</h6>
+                        <p>The world has become so fast paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand the message. It has come to a point </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6 class="footer_title">Navigation Links</h6>
+                        <div class="row">
+                            <div class="col-4">
+                                <ul class="list_style">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Feature</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <ul class="list_style">
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Pricing</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>										
+                        </div>							
+                    </div>
+                </div>							
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6 class="footer_title">Newsletter</h6>
+                        <p>For business professionals caught between high OEM price and mediocre print and graphic output, </p>		
+                        <div id="mc_embed_signup">
+                            <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
+                                <div class="input-group d-flex flex-row">
+                                    <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                    <button class="btn sub-btn"><span class="lnr lnr-location"></span>j</button>		
+                                </div>									
+                                <div class="mt-10 info"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget instafeed">
+                        <h6 class="footer_title">InstaFeed</h6>
+                        <ul class="list_style instafeed d-flex flex-wrap">
+                            <li><img src="image/instagram/Image-01.jpg" alt=""></li>
+                            <li><img src="image/instagram/Image-02.jpg" alt=""></li>
+                            <li><img src="image/instagram/Image-03.jpg" alt=""></li>
+                            <li><img src="image/instagram/Image-04.jpg" alt=""></li>
+                            <li><img src="image/instagram/Image-05.jpg" alt=""></li>
+                            <li><img src="image/instagram/Image-06.jpg" alt=""></li>
+                            <li><img src="image/instagram/Image-07.jpg" alt=""></li>
+                            <li><img src="image/instagram/Image-08.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>						
+            </div>
+            <div class="border_line"></div>
+            <div class="row footer-bottom d-flex justify-content-between align-items-center">
+                <div class="col-lg-4 col-sm-12 footer-social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-behance"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    {% endblock%}
+    <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Inscription</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body ">
+
+                        <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="email" id="email" placeholder="Your Email"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="pass" id="pass" placeholder="Password"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
+                            </div>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">je m'enregistre</button>
+    
+                    </div>
+                </div>
+                </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+    <script src="{% static 'js_resto/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'js_resto/popper.js' %}"></script>
+    <script src="{% static 'js_resto/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js_resto/vendors/owl-carousel/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js_resto/jquery.ajaxchimp.min.js' %}"></script>
+    <script src="{% static 'js_resto/mail-script.js' %}"></script>
+    <script src="{% static 'js_resto/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js' %}"></script>
+    <script src="{% static 'js_resto/vendors/nice-select/js/jquery.nice-select.js' %}"></script>
+    <script src="{% static 'js_resto/mail-script.js' %}"></script>
+    <script src="{% static 'js_resto/stellar.js' %}"></script>
+    <script src="{% static 'js_resto/vendors/lightbox/simpleLightbox.min.js' %}"></script>
+    <script src="{% static 'js_resto/custom.js' %}"></script>
+    
 </body>
+
 </html>
