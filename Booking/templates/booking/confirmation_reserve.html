@@ -1,0 +1,91 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+    <head>
+          <!-- Required meta tags -->
+<meta charset="utf-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="{% static 'images/image_resto/logo.png' %}" type="image/png">
+<title>Kaay reserver</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="{% static 'css/css_resto/bootstrap.css' %}">
+<link rel="stylesheet" href="{% static 'css/css_resto/vendors/linericon/style.css' %}">
+<link rel="stylesheet" href="{% static 'css/css_resto/font-awesome.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/css_resto/vendors/owl-carousel/owl.carousel.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/css_resto/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/css_resto/vendors/nice-select/css/nice-select.css' %}">
+<link rel="stylesheet" href="{% static 'css/css_resto/vendors/owl-carousel/owl.carousel.min.css' %}">
+<!-- main css -->
+<link rel="stylesheet" href="{% static 'css/css_resto/style.css' %}">
+<link rel="stylesheet" href="{% static 'css/css_resto/responsive.css' %}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    </head>
+    <body class="bg-image" style="background-image: url('../../../static/images/1800X-Voyages-en-avion-droits-et-recours.jpg');background-attachment: fixed;">
+        <!--================Header =================-->
+        <header class="header_area">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="index.html"><span class="fs-1 h1 ">K</span>aay reserver</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="/">Accueil</a></li> 
+                            <li class="nav-item"><a class="nav-link" href="..{% url 'vol' %}"> Vols</a></li>
+                            <li class="nav-item"><a class="nav-link" href="..{% url 'resto' %}">Hotels</a></li>
+                            <li class="nav-item"><a class="nav-link" href="..{% url 'voiture' %}">Voitures</a></li>
+                            
+                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        </ul>
+                    </div> 
+                </nav>
+            </div>
+        </header>
+    <section style="width: 40%; margin-top: 15%; margin-left: 10%; padding-left: 5%; padding-bottom: 2%;">
+            
+        <div class="container mt-5 row mx-auto">
+             <!-- reservation.html -->
+
+        <div class="card-body">
+            <h5 class="card-title">Vol {{vol.index}}</h5>
+            <p class="card-text">Compagnie : {{vol.airline}}</p>
+            <p class="card-text">No Vol : {{vol.flight_no}}</p>
+            <p class="card-text">Départ : {{vol.origin}}</p>
+            <p class="card-text">Destination : {{vol.destination}}</p>
+            <p class="card-text">Heure Départ : {{vol.depart_time}}</p>
+            <p class="card-text">Prix: {{vol.economy_fare}} FCFA</p>
+          </div>
+    <!-- Afficher les autres détails du vol -->
+
+    <form method="post" action="{% url 'confirmation_reserve' vol.id %}">
+        {% csrf_token %}
+        <div class="mb-3 row">
+            <label for="validationDefault01" class="form-label">Nom Passager</label>
+            <input type="text" class="form-control" id="validationDefault01" name="nom" required >
+          </div>
+          <div class="mb-3 row">
+            <label for="validationDefault02" class="form-label ">Prenom Passager</label>
+            <input type="text" class="form-control" id="validationDefault02" name="prenom"required>
+          </div> 
+          <!-- <div class="mb-3 row">
+            <label for="validationDefault02" class="form-label ">Tel</label>
+            <input type="text" class="form-control" id="validationDefault02" name="prenom"required>
+          </div>  -->
+          <div class="mb-3 row">
+            <label for="validationDefault02" class="form-label ">email</label>
+            <input type="text" class="form-control" id="validationDefault03" name="email"required>
+          </div>
+          <input type="hidden" name="id_vol" value="{{ vol.id }}">
+        <input type="submit" value="Réserver" class="btn btn-primary">
+    </form>
+           
+        </div>
+        <h2>{{ message }}</h2>
+  
+</section>
