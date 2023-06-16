@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<body class="bg-image" style="background-image: url('../../../static/images/1800X-Voyages-en-avion-droits-et-recours.jpg')">
+  
+
+  <section style="width: 40%; margin-top: 15%; margin-left: 10%; padding-left: 5%; padding-bottom: 2%;">
+  <h2 style="text-align: center; color: white;">Inscription</h2>
+  <form method="post" action="{% url 'register' %}" style="margin-left: 10%; width: 50%;">
+    {% csrf_token %}
+    <div class="mb-3 row">
+        <label for="validationDefault01" class="form-label">Nom</label>
+        <input type="text" class="form-control" id="validationDefault01" name="nom" required >
+      </div>
+      <div class="mb-3 row">
+        <label for="validationDefault02" class="form-label ">Prenom</label>
+        <input type="text" class="form-control" id="validationDefault02" name="prenom"required>
+      </div> 
+      <div class="mb-3 row">
+        <label for="validationDefault02" class="form-label ">email</label>
+        <input type="text" class="form-control" id="validationDefault03" name="email"required>
+      </div>
+      <div class="mb-3 row">
+        <label for="validationDefault02" class="form-label ">Mot de passe</label>
+        <input type="text" class="form-control" id="validationDefault03" name="password1"required>
+      </div>
+      <div class="mb-3 row">
+        <label for="validationDefault02" class="form-label ">Confirmer mot de passe</label>
+        <input type="text" class="form-control" id="validationDefault03" name="password2"required>
+      </div>
+    <input type="submit" value="S'inscrire" class="btn btn-primary">
+  </form>
+</section>
+</body>
+       
+{% endblock %}
