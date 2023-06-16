@@ -1,886 +1,357 @@
-chainCode,iataCode,dupeId,name,hotelId,geoCode,address,lastUpdate
-AC,PAR,700060076,MAYET,ACPARF58,"{'latitude': 48.84724, 'longitude': 2.31836}",{'countryCode': 'FR'},
-AC,PAR,700013746,TRINITE PLAZA,ACPARF78,"{'latitude': 48.88004, 'longitude': 2.33449}",{'countryCode': 'FR'},2022-06-16T05:31:50
-AC,PAR,700159951,BOULOGNE RESIDENCE HOTEL,ACPARF06,"{'latitude': 48.83152, 'longitude': 2.24691}",{'countryCode': 'FR'},
-AC,PAR,700049063,HOTEL RESIDENCE EUROPE,ACPAR733,"{'latitude': 48.90264, 'longitude': 2.31375}",{'countryCode': 'FR'},
-AC,PAR,700044776,RESIDENCE CERISE MAISONS LAFFITTE,ACPAR163,"{'latitude': 48.94579, 'longitude': 2.1516}",{'countryCode': 'FR'},
-AC,PAR,700030941,HOTEL DU CHATEAU,ACPAR571,"{'latitude': 48.88615, 'longitude': 2.26115}",{'countryCode': 'FR'},
-AC,PAR,700140792,LE NOTRE DAME,ACPAR419,"{'latitude': 48.85306, 'longitude': 2.34654}",{'countryCode': 'FR'},
-AC,PAR,700048467,ETOILE PARK HOTEL,ACPARE24,"{'latitude': 48.87615, 'longitude': 2.29463}",{'countryCode': 'FR'},
-AC,PAR,700045507,ALEXANDRINE OPERA,ACPARF08,"{'latitude': 48.88006, 'longitude': 2.32627}",{'countryCode': 'FR'},
-AC,PAR,700025210,DU CADRAN,ACPAR478,"{'latitude': 48.85647, 'longitude': 2.30592}",{'countryCode': 'FR'},
-AC,PAR,700158011,FRED HOTEL,ACPARD16,"{'latitude': 48.83221, 'longitude': 2.31637}",{'countryCode': 'FR'},
-AC,PAR,700092038,LE CHAPLAIN PARIS RIVE GAUCHE,ACPARCHA,"{'latitude': 48.84292, 'longitude': 2.33036}",{'countryCode': 'FR'},
-AC,PAR,700027662,CORDELIA,ACPAR707,"{'latitude': 48.87321, 'longitude': 2.32541}",{'countryCode': 'FR'},
-AC,PAR,700041978,ACACIAS ETOILE,ACPARA87,"{'latitude': 48.8766, 'longitude': 2.29079}",{'countryCode': 'FR'},
-AC,PAR,700148639,HOTEL B SQUARE,ACPAR181,"{'latitude': 48.8838, 'longitude': 2.32261}",{'countryCode': 'FR'},
-AC,PAR,700130521,CHATILLON PARIS MONTPARNASSE,ACPAR900,"{'latitude': 48.82576, 'longitude': 2.32323}",{'countryCode': 'FR'},
-AC,PAR,700181737,HOTEL LE MARCEL,ACPARD43,"{'latitude': 48.87631, 'longitude': 2.35733}",{'countryCode': 'FR'},
-AC,PAR,700029549,SOPHIE GERMAIN,ACPARE71,"{'latitude': 48.83099, 'longitude': 2.33038}",{'countryCode': 'FR'},
-AC,PAR,700133802,VILLIERS,ACPAR953,"{'latitude': 48.88529, 'longitude': 2.29337}",{'countryCode': 'FR'},
-AC,PAR,700092062,DUC DE SAINT-SIMON,ACPAR872,"{'latitude': 48.85598, 'longitude': 2.32365}",{'countryCode': 'FR'},
-AC,PAR,700020658,PARIS LEGENDRE,ACPAR611,"{'latitude': 48.89049, 'longitude': 2.32464}",{'countryCode': 'FR'},
-AC,PAR,700060746,PELETIER HAUSSMANN OPERA,ACPARA52,"{'latitude': 48.87272, 'longitude': 2.33841}",{'countryCode': 'FR'},
-AC,PAR,700092041,DES ACADEMIES ET DES ARTS,ACPAR410,"{'latitude': 48.8421, 'longitude': 2.33041}",{'countryCode': 'FR'},
-AC,PAR,700040811,CLARISSE,ACPAR499,"{'latitude': 48.82878, 'longitude': 2.30069}",{'countryCode': 'FR'},
-AC,PAR,700165287,ETATS-UNIS OPERA HOTEL,ACPARA26,"{'latitude': 48.86905, 'longitude': 2.33365}",{'countryCode': 'FR'},
-AC,PAR,700935284,VALADON COLORS,ACPARC00,"{'latitude': 48.85681, 'longitude': 2.30561}",{'countryCode': 'FR'},
-AC,PAR,700048009,MASSENA,ACPAR675,"{'latitude': 48.87188, 'longitude': 2.32605}",{'countryCode': 'FR'},2022-07-10T09:38:32
-AC,PAR,700174464,HOR,ACPARC99,"{'latitude': 48.87938, 'longitude': 2.35736}",{'countryCode': 'FR'},
-AC,PAR,700058681,LES DAMES DU PANTHEON,ACPAR345,"{'latitude': 48.84634, 'longitude': 2.34458}",{'countryCode': 'FR'},
-AC,PAR,700006044,KYRIAD PARIS BERCY VILLAGE,ACPAR600,"{'latitude': 48.83498, 'longitude': 2.42136}",{'countryCode': 'FR'},
-AC,PAR,700058597,DE NOTRE DAME,ACPAR243,"{'latitude': 48.85038, 'longitude': 2.3494}",{'countryCode': 'FR'},
-AC,PAR,700158028,FIRST HOTEL PARIS TOUR EIFFEL,ACPARD37,"{'latitude': 48.84751, 'longitude': 2.30256}",{'countryCode': 'FR'},
-AC,PAR,700092064,EMPEREUR,ACPAR147,"{'latitude': 48.85633, 'longitude': 2.30953}",{'countryCode': 'FR'},
-AC,PAR,700128159,SECRET DE PARIS,ACPARE55,"{'latitude': 48.88128, 'longitude': 2.32835}",{'countryCode': 'FR'},
-AC,PAR,700030920,PAIX REPUBLIQUE,ACPAR400,"{'latitude': 48.86823, 'longitude': 2.36177}",{'countryCode': 'FR'},
-AC,PAR,700092047,HOTEL LOUIS 2,ACPAR364,"{'latitude': 48.85159, 'longitude': 2.33812}",{'countryCode': 'FR'},
-AC,PAR,700046494,STELLA ETOILE,ACPAR130,"{'latitude': 48.87616, 'longitude': 2.2931}",{'countryCode': 'FR'},
-AC,PAR,700076365,HOTEL ATN,ACPAR477,"{'latitude': 48.87791, 'longitude': 2.32789}",{'countryCode': 'FR'},
-AC,PAR,700056601,ALISON,ACPARALI,"{'latitude': 48.87105, 'longitude': 2.32037}",{'countryCode': 'FR'},
-AC,PAR,700158033,ANGELY,ACPARC16,"{'latitude': 48.86622, 'longitude': 2.36832}",{'countryCode': 'FR'},
-AC,PAR,700025212,SEVRES SAINT GERMAIN HOTEL,ACPAR964,"{'latitude': 48.84926, 'longitude': 2.32509}",{'countryCode': 'FR'},
-AC,PAR,700189763,ELYSEE GARE DE LYON,ACPARD27,"{'latitude': 48.84661, 'longitude': 2.36974}",{'countryCode': 'FR'},
-AC,PAR,700004208,AJIEL,ACPAR669,"{'latitude': 48.83553, 'longitude': 2.30234}",{'countryCode': 'FR'},
-AC,PAR,700054623,BRITANNIA,ACPAR990,"{'latitude': 48.87687, 'longitude': 2.327}",{'countryCode': 'FR'},
-AC,PAR,700886296,MISTRAL,ACPARF44,"{'latitude': 48.83688, 'longitude': 2.32369}",{'countryCode': 'FR'},
-AC,PAR,700129233,APOSTROPHE RIVE GAUCHE,ACPAR784,"{'latitude': 48.84181, 'longitude': 2.33178}",{'countryCode': 'FR'},
-AC,PAR,700165306,LE SQUARA,ACPARC15,"{'latitude': 48.88414, 'longitude': 2.33292}",{'countryCode': 'FR'},
-AC,PAR,700032362,WILLIAMS OPERA,ACPAR493,"{'latitude': 48.87694, 'longitude': 2.34581}",{'countryCode': 'FR'},
-AC,PAR,700011037,PERGOLESE,ACPARF07,"{'latitude': 48.87569, 'longitude': 2.28632}",{'countryCode': 'FR'},2022-07-10T09:38:35
-AC,PAR,700022931,HOTEL DU MOULIN,ACPAR158,"{'latitude': 48.88532, 'longitude': 2.33509}",{'countryCode': 'FR'},
-AC,PAR,700056735,ARC DE TRIOMPHE ETOILE,ACPAR718,"{'latitude': 48.87654, 'longitude': 2.2964}",{'countryCode': 'FR'},
-AC,PAR,700045125,LE CARDINAL,ACPAR636,"{'latitude': 48.88098, 'longitude': 2.32892}",{'countryCode': 'FR'},
-AC,PAR,700061455,SAINT THOMAS D AQUIN,ACPAR416,"{'latitude': 48.8566, 'longitude': 2.33027}",{'countryCode': 'FR'},
-AC,PAR,700050204,LITTLE,ACPAR303,"{'latitude': 48.87021, 'longitude': 2.36011}",{'countryCode': 'FR'},
-AC,PAR,700189764,FABRIC,ACPARD83,"{'latitude': 48.86308, 'longitude': 2.37285}",{'countryCode': 'FR'},
-AC,PAR,700008672,HOTEL INNOVA,ACPAR971,"{'latitude': 48.84219, 'longitude': 2.31292}",{'countryCode': 'FR'},
-AC,PAR,700056515,ACADEMIE SAINT GERMAIN,ACPARA73,"{'latitude': 48.85535, 'longitude': 2.33085}",{'countryCode': 'FR'},
-AC,PAR,700076367,ARLEY TOUR EIFFEL,ACPARE74,"{'latitude': 48.85013, 'longitude': 2.28906}",{'countryCode': 'FR'},
-AC,PAR,700163556,DELAMBRE MONTPARNASSE,ACPARA11,"{'latitude': 48.84135, 'longitude': 2.32604}",{'countryCode': 'FR'},
-AC,PAR,700158044,HOTEL SAINT-JACQUES,ACPARD49,"{'latitude': 48.84875, 'longitude': 2.34763}",{'countryCode': 'FR'},
-AC,PAR,700024185,HOTEL ARMSTRONG,ACPAR549,"{'latitude': 48.85508, 'longitude': 2.40946}",{'countryCode': 'FR'},
-AC,PAR,700056830,AVENIR,ACPAR445,"{'latitude': 48.83633, 'longitude': 2.2947}",{'countryCode': 'FR'},
-AC,PAR,700081744,HOTEL OPERA FROCHOT,ACPAR259,"{'latitude': 48.88124, 'longitude': 2.33767}",{'countryCode': 'FR'},
-AC,PAR,700058799,EXCELSIOR REPUBLIQUE,ACPAR428,"{'latitude': 48.86881, 'longitude': 2.36007}",{'countryCode': 'FR'},
-AC,PAR,700032367,HOTEL ANNEXE,ACPAR607,"{'latitude': 48.86933, 'longitude': 2.35909}",{'countryCode': 'FR'},
-AC,PAR,700163565,TERMINUS VAUGIRARD,ACPARA47,"{'latitude': 48.83313, 'longitude': 2.28907}",{'countryCode': 'FR'},
-AC,PAR,700019941,R DE PARIS,ACPARE65,"{'latitude': 48.87995, 'longitude': 2.32909}",{'countryCode': 'FR'},
-AC,PAR,700884164,CRAYON ROUGE,ACPARF14,"{'latitude': 48.86449, 'longitude': 2.34045}",{'countryCode': 'FR'},
-AC,PAR,700048231,SAINT PAUL RIVE GAUCHE,ACPAR906,"{'latitude': 48.84966, 'longitude': 2.34017}",{'countryCode': 'FR'},
-AC,PAR,700031283,CLARET HOTEL,ACPAR505,"{'latitude': 48.84002, 'longitude': 2.38205}",{'countryCode': 'FR'},
-AC,PAR,700029537,ABBATIAL SAINT GERMAIN,ACPARABA,"{'latitude': 48.84973, 'longitude': 2.35061}",{'countryCode': 'FR'},
-AC,PAR,700083075,VILLA BRUNEL,ACPAR834,"{'latitude': 48.87908, 'longitude': 2.28754}",{'countryCode': 'FR'},
-AC,PAR,700020676,HOLIDAY VILLA LAFAYETTE PARIS,ACPARF29,"{'latitude': 48.87614, 'longitude': 2.34554}",{'countryCode': 'FR'},
-AC,PAR,700144352,HOTEL LE CANAL,ACPARD50,"{'latitude': 48.88722, 'longitude': 2.37293}",{'countryCode': 'FR'},
-AC,PAR,700884158,APPARTEMENTS HELZEAR CHAMPS ELYSEES,ACPARF33,"{'latitude': 48.86914, 'longitude': 2.29826}",{'countryCode': 'FR'},
-AC,PAR,700054615,ROYAL OPERA,ACPARD64,"{'latitude': 48.8722, 'longitude': 2.32521}",{'countryCode': 'FR'},
-AC,PAR,701008496,DU LION D'OR LOUVRE,ACPAR983,"{'latitude': 48.86543, 'longitude': 2.33178}",{'countryCode': 'FR'},
-AC,PAR,700026279,NOUVEL EIFFEL,ACPARNOU,"{'latitude': 48.84335, 'longitude': 2.30675}",{'countryCode': 'FR'},
-AC,PAR,700017588,HOTEL DES ARTS,ACPAR779,"{'latitude': 48.88595, 'longitude': 2.3352}",{'countryCode': 'FR'},
-AC,PAR,700061090,RESIDENCE HENRI IV,ACPAR346,"{'latitude': 48.84817, 'longitude': 2.34907}",{'countryCode': 'FR'},
-AC,PAR,700030321,ILIADE MONTMARTRE,ACPARC03,"{'latitude': 48.89656, 'longitude': 2.34371}",{'countryCode': 'FR'},
-AC,PAR,700053961,SOFT PARIS,ACPARC95,"{'latitude': 48.87326, 'longitude': 2.36008}",{'countryCode': 'FR'},
-AC,PAR,700020645,DOISY ETOILE,ACPAR197,"{'latitude': 48.87905, 'longitude': 2.29232}",{'countryCode': 'FR'},
-AC,PAR,700189766,HOTEL RIVIERA ELYSEES,ACPARD55,"{'latitude': 48.87827, 'longitude': 2.29395}",{'countryCode': 'FR'},
-AC,PAR,700022717,GRAND HOTEL DES GOBELINS,ACPAR510,"{'latitude': 48.83758, 'longitude': 2.35499}",{'countryCode': 'FR'},
-AC,PAR,700029531,HOTEL SQUARE D'ANVERS,ACPAR431,"{'latitude': 48.88224, 'longitude': 2.34485}",{'countryCode': 'FR'},
-AC,PAR,700008720,INTERNATIONAL,ACPARE03,"{'latitude': 48.86868, 'longitude': 2.37132}",{'countryCode': 'FR'},2022-07-10T09:28:14
-AC,PAR,700021957,BALMORAL,ACPARE72,"{'latitude': 48.87605, 'longitude': 2.29381}",{'countryCode': 'FR'},
-AC,PAR,700041693,DAUNOU OPERA,ACPAR383,"{'latitude': 48.86926, 'longitude': 2.33231}",{'countryCode': 'FR'},
-AC,PAR,700156334,VIATOR,ACPARC78,"{'latitude': 48.89082, 'longitude': 2.32114}",{'countryCode': 'FR'},
-AC,PAR,700083032,LIEGE STRASBOURG,ACPAR899,"{'latitude': 48.87379, 'longitude': 2.35652}",{'countryCode': 'FR'},
-AC,PAR,700054648,HOTEL DE BELLEVUE,ACPAR331,"{'latitude': 48.8867, 'longitude': 2.36102}",{'countryCode': 'FR'},
-AC,PAR,700045529,HARVEY,ACPARHAR,"{'latitude': 48.87793, 'longitude': 2.28693}",{'countryCode': 'FR'},
-AC,PAR,700079440,MONTMARTRE MON AMOUR,ACPARE30,"{'latitude': 48.88672, 'longitude': 2.34507}",{'countryCode': 'FR'},
-AC,PAR,700041981,ROYAL MAGDA ETOILE,ACPAR832,"{'latitude': 48.876, 'longitude': 2.29527}",{'countryCode': 'FR'},
-AC,PAR,700016171,HOTEL ARMONI BY ELEGANCIA,ACPAR787,"{'latitude': 48.88523, 'longitude': 2.29304}",{'countryCode': 'FR'},
-AC,PAR,700870375,DU LOIRET,ACPARE67,"{'latitude': 48.85693, 'longitude': 2.35526}",{'countryCode': 'FR'},
-AC,PAR,700072175,ROYAL BERGERE,ACPARROY,"{'latitude': 48.87348, 'longitude': 2.34389}",{'countryCode': 'FR'},
-AC,PAR,700062007,VENDOME SAINT GERMAIN,ACPAR240,"{'latitude': 48.84738, 'longitude': 2.35148}",{'countryCode': 'FR'},
-AC,PAR,700926271,SAINT-PAUL LE MARAIS,ACPARPAU,"{'latitude': 48.85551, 'longitude': 2.3621}",{'countryCode': 'FR'},
-AC,PAR,700085132,HOTEL LE TWELVE,ACPARA91,"{'latitude': 48.8465, 'longitude': 2.4061}",{'countryCode': 'FR'},
-AC,PAR,700004285,ATELIER MONTPARNASSE,ACPAR245,"{'latitude': 48.83336, 'longitude': 2.31691}",{'countryCode': 'FR'},
-AC,PAR,700092130,VILLA GLAMOUR TOUR EIFFEL,ACPAR455,"{'latitude': 48.86447, 'longitude': 2.27803}",{'countryCode': 'FR'},
-AC,PAR,700143666,LENOX SAINT GERMAIN,ACPARA04,"{'latitude': 48.85676, 'longitude': 2.33041}",{'countryCode': 'FR'},
-AC,PAR,700092050,RELAIS HOTEL DU VIEUX PARIS,ACPARC06,"{'latitude': 48.85376, 'longitude': 2.34289}",{'countryCode': 'FR'},
-AC,PAR,700029517,VILLA SAXE EIFFEL,ACPARE68,"{'latitude': 48.84952, 'longitude': 2.30964}",{'countryCode': 'FR'},
-AC,PAR,700038154,JACQUES DE MOLAY,ACPARD99,"{'latitude': 48.86344, 'longitude': 2.36086}",{'countryCode': 'FR'},
-AC,PAR,700092146,HOTEL DU CHEMIN VERT,ACPARD53,"{'latitude': 48.861, 'longitude': 2.38062}",{'countryCode': 'FR'},
-AC,PAR,700183491,SOVEREIGN SAINT-OUEN,ACPAR253,"{'latitude': 48.92057, 'longitude': 2.33201}",{'countryCode': 'FR'},
-AR,PAR,700883466,AC BY MARRIOTT LE BOURGET ARPT,ARPARALL,"{'latitude': 48.93783, 'longitude': 2.42876}",{'countryCode': 'FR'},
-AR,PAR,700222594,AC BY MARRIOTT PORTE MAILLOT,ARPARARA,"{'latitude': 48.88202, 'longitude': 2.28223}",{'countryCode': 'FR'},
-AZ,PAR,700053899,CITADINES LA DEFENSE PARIS,AZPARDEF,"{'latitude': 48.8884, 'longitude': 2.25217}",{'countryCode': 'FR'},
-AZ,PAR,700032820,CITADINES TOUR EIFFEL PARIS,AZPAROEI,"{'latitude': 48.8489, 'longitude': 2.29806}",{'countryCode': 'FR'},
-AZ,PAR,700006011,CITADINES MONTMARTRE PARIS,AZPAR304,"{'latitude': 48.88528, 'longitude': 2.33097}",{'countryCode': 'FR'},
-AZ,PAR,700055800,CITADINES AUSTERLITZ PARIS,AZPAR307,"{'latitude': 48.83496, 'longitude': 2.36043}",{'countryCode': 'FR'},
-AZ,PAR,700019944,CITADINES BASTILLE MARAIS PARI,AZPAROBA,"{'latitude': 48.8581, 'longitude': 2.37113}",{'countryCode': 'FR'},
-AZ,PAR,700020508,CITADINES REPUBLIQUE PARIS,AZPAR302,"{'latitude': 48.86456, 'longitude': 2.37501}",{'countryCode': 'FR'},
-AZ,PAR,700032819,CITADINES SUITES LOUVRE PARIS,AZPAROLO,"{'latitude': 48.86387, 'longitude': 2.33587}",{'countryCode': 'FR'},
-AZ,PAR,700053221,CITADINES DIDOT MONTPARNASSE,AZPAR308,"{'latitude': 48.8278, 'longitude': 2.31517}",{'countryCode': 'FR'},
-AZ,PAR,700006014,CITADINES SAINT GERMAIN PARIS,AZPARPSG,"{'latitude': 48.85551, 'longitude': 2.341}",{'countryCode': 'FR'},
-BL,PAR,700133348,BALLADINS CERGY SAINT-CHRISTOPHE,BLPARP29,"{'latitude': 49.05298, 'longitude': 2.03859}",{'countryCode': 'FR'},
-BL,PAR,700147522,BALLADINS CHELLES,BLPARP07,"{'latitude': 48.8893, 'longitude': 2.59282}",{'countryCode': 'FR'},
-BL,PAR,700132607,BALLADINS CHILLY MAZARIN,BLPARP08,"{'latitude': 48.70374, 'longitude': 2.30575}",{'countryCode': 'FR'},
-BL,PAR,700033216,BALLADINS MAREUIL-LES-MEAUX,BLPARP14,"{'latitude': 48.9389, 'longitude': 2.87668}",{'countryCode': 'FR'},
-BL,PAR,504019637,EXPEDIA CERTIFICATION PROPERTY JAN 2013(,BLPARR88,"{'latitude': 48.7825, 'longitude': 2.35307}",{'countryCode': 'FR'},
-BL,PAR,700132633,BALLADINS TORCY,BLPARP18,"{'latitude': 48.84948, 'longitude': 2.65049}",{'countryCode': 'FR'},
-BL,PAR,700139691,BALLADINS VIGNEUX-SUR-SEINE,BLPARP20,"{'latitude': 48.71599, 'longitude': 2.43671}",{'countryCode': 'FR'},
-BL,PAR,700033378,BALLADINS ESBLY - MARNE-LA-VALLEE,BLPARP11,"{'latitude': 48.91555, 'longitude': 2.8143}",{'countryCode': 'FR'},
-BL,PAR,700033666,BALLADINS LES MUREAUX-FLINS,BLPARP30,"{'latitude': 55.75416, 'longitude': 37.5608}",{'countryCode': 'FR'},
-BL,PAR,700139687,BALLADINS ST-OUEN-L'AUMONE - CARAVELLES,BLPARP17,"{'latitude': 49.04663, 'longitude': 2.13429}",{'countryCode': 'FR'},
-BR,PAR,700035209,RENAISSANCE PARIS VENDOME,BRPARVDB,"{'latitude': 48.86195, 'longitude': 2.33592}",{'countryCode': 'FR'},
-BR,PAR,700024753,RENAISSANCE LE PARC TROCADERO,BRPARSPB,"{'latitude': 48.86714, 'longitude': 2.28594}",{'countryCode': 'FR'},
-BR,PAR,700221013,RENAISSANCE PARIS HIPPODROME,BRPARSCB,"{'latitude': 48.87186, 'longitude': 2.18061}",{'countryCode': 'FR'},
-BW,PAR,700886754,BEST WESTERN PLUS SUITCASE,BWPAR815,"{'latitude': 48.91122, 'longitude': 2.27192}",{'countryCode': 'FR'},
-BW,PAR,700022930,BEST WESTERN GOLF HOTEL,BWPAR733,"{'latitude': 48.84501, 'longitude': 2.71341}",{'countryCode': 'FR'},
-BW,PAR,700869048,BEST WESTERN TRIANON RIVE GAUC,BWPAR673,"{'latitude': 48.84874, 'longitude': 2.34165}",{'countryCode': 'FR'},
-BW,PAR,700007751,BEST WESTERN DIVA OPERA,BWPAR770,"{'latitude': 48.87327, 'longitude': 2.34505}",{'countryCode': 'FR'},
-BW,PAR,700030597,BEST WESTERN SAINT MARTIN BAST,BWPAR803,"{'latitude': 48.86444, 'longitude': 2.371}",{'countryCode': 'FR'},
-BW,PAR,700045688,BEST WESTERN HOTEL MERCEDES,BWPAR635,"{'latitude': 48.88489, 'longitude': 2.30337}",{'countryCode': 'FR'},
-BW,PAR,700009319,BW PREMIER LE CARRE FOLIES,BWPAR748,"{'latitude': 48.87384, 'longitude': 2.34442}",{'countryCode': 'FR'},
-BW,PAR,700020659,BEST WESTERN ELYSEES MONCEAU,BWPAR534,"{'latitude': 48.88028, 'longitude': 2.31944}",{'countryCode': 'FR'},
-BW,PAR,700061683,BEST WESTERN STAR CHAMPS ELYSE,BWPAR654,"{'latitude': 48.8771, 'longitude': 2.29358}",{'countryCode': 'FR'},
-BW,PAR,700013914,BEST WESTERN HOTEL VICTOR HUGO,BWPAR503,"{'latitude': 48.86923, 'longitude': 2.28864}",{'countryCode': 'FR'},
-BW,PAR,700043235,BEST WESTERN HOTEL DE WEHA,BWPAR456,"{'latitude': 48.83009, 'longitude': 2.35679}",{'countryCode': 'FR'},
-BW,PAR,700057394,BW HOTEL LOUVRE PIEMONT,BWPAR519,"{'latitude': 48.86486, 'longitude': 2.33642}",{'countryCode': 'FR'},
-BW,PAR,700019804,BEST WESTERN AU TROCADERO,BWPAR261,"{'latitude': 48.86378, 'longitude': 2.28667}",{'countryCode': 'FR'},
-BW,PAR,700054608,BW PREMIER ROYAL SAINT MICHEL,BWPAR599,"{'latitude': 48.85269, 'longitude': 2.34384}",{'countryCode': 'FR'},
-BW,PAR,700046493,BEST WESTERN HTL DE NEUVILLE,BWPAR676,"{'latitude': 48.88665, 'longitude': 2.30039}",{'countryCode': 'FR'},
-BW,PAR,700027673,BEST WESTERN HOTEL LE MONTPARNASSE,BWPAR729,"{'latitude': 48.84476, 'longitude': 2.32107}",{'countryCode': 'FR'},
-BW,PAR,700057478,BEST WESTERN PARIS LOUVRE OPERA,BWPAR522,"{'latitude': 48.86644, 'longitude': 2.33488}",{'countryCode': 'FR'},
-BW,PAR,700026284,BEST WESTERN AULIVIA OPERA,BWPAR490,"{'latitude': 48.87295, 'longitude': 2.35394}",{'countryCode': 'FR'},
-BW,PAR,700057440,BEST WESTERN MONTCALM,BWPAR126,"{'latitude': 48.84081, 'longitude': 2.28722}",{'countryCode': 'FR'},
-BW,PAR,700029551,BEST WESTERN HTL SYDNEY OPERA,BWPAR601,"{'latitude': 48.87327, 'longitude': 2.32404}",{'countryCode': 'FR'},
-BW,PAR,700092037,BEST WESTERN GRAND HTL DE L UNIVERS,BWPAR528,"{'latitude': 48.85349, 'longitude': 2.33788}",{'countryCode': 'FR'},
-BW,PAR,700024479,QUARTIER LATINPANTHEON,BWPAR578,"{'latitude': 48.84367, 'longitude': 2.35232}",{'countryCode': 'FR'},
-BW,PAR,700043759,BEST WESTERN HTL OPERA D ANTIN,BWPAR692,"{'latitude': 48.87422, 'longitude': 2.33226}",{'countryCode': 'FR'},
-BW,PAR,700054617,BEST WESTERN FOLKESTONE OPERA,BWPAR203,"{'latitude': 48.87043, 'longitude': 2.29981}",{'countryCode': 'FR'},
-BW,PAR,700004104,BEST WESTERN VILLA DES ARTISTES,BWPAR295,"{'latitude': 48.84238, 'longitude': 2.33102}",{'countryCode': 'FR'},
-BW,PAR,700057260,BEST WESTERN GAILLON OPERA,BWPAR160,"{'latitude': 48.8682, 'longitude': 2.33395}",{'countryCode': 'FR'},
-BW,PAR,700092101,BEST WESTERN AMIRAL HOTEL,BWPAR620,"{'latitude': 48.82533, 'longitude': 2.35752}",{'countryCode': 'FR'},
-BW,PAR,700092366,BW VILLA HENRI IV,BWPAR698,"{'latitude': 48.84452, 'longitude': 2.21142}",{'countryCode': 'FR'},
-BW,PAR,700083101,BEST WESTERN SAINT LOUIS,BWPAR679,"{'latitude': 48.84496, 'longitude': 2.43508}",{'countryCode': 'FR'},
-BW,PAR,700008402,BW LE PATIO ST ANTOINE HOME PLAZZA,BWPAR723,"{'latitude': 48.84919, 'longitude': 2.39041}",{'countryCode': 'FR'},
-BW,PAR,700006111,BEST WESTERN COLISEE,BWPAR144,"{'latitude': 48.87023, 'longitude': 2.3071}",{'countryCode': 'FR'},
-CC,PAR,700091638,CLARION SUITES SENART PARIS SUD AND SPA,CCPAR353,"{'latitude': 48.62087, 'longitude': 2.54068}",{'countryCode': 'FR'},
-CD,PAR,700023539,CONCORDE MONTPARNASSE - PARIS,CDPARBLE,"{'latitude': 48.83748, 'longitude': 2.31865}",{'countryCode': 'FR'},
-CH,PAR,700082938,CLASSICS PORTE DE VERSAILLES,CHPAR642,"{'latitude': 48.8287, 'longitude': 2.28287}",{'countryCode': 'FR'},2022-11-17T06:00:20
-CH,PAR,700082937,CLASSICS PARC DES EXPOSITIONS,CHPAR641,"{'latitude': 48.82326, 'longitude': 2.27312}",{'countryCode': 'FR'},2022-11-17T06:00:20
-CH,PAR,700027009,CHARING CROSS HOTEL,CHPARHCC,"{'latitude': 48.87485, 'longitude': 2.32375}",{'countryCode': 'FR'},
-CH,PAR,700030072,HOTEL DE LA HAVANE,CHPARH93,"{'latitude': 48.87597, 'longitude': 2.34547}",{'countryCode': 'FR'},2022-11-17T06:00:20
-CH,PAR,700004463,HOTEL AMBASSADE,CHPARH24,"{'latitude': 48.86835, 'longitude': 2.28898}",{'countryCode': 'FR'},2022-11-17T06:00:20
-CH,PAR,700056602,HOTEL ALIZE GRENELLE TOUR EIFFEL,CHPAR041,"{'latitude': 48.84674, 'longitude': 2.28777}",{'countryCode': 'FR'},2022-11-17T06:00:20
-CI,PAR,700177843,COMFORT HOTEL AU FIRMAMENT ASNIERES-SUR-,CIPAR421,"{'latitude': 48.9064, 'longitude': 2.26935}",{'countryCode': 'FR'},
-CI,PAR,700118723,COMFORT HOTEL CERGY PONTOISE,CIPAR065,"{'latitude': 49.02554, 'longitude': 2.10368}",{'countryCode': 'FR'},
-CI,PAR,700058216,COMFORT HOTEL GENNEVILLIERS,CIPAR208,"{'latitude': 48.92448, 'longitude': 2.32457}",{'countryCode': 'FR'},
-CI,PAR,700193798,COMFORT HOTEL LES MUREAUX FLINS,CIPAR293,"{'latitude': 48.97689, 'longitude': 1.91461}",{'countryCode': 'FR'},
-CI,PAR,700132573,COMFORT HOTEL LES ULIS ACADIE,CIPAR434,"{'latitude': 48.67747, 'longitude': 2.19776}",{'countryCode': 'FR'},
-CI,PAR,700160021,COMFORT HOTEL PARIS SUD MONTROUGE,CIPAR488,"{'latitude': 48.81785, 'longitude': 2.31707}",{'countryCode': 'FR'},
-CI,PAR,700006167,COMFORT HOTEL SAINT PIERRE,CIPAR185,"{'latitude': 48.8844, 'longitude': 2.34712}",{'countryCode': 'FR'},
-CI,PAR,700006176,COMFORT HOTEL NATION,CIPAR260,"{'latitude': 48.85374, 'longitude': 2.38802}",{'countryCode': 'FR'},
-CI,PAR,700004454,COMFORT HOTEL LAMARCK PARIS 18,CIPAR326,"{'latitude': 48.8912, 'longitude': 2.33934}",{'countryCode': 'FR'},
-CI,PAR,700020665,COMFORT HOTEL MONTMARTRE PLACE DU TERTRE,CIPAR333,"{'latitude': 48.88655, 'longitude': 2.3356}",{'countryCode': 'FR'},
-CI,PAR,700053647,COMFORT HOTEL PARIS LA FAYETTE,CIPAR364,"{'latitude': 48.8765, 'longitude': 2.34877}",{'countryCode': 'FR'},
-CI,PAR,700006161,COMFORT INN MOUFFETARD LATIN QUARTER,CIPAR202,"{'latitude': 48.84322, 'longitude': 2.34945}",{'countryCode': 'FR'},
-CI,PAR,700179073,COMFORT HOTEL POISSY TECHNOPARC,CIPAR427,"{'latitude': 48.94556, 'longitude': 2.06558}",{'countryCode': 'FR'},
-CI,PAR,700057045,COMFORT HOTEL APOLLONIA ST FARGEAU,CIPAR483,"{'latitude': 48.53405, 'longitude': 2.53538}",{'countryCode': 'FR'},
-CI,PAR,700139688,COMFORT HOTEL PARIS EST SAINT-MAUR,CIPAR477,"{'latitude': 48.7994, 'longitude': 2.47217}",{'countryCode': 'FR'},
-CI,PAR,700152555,COMFORT HOTEL VILLEPINTE-SEVRAN,CIPAR416,"{'latitude': 48.94969, 'longitude': 2.52344}",{'countryCode': 'FR'},
-CI,PAR,700156247,COMFORT HOTEL BOBIGNY PARIS EST,CIPAR444,"{'latitude': 48.90575, 'longitude': 2.42221}",{'countryCode': 'FR'},
-CI,PAR,700058184,COMFORT HOTEL CHELLES MARNE LA VALLEE,CIPAR054,"{'latitude': 48.88917, 'longitude': 2.59919}",{'countryCode': 'FR'},
-CP,PAR,700008354,CROWNE PLAZA PLACE DEREPUBLIQU,CPPAR32D,"{'latitude': 48.8677, 'longitude': 2.3643}",{'countryCode': 'FR'},
-CY,PAR,700055624,COURTYARD COLOMBES MARRIOTT,CYPARCFC,"{'latitude': 48.91272, 'longitude': 2.23159}",{'countryCode': 'FR'},
-DC,PAR,700010162,LE MEURICE,DCPAR625,"{'latitude': 48.86512, 'longitude': 2.32777}",{'countryCode': 'FR'},
-DH,PAR,700091905,HOTEL DE SERS,DHPARDNA,"{'latitude': 0.0, 'longitude': 0.0}",,2022-02-17T10:29:22
-DH,PAR,504531780,PROPERTY PAR 655,DHPAR655,"{'latitude': 48.85721, 'longitude': 2.34144}",{'countryCode': 'FR'},
-DH,PAR,504281446,NEW HOTEL LAFAYETTE -EX BEST WESTERN,DHPARAAD,"{'latitude': 48.87626, 'longitude': 2.34222}",{'countryCode': 'FR'},
-DH,PAR,504282448,LA BRUYERE,DHPARAAB,"{'latitude': 48.8795, 'longitude': 2.33352}",{'countryCode': 'FR'},
-DS,PAR,700043896,HOTEL SEZZ PARIS,DSPARSEZ,"{'latitude': 48.85654, 'longitude': 2.28496}",{'countryCode': 'FR'},
-DS,PAR,700130419,HOTEL DE NELL,DSPARHOT,"{'latitude': 48.87317, 'longitude': 2.34683}",{'countryCode': 'FR'},
-DX,PAR,504200808,HOTEL TEST DX 001,DXPARDTM,"{'latitude': 38.99854, 'longitude': -105.54781}",{'countryCode': 'FR'},2023-05-25T03:53:34
-DY,PAR,504016983,HOTEL TEST DY 001,DYPARDTM,"{'latitude': 38.99854, 'longitude': -105.54781}",{'countryCode': 'FR'},2023-05-25T03:53:43
-EN,PAR,505313942,SO PARIS,ENPARSPA,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'FR'},2023-01-26T11:49:14
-EP,PAR,700041122,HOTEL DE LA JATTE,EPPARJAT,"{'latitude': 48.894, 'longitude': 2.26633}",{'countryCode': 'FR'},
-EP,PAR,700044512,LE SAINT GREGOIRE,EPPARLSG,"{'latitude': 48.84716, 'longitude': 2.32594}",{'countryCode': 'FR'},
-EU,PAR,700073880,CHATEAU D AUGERVILLE,EUPARCAU,"{'latitude': 48.25184, 'longitude': 2.43851}",{'countryCode': 'FR'},
-EU,PAR,700031123,EXCLUSIVE HOTEL OPERA LAFAYETTE,EUPAR446,"{'latitude': 48.87636, 'longitude': 2.34599}",{'countryCode': 'FR'},
-EU,PAR,700041691,EXCLUSIVE TOUR D'AUVERGNE OPERA,EUPAR949,"{'latitude': 48.87891, 'longitude': 2.34486}",{'countryCode': 'FR'},
-EU,PAR,700132883,EXCLUSIVE WILSON OPERA,EUPARWIL,"{'latitude': 48.87712, 'longitude': 2.32211}",{'countryCode': 'FR'},
-EU,PAR,700006912,EXCLUSIVE DU BOIS ETOILE,EUPARH05,"{'latitude': 48.87174, 'longitude': 2.29097}",{'countryCode': 'FR'},
-EU,PAR,700004607,EXCLUSIVE HOTEL APPIA LA FAYETTE,EUPAR763,"{'latitude': 48.8785, 'longitude': 2.3567}",{'countryCode': 'FR'},
-EU,PAR,700020653,EXCLUSIVE LE BREA LUXEMBOURG,EUPAR776,"{'latitude': 48.84289, 'longitude': 2.32982}",{'countryCode': 'FR'},
-EU,PAR,700030523,EXCLUSIVE COURCELLES ETOILE,EUPAR319,"{'latitude': 48.88445, 'longitude': 2.29798}",{'countryCode': 'FR'},
-EU,PAR,700046490,HOTEL MONTFLEURI ARC DE TRIOMPHE,EUPARMFH,"{'latitude': 48.87491, 'longitude': 2.29057}",{'countryCode': 'FR'},
-EU,PAR,700051487,EXCLUSIVE SPLENDID EIFFEL,EUPAR838,"{'latitude': 48.85391, 'longitude': 2.30724}",{'countryCode': 'FR'},
-EU,PAR,700017475,29 LEPIC MONTMARTRE,EUPARLEP,"{'latitude': 48.88562, 'longitude': 2.33451}",{'countryCode': 'FR'},
-EU,PAR,700046491,EXCLUSIVE HOTEL MATHIS ELYSEES,EUPARCEN,"{'latitude': 48.87007, 'longitude': 2.31131}",{'countryCode': 'FR'},
-EU,PAR,700060230,HOTEL EIFFEL SAINT CHARLES,EUPAREFF,"{'latitude': 48.84984, 'longitude': 2.28844}",{'countryCode': 'FR'},
-EU,PAR,700007095,EXCLUSIVE HOTEL ELYSEES REGENCIA,EUPAR361,"{'latitude': 48.86866, 'longitude': 2.29854}",{'countryCode': 'FR'},
-EU,PAR,700046495,EXCLUSIVE CLEMENT ST GERMAIN,EUPAR063,"{'latitude': 48.85255, 'longitude': 2.33618}",{'countryCode': 'FR'},
-EU,PAR,700058807,EXCLUSIVE SEVIGNE ELYSEES,EUPAR107,"{'latitude': 48.8688, 'longitude': 2.29242}",{'countryCode': 'FR'},
-EU,PAR,700054639,EXCLUSIVE HOTEL BEAUSEJOUR MONTMARTRE,EUPAR934,"{'latitude': 48.88367, 'longitude': 2.32572}",{'countryCode': 'FR'},
-EU,PAR,700048007,EXCLUSIVE ELYSA LUXEMBOURG,EUPARH34,"{'latitude': 48.84621, 'longitude': 2.34093}",{'countryCode': 'FR'},
-EU,PAR,700058806,EXCLUSIVE AVENIR LUXEMBOURG,EUPARAVE,"{'latitude': 48.8469, 'longitude': 2.33167}",{'countryCode': 'FR'},
-EU,PAR,700053724,CHAT NOIR DESIGN HOTEL,EUPAR309,"{'latitude': 48.88357, 'longitude': 2.33409}",{'countryCode': 'FR'},
-EU,PAR,700005747,EXCLUSIVE OPERA CARAVELLE,EUPAR461,"{'latitude': 48.88118, 'longitude': 2.33997}",{'countryCode': 'FR'},
-EX,PAR,505005404,AUSTIN'S ARTS ET METIERS HOTEL,EXPAR0HI,"{'latitude': 48.86596, 'longitude': 2.35699}",,2022-04-01T07:36:58
-EX,PAR,505009485,HOTEL DE FRANCE QUARTIER LATIN,EXPAR0JN,"{'latitude': 48.83936, 'longitude': 2.35103}",{'countryCode': 'FR'},
-EX,PAR,505004318,HOTEL DE FRANCE GARE DE LYON BASTILLE,EXPAR01Q,"{'latitude': 48.84746, 'longitude': 2.37164}",{'countryCode': 'FR'},
-EX,PAR,505005983,MERCURE PARIS GARE DE LYON TGV,EXPAR051,"{'latitude': 48.84414, 'longitude': 2.37269}",{'countryCode': 'FR'},
-EX,PAR,505004029,NOVOTEL PARIS GARE DE LYON,EXPAR0CQ,"{'latitude': 48.84539, 'longitude': 2.37516}",{'countryCode': 'FR'},
-EX,PAR,505005394,MERCURE PARIS CENTRE TOUR EIFFEL,EXPAR08T,"{'latitude': 48.85545, 'longitude': 2.29212}",{'countryCode': 'FR'},
-EX,PAR,505009481,HOTEL DE BELFORT,EXPAR0JM,"{'latitude': 48.85699, 'longitude': 2.38483}",{'countryCode': 'FR'},
-EX,PAR,505009501,PAVILLON COURCELLES PARC MONCEAU,EXPAR0JR,"{'latitude': 48.8842, 'longitude': 2.31619}",{'countryCode': 'FR'},
-EX,PAR,505009494,HOTEL DE FRANCE,EXPAR0JQ,"{'latitude': 48.87395, 'longitude': 2.35618}",{'countryCode': 'FR'},
-EX,PAR,505009460,HOTEL DE L'ALMA,EXPAR0JH,"{'latitude': 48.85702, 'longitude': 2.30341}",{'countryCode': 'FR'},
-EX,PAR,505004020,HOTEL DE GENEVE,EXPAR035,"{'latitude': 48.87764, 'longitude': 2.3275}",{'countryCode': 'FR'},
-EX,PAR,505003711,HOTEL FRANCE LOUVRE,EXPAR047,"{'latitude': 48.8564, 'longitude': 2.35618}",{'countryCode': 'FR'},
-EX,PAR,505003448,HOTEL DE LA PAIX,EXPAR05M,"{'latitude': 48.83866, 'longitude': 2.28867}",{'countryCode': 'FR'},
-EX,PAR,505003564,PARK HYATT PARIS - VENDOME,EXPAR060,"{'latitude': 48.86864, 'longitude': 2.33061}",{'countryCode': 'FR'},
-EX,PAR,505004951,HOTEL DAUNOU OPERA,EXPAR0FX,"{'latitude': 48.8693, 'longitude': 2.33219}",{'countryCode': 'FR'},
-EX,PAR,505005649,NOVOTEL PARIS CENTRE BERCY,EXPAR0IC,"{'latitude': 48.83895, 'longitude': 2.38074}",{'countryCode': 'FR'},
-EX,PAR,505009510,PARISIAN PANORAMA,EXPAR0JT,"{'latitude': 48.87982, 'longitude': 2.34607}",{'countryCode': 'FR'},
-FG,PAR,505296841,FG TEST PROPERTY,FGPARLAN,"{'latitude': 48.8569, 'longitude': 2.35085}",{'countryCode': 'FR'},
-FG,PAR,700032818,STARS ARCUEIL,FGPARSTA,"{'latitude': 48.79863, 'longitude': 2.34414}",{'countryCode': 'FR'},
-FG,PAR,700136285,RESIDHOME ASNIERES,FGPARRAS,"{'latitude': 48.91761, 'longitude': 2.31595}",{'countryCode': 'FR'},
-FG,PAR,700070732,APPART CITY PONTOISE CERGY,FGPARACC,"{'latitude': 49.0488, 'longitude': 2.01435}",{'countryCode': 'FR'},
-FG,PAR,700141697,RELAIS SPA CHESSY,FGPARRSC,"{'latitude': 48.85771, 'longitude': 2.7742}",{'countryCode': 'FR'},
-FG,PAR,700141693,APPART CITY PARIS CLICHY,FGPARCLI,"{'latitude': 48.90218, 'longitude': 2.30734}",{'countryCode': 'FR'},
-FG,PAR,700136780,SEJOURS ET AFFAIRES GRANDE ARCHE,FGPARHT2,"{'latitude': 48.89914, 'longitude': 2.23645}",{'countryCode': 'FR'},
-FG,PAR,700030699,HOTEL LA REGENCE-PARIS LA DEFENSE,FGPARBSO,"{'latitude': 48.89326, 'longitude': 2.24727}",{'countryCode': 'FR'},
-FG,PAR,700145002,RESIDHOME PARIS GUYANCOURT,FGPARGUY,"{'latitude': 48.77428, 'longitude': 2.07191}",{'countryCode': 'FR'},
-FG,PAR,700211388,RESIDHOME PARIS ISSY LES MOULINEAUX,FGPARRPM,"{'latitude': 48.82609, 'longitude': 2.26029}",{'countryCode': 'FR'},
-FG,PAR,700116908,APPART'CITY LE BLANC-MESNIL,FGPARCBM,"{'latitude': 48.95012, 'longitude': 2.46539}",{'countryCode': 'FR'},
-FG,PAR,700078793,APPART'CITY LOUVECIENNES,FGPARLOU,"{'latitude': 48.87432, 'longitude': 2.11913}",{'countryCode': 'FR'},
-FG,PAR,700160553,APPART CITY MAGNY-LES-HAMEAUX,FGPARAPP,"{'latitude': 48.73782, 'longitude': 2.05523}",{'countryCode': 'FR'},
-FG,PAR,700228436,SUITE HOME PORTE DE CHATILLON,FGPARSHP,"{'latitude': 48.81972, 'longitude': 2.31042}",{'countryCode': 'FR'},
-FG,PAR,700118815,SEJOURS ET AFFAIRES SAINT MANDE,FGPARHSZ,"{'latitude': 48.84955, 'longitude': 2.41733}",{'countryCode': 'FR'},
-FG,PAR,700211389,NEUILLY BORDS DE MARNE-NEUILLY PLAISANCE,FGPARNBD,"{'latitude': 48.85134, 'longitude': 2.51356}",{'countryCode': 'FR'},
-FG,PAR,700140587,SUITE-HOME PARIS PORTE DE PANTIN,FGPARSUI,"{'latitude': 48.89323, 'longitude': 2.39859}",{'countryCode': 'FR'},
-FG,PAR,700082936,HOTEL CHOISEUL OPERA,FGPARCHO,"{'latitude': 48.86911, 'longitude': 2.33244}",{'countryCode': 'FR'},
-FG,PAR,700006922,HOTEL DU PR    ,FGPARPRE,"{'latitude': 48.87751, 'longitude': 2.34693}",{'countryCode': 'FR'},
-FG,PAR,700092057,HOTEL DE FRANCE INVALIDES,FGPARAKK,"{'latitude': 48.85348, 'longitude': 2.30932}",{'countryCode': 'FR'},
-FG,PAR,700053971,HOTEL PRINCE ALBERT LYON BERCY,FGPARBRC,"{'latitude': 48.8472, 'longitude': 2.37778}",{'countryCode': 'FR'},
-FG,PAR,700061896,TONIC HOTEL DU LOUVRE,FGPAR570,"{'latitude': 48.86064, 'longitude': 2.3437}",{'countryCode': 'FR'},
-FG,PAR,700050507,HOTEL ROMANCE MALESHERBES,FGPARROM,"{'latitude': 48.88636, 'longitude': 2.31271}",{'countryCode': 'FR'},
-FG,PAR,700054612,HOTEL OPERA MARIGNY,FGPAROPE,"{'latitude': 48.87194, 'longitude': 2.32362}",{'countryCode': 'FR'},
-FG,PAR,700076383,HOTEL ETOILE RESIDENCE IMPERIALE,FGPAR277,"{'latitude': 48.87618, 'longitude': 2.2835}",{'countryCode': 'FR'},
-FG,PAR,700079460,APPART'CITY PARIS LA VILETTE,FGPARAPC,"{'latitude': 48.88716, 'longitude': 2.38628}",{'countryCode': 'FR'},
-FG,PAR,700132241,HELZEAR SAINT-HONORE,FGPARHEL,"{'latitude': 48.87351, 'longitude': 2.30933}",{'countryCode': 'FR'},
-FG,PAR,700030331,RESIDENCE RICHEMONT,FGPARRCH,"{'latitude': 48.82804, 'longitude': 2.36863}",{'countryCode': 'FR'},
-FG,PAR,700052305,HOTEL ALEXANDRIE,FGPARALE,"{'latitude': 48.84731, 'longitude': 2.37103}",{'countryCode': 'FR'},
-FG,PAR,700092076,HOTEL DES CHAMPS ELYSEES,FGPARCHE,"{'latitude': 48.87228, 'longitude': 2.309}",{'countryCode': 'FR'},
-FG,PAR,700163560,HOTEL ORION HAUSSMANN,FGPARHAU,"{'latitude': 48.87292, 'longitude': 2.33065}",{'countryCode': 'FR'},
-FG,PAR,700079852,HOTEL L'ADRESSE,FGPARLAD,"{'latitude': 48.878, 'longitude': 2.28533}",{'countryCode': 'FR'},
-FG,PAR,700080341,HOTEL BEAUCHAMPS,FGPARELP,"{'latitude': 48.8709, 'longitude': 2.3089}",{'countryCode': 'FR'},
-FG,PAR,700030515,HOTEL PRINCE ALBERT WAGRAM,FGPARPAW,"{'latitude': 48.88652, 'longitude': 2.31195}",{'countryCode': 'FR'},
-FG,PAR,700163559,ODEON HOTEL,FGPARODE,"{'latitude': 48.85144, 'longitude': 2.33879}",{'countryCode': 'FR'},
-FG,PAR,700030577,HOTEL GLASGOW MONCEAU,FGPARGLA,"{'latitude': 48.8865, 'longitude': 2.3094}",{'countryCode': 'FR'},
-FG,PAR,700058809,HOTEL DURET,FGPAROIL,"{'latitude': 48.87527, 'longitude': 2.2866}",{'countryCode': 'FR'},
-FG,PAR,700076369,HOTELHOME PARIS 16,FGPARHHM,"{'latitude': 48.8506, 'longitude': 2.26745}",{'countryCode': 'FR'},
-FG,PAR,700030855,NEW HOTEL OPERA,FGPAR661,"{'latitude': 48.87973, 'longitude': 2.32873}",{'countryCode': 'FR'},
-FG,PAR,700044511,BASTILLE DE LAUNAY,FGPARBAS,"{'latitude': 48.8586, 'longitude': 2.36854}",{'countryCode': 'FR'},
-FG,PAR,700092030,HOTEL BEAUVOIR,FGPARVOI,"{'latitude': 48.83989, 'longitude': 2.33738}",{'countryCode': 'FR'},
-FG,PAR,700045083,THE ATLANTIC HOTEL,FGPARATL,"{'latitude': 48.87812, 'longitude': 2.32635}",{'countryCode': 'FR'},
-FG,PAR,700030516,HOTEL DU THEATRE,FGPAR441,"{'latitude': 48.88223, 'longitude': 2.31866}",{'countryCode': 'FR'},
-FG,PAR,700092124,HOTEL RESIDENCE QUINTINIE,FGPARQUI,"{'latitude': 48.83916, 'longitude': 2.30656}",{'countryCode': 'FR'},
-FG,PAR,700030505,HOTEL PRINCE ALBERT LOUVRE,FGPARPAL,"{'latitude': 48.866, 'longitude': 2.33157}",{'countryCode': 'FR'},
-FG,PAR,700051488,NEW HOTEL SAINT LAZARE,FGPAR652,"{'latitude': 48.8802, 'longitude': 2.32704}",{'countryCode': 'FR'},
-FG,PAR,700054614,HOTEL MONTAIGNE,FGPARHMO,"{'latitude': 48.86551, 'longitude': 2.30385}",{'countryCode': 'FR'},
-FG,PAR,700079461,COSY'S RESIDENCE CADET,FGPARCAD,"{'latitude': 48.87474, 'longitude': 2.34275}",{'countryCode': 'FR'},
-FG,PAR,700952872,PARK & STS PRESTIGE PAR GND BIBLIOTHEQUE,FGPARGRA,"{'latitude': 48.82779, 'longitude': 2.37947}",{'countryCode': 'FR'},
-FG,PAR,700006681,MAISON DU PR    ,FGPARMDP,"{'latitude': 48.87985, 'longitude': 2.35008}",{'countryCode': 'FR'},
-FG,PAR,700060388,LE MONNA LISA,FGPAR218,"{'latitude': 48.87151, 'longitude': 2.30754}",{'countryCode': 'FR'},
-FG,PAR,700070735,APPART'CITY POISSY,FGPARPOI,"{'latitude': 48.93084, 'longitude': 2.03687}",{'countryCode': 'FR'},
-FG,PAR,700211390,RESIDHOME ROISSY PARK-ROISSY EN FRANCE,FGPARRRP,"{'latitude': 48.69139, 'longitude': 2.40634}",{'countryCode': 'FR'},
-FG,PAR,700165017,PARK & STS ELEGANCE ROSNY SOUS BOIS,FGPARPSR,"{'latitude': 48.87883, 'longitude': 2.47865}",{'countryCode': 'FR'},
-FG,PAR,700061007,HOTEL QUORUM - SAINT CLOUD,FGPARQUO,"{'latitude': 48.84271, 'longitude': 2.20711}",{'countryCode': 'FR'},
-FG,PAR,700128337,APPART CITY PARIS SAINT MAURICE,FGPARSAI,"{'latitude': 48.81805, 'longitude': 2.42278}",{'countryCode': 'FR'},
-FG,PAR,700147214,SEJOURS ET AFFAIRES PARIS VITRY,FGPARVIT,"{'latitude': 48.79982, 'longitude': 2.38103}",{'countryCode': 'FR'},
-FG,PAR,700090761,APPART CITY PARIS ALFORTVILLE,FGPARCAL,"{'latitude': 48.77813, 'longitude': 2.4176}",{'countryCode': 'FR'},
-FI,PAR,700070734,FRASER SUITES HARMONIE,FIPAR012,"{'latitude': 48.88793, 'longitude': 2.25158}",{'countryCode': 'FR'},
-FS,PAR,700007506,FOUR SEASONS GEORGE V PARIS,FSPAR837,"{'latitude': 48.86903, 'longitude': 2.30083}",{'countryCode': 'FR'},
-GT,PAR,504107536,HOLIDAY INN MONTPARNASSE PARIS,GTPAR378,"{'latitude': 12.39672, 'longitude': -1.49963}",{'countryCode': 'FR'},
-GT,PAR,700922975,TULIP INN MASSY PALAISEAU RESIDENCE,GTPARMPR,"{'latitude': 48.72147, 'longitude': 2.24827}",{'countryCode': 'FR'},
-GT,PAR,504093557,TEST GOLDEN GTPARXXX,GTPARXXX,"{'latitude': 48.86941, 'longitude': 2.33456}",{'countryCode': 'FR'},
-GT,PAR,700059069,PROPERTY_GOLDEN_NAME,GTPARTUL,"{'latitude': 48.86941, 'longitude': 2.33456}",{'countryCode': 'FR'},
-GT,PAR,504084053,SHSTEST HOTEL 222,GTPAR222,"{'latitude': 12.39672, 'longitude': -1.49963}",{'countryCode': 'FR'},
-GT,PAR,504084055,SHSTEST HOTEL 444,GTPAR444,"{'latitude': 12.39672, 'longitude': -1.49963}",{'countryCode': 'FR'},
-GT,PAR,504084049,HOTEL TEST GT 2022,GTPAR998,"{'latitude': 12.39672, 'longitude': -1.49963}",{'countryCode': 'FR'},2022-02-17T10:29:22
-GT,PAR,504084050,HOTEL TEST GT 003,GTPAR997,"{'latitude': 12.39672, 'longitude': -1.49963}",{'countryCode': 'FR'},
-GT,PAR,504084051,HOTEL TEST GT 004,GTPAR996,"{'latitude': 12.39672, 'longitude': -1.49963}",{'countryCode': 'FR'},
-GT,PAR,504084052,HOTEL TEST GT 222,GTPAR995,"{'latitude': 12.39672, 'longitude': -1.49963}",{'countryCode': 'FR'},
-GW,PAR,700006562,HOTEL DE L OCEAN,GWPAR054,"{'latitude': 48.87723, 'longitude': 2.3452}",{'countryCode': 'FR'},2022-11-29T06:00:16
-GW,PAR,700058367,EURO HOTEL SOVEREIGN SAINT DENIS,GWPAR316,"{'latitude': 48.93921, 'longitude': 2.35639}",{'countryCode': 'FR'},2022-11-29T06:00:16
-HA,PAR,700182053,ALPHA PARIS TOUR EIFFEL HOTEL,HAPARALP,"{'latitude': 48.83608, 'longitude': 2.24636}",{'countryCode': 'FR'},2022-11-29T06:00:22
-HA,PAR,700172560,EUROPARC MARNE LA VALLEE,HAPAREUR,"{'latitude': 48.82482, 'longitude': 2.62724}",{'countryCode': 'FR'},
-HA,PAR,700031129,HOTEL CHARLEMAGNE,HAPARCHA,"{'latitude': 48.88483, 'longitude': 2.25852}",{'countryCode': 'FR'},2022-11-29T06:00:22
-HA,PAR,700224745,ST CHRISTOPHER S PARIS CANAL,HAPARSTC,"{'latitude': 48.885, 'longitude': 2.38323}",{'countryCode': 'FR'},2022-11-29T06:00:22
-HA,PAR,700027582,ABRIAL,HAPARABR,"{'latitude': 48.89049, 'longitude': 2.31757}",{'countryCode': 'FR'},2022-11-29T06:00:22
-HA,PAR,700092020,LYRIC HOTEL PARIS,HAPARLYR,"{'latitude': 48.86899, 'longitude': 2.33669}",{'countryCode': 'FR'},2022-11-29T06:00:22
-HA,PAR,700030504,EXE PARIS CENTRE,HAPARFLE,"{'latitude': 48.87848, 'longitude': 2.32697}",{'countryCode': 'FR'},2022-11-29T06:00:22
-HA,PAR,700053829,ARIANE MONTPARNASSE HOTEL,HAPARMIN,"{'latitude': 48.83211, 'longitude': 2.32177}",{'countryCode': 'FR'},
-HA,PAR,700027609,HOTEL DES DEUX AVENUES,HAPARDEU,"{'latitude': 48.87988, 'longitude': 2.29868}",{'countryCode': 'FR'},
-HA,PAR,700030069,HOTEL DE HOLLANDE,HAPARHOL,"{'latitude': 48.87419, 'longitude': 2.3424}",{'countryCode': 'FR'},2022-11-29T06:00:22
-HA,PAR,700076374,ROYAL ELYSEES,HAPARROY,"{'latitude': 48.873, 'longitude': 2.293}",{'countryCode': 'FR'},2022-11-29T06:00:22
-HA,PAR,700225194,SEROTEL SUITES,HAPARSER,"{'latitude': 48.87633, 'longitude': 2.34811}",{'countryCode': 'FR'},2022-11-29T06:00:22
-HA,PAR,700059485,HOTEL PARIS VILLETTE,HAPARVIL,"{'latitude': 48.893, 'longitude': 2.3731}",{'countryCode': 'FR'},
-HA,PAR,700044735,HOTEL KUNTZ,HAPARKUN,"{'latitude': 48.87613, 'longitude': 2.36076}",{'countryCode': 'FR'},2022-11-29T06:00:22
-HI,PAR,700053386,HOLIDAY INN EXP CANAL DE LA,HIPAR584,"{'latitude': 48.88858, 'longitude': 2.37841}",,2022-11-29T06:00:34
-HI,PAR,700052020,HOLIDAY INN PORTE DE CLICHY,HIPAR728,"{'latitude': 48.898, 'longitude': 2.31009}",{'countryCode': 'FR'},2022-11-29T06:00:34
-HI,PAR,700008213,HOLIDAY INN BASTILLE,HIPAR2CD,"{'latitude': 48.84681, 'longitude': 2.37193}",{'countryCode': 'FR'},2022-11-29T06:00:28
-HI,PAR,700008344,HOLIDAY INN MONTMARTRE,HIPARA50,"{'latitude': 48.88873, 'longitude': 2.33323}",{'countryCode': 'FR'},2022-11-29T06:00:34
-HI,PAR,700029527,HOLIDAY INN ELYSEES,HIPARE2E,"{'latitude': 48.8729, 'longitude': 2.31598}",{'countryCode': 'FR'},2022-11-29T06:00:34
-HI,PAR,700132326,HOLIDAY INN PARIS-NOTRE DAME,HIPARC12,"{'latitude': 48.85271, 'longitude': 2.34235}",{'countryCode': 'FR'},2022-11-29T06:00:34
-HI,PAR,700035208,HOLIDAY INN GARE DE L EST,HIPARB23,"{'latitude': 48.8762, 'longitude': 2.35768}",{'countryCode': 'FR'},2022-11-29T06:00:34
-HI,PAR,700044536,HOLIDAY INN GARE MONTPARNASSE,HIPAR2FB,"{'latitude': 48.83826, 'longitude': 2.32287}",{'countryCode': 'FR'},2022-11-29T06:00:28
-HI,PAR,700008374,HOLIDAY INN ST GERMAIN DES PRE,HIPAR8E5,"{'latitude': 48.84681, 'longitude': 2.32613}",{'countryCode': 'FR'},2022-11-29T06:00:34
-HL,PAR,700006199,HILTON PARIS OPERA,HLPAR266,"{'latitude': 48.87545, 'longitude': 2.32559}",{'countryCode': 'FR'},2023-01-24T15:49:16
-HS,PAR,700160989,LA CLE D'OR,HSPARAPY,"{'latitude': 48.446, 'longitude': 2.60276}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700219073,LA TAVERNE PICARDE LOGIS,HSPARCDU,"{'latitude': 49.59732, 'longitude': 2.32297}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700091181,CHAUM YERRES LOGIS,HSPARBUM,"{'latitude': 48.6553, 'longitude': 2.838}",{'countryCode': 'FR'},2022-11-29T06:02:46
-HS,PAR,700130612,CITY RESIDENCE CHELLES,HSPARCCW,"{'latitude': 48.87717, 'longitude': 2.60065}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700137009,STARS PARIS CHILLY MAZARIN,HSPARCBD,"{'latitude': 48.71247, 'longitude': 2.29792}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700091207,LA BRECHE DU BOIS CITOTEL,HSPARBSV,"{'latitude': 48.79983, 'longitude': 2.26059}",{'countryCode': 'FR'},2022-11-29T06:02:45
-HS,PAR,700091208,RELAIS DE CLAMART,HSPARCBG,"{'latitude': 48.77726, 'longitude': 2.23139}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700139884,TROSY,HSPARBQP,"{'latitude': 48.80277, 'longitude': 2.2628}",{'countryCode': 'FR'},2022-11-29T06:02:45
-HS,PAR,700035106,SAVOY,HSPARBSK,"{'latitude': 48.90395, 'longitude': 2.30697}",{'countryCode': 'FR'},2022-11-29T06:02:45
-HS,PAR,700091224,GRAND HOTEL,HSPARBKX,"{'latitude': 48.89888, 'longitude': 2.30736}",{'countryCode': 'FR'},2022-11-29T06:02:45
-HS,PAR,700204735,ROYAL COLOMBES,HSPARCAU,"{'latitude': 48.92393, 'longitude': 2.2608}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700091331,KIMOTEL,HSPARATJ,"{'latitude': 48.95671, 'longitude': 1.83192}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700129854,BEST HOTEL GRIGNY PARIS SUD,HSPARBVU,"{'latitude': 48.65077, 'longitude': 2.39519}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700208084,LUXOR,HSPARBVB,"{'latitude': 48.82886, 'longitude': 2.28232}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700136785,SEJOURS - AFFAIRES PARIS IVRY APPARTHOTE,HSPARCAJ,"{'latitude': 48.8205, 'longitude': 2.39103}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700202262,CINEPOLE,HSPARCAX,"{'latitude': 48.81921, 'longitude': 2.47884}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700091666,ESPACE CHAMPERRET,HSPARAUS,"{'latitude': 48.88854, 'longitude': 2.28751}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700091634,BOISSIERE,HSPARBLG,"{'latitude': 48.89204, 'longitude': 2.2933}",{'countryCode': 'FR'},2022-11-29T06:02:45
-HS,PAR,700059871,PATIO BRANCION,HSPARBVC,"{'latitude': 48.82287, 'longitude': 2.30002}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700134903,PARC EVEN,HSPARBUS,"{'latitude': 48.82246, 'longitude': 2.3033}",{'countryCode': 'FR'},2022-11-29T06:02:46
-HS,PAR,700160287,MEAUX HOTEL CONFORT,HSPARAQA,"{'latitude': 48.95439, 'longitude': 2.91152}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700060218,NOGENTEL EX MERCURE NOGENT SUR MARNE,HSPARCCY,"{'latitude': 48.83235, 'longitude': 2.49033}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700139873,HOTEL D'ORSAY,HSPARCDQ,"{'latitude': 48.70388, 'longitude': 2.18879}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700092009,AGIL 7,HSPARCCP,"{'latitude': 48.71309, 'longitude': 2.37062}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700030688,ROYAL MANSART,HSPARBHZ,"{'latitude': 48.88212, 'longitude': 2.33344}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700038118,VIATOR,HSPARBVR,"{'latitude': 48.84684, 'longitude': 2.37291}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700092125,SAPHIR GRENELLE,HSPARAZY,"{'latitude': 48.84841, 'longitude': 2.29703}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700158012,LE 300 RESIDENCE HOTELIERE,HSPARBTS,"{'latitude': 48.85015, 'longitude': 2.37284}",{'countryCode': 'FR'},2022-11-29T06:02:46
-HS,PAR,700158016,MADELEINE OPERA,HSPARBVG,"{'latitude': 48.87299, 'longitude': 2.32551}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700010173,MIGNY OPERA,HSPARAHV,"{'latitude': 48.88063, 'longitude': 2.3391}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700152552,SOURCE,HSPARBRA,"{'latitude': 48.89639, 'longitude': 2.32842}",{'countryCode': 'FR'},2022-11-29T06:02:45
-HS,PAR,700058677,HOTEL DU GLOBE,HSPARCBH,"{'latitude': 48.85171, 'longitude': 2.3374}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700132754,HOTEL GRAMONT OPERA,HSPARBVP,"{'latitude': 48.87061, 'longitude': 2.337}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700132741,PRINCE EUGENE,HSPARAWX,"{'latitude': 48.85069, 'longitude': 2.39244}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700148655,GEORGE SAND,HSPARBDI,"{'latitude': 48.87315, 'longitude': 2.32733}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700158037,DE REIMS,HSPARBVN,"{'latitude': 48.84712, 'longitude': 2.37752}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700079012,ISTRIA,HSPARAIH,"{'latitude': 48.83909, 'longitude': 2.33158}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700034199,ECOLE CENTRALE,HSPARBRW,"{'latitude': 48.8651, 'longitude': 2.35652}",{'countryCode': 'FR'},2022-11-29T06:02:45
-HS,PAR,700071566,ALBA OPERA,HSPARATB,"{'latitude': 48.87975, 'longitude': 2.34239}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700031221,ICONE,HSPARALQ,"{'latitude': 48.87109, 'longitude': 2.33903}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700019803,EXCELSIOR,HSPARARO,"{'latitude': 48.86882, 'longitude': 2.36005}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700042669,CITE ROUGEMONT,HSPARBOG,"{'latitude': 48.87208, 'longitude': 2.34529}",{'countryCode': 'FR'},2022-11-29T06:02:45
-HS,PAR,700053350,EXPOSITION EIFFEL,HSPARAUT,"{'latitude': 48.84891, 'longitude': 2.28769}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700129647,BALDI,HSPARBOC,"{'latitude': 48.84658, 'longitude': 2.30552}",{'countryCode': 'FR'},2022-11-29T06:02:45
-HS,PAR,700058598,DE SAINT GERMAIN,HSPARBPU,"{'latitude': 48.85238, 'longitude': 2.3307}",{'countryCode': 'FR'},2022-11-29T06:02:45
-HS,PAR,700219624,SUITES UNIC SAINT GERMAIN,HSPARBHQ,"{'latitude': 48.8418, 'longitude': 2.3254}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700045086,SAINT CHARLES,HSPARART,"{'latitude': 48.82714, 'longitude': 2.34832}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700158064,PERREYVE,HSPARBPS,"{'latitude': 48.84719, 'longitude': 2.33153}",{'countryCode': 'FR'},2022-11-29T06:02:45
-HS,PAR,700194570,BORONALI HOTEL,HSPARCBQ,"{'latitude': 48.88868, 'longitude': 2.34784}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700030827,DES COMEDIES,HSPARATL,"{'latitude': 48.8718, 'longitude': 2.34998}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700059486,VERLAIN,HSPARBLU,"{'latitude': 48.86499, 'longitude': 2.37773}",{'countryCode': 'FR'},2022-11-29T06:02:45
-HS,PAR,700007437,FLORIDOR ETOILE,HSPARBVT,"{'latitude': 48.87864, 'longitude': 2.29419}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700009548,MINOTEL LONDON,HSPARAHG,"{'latitude': 48.87135, 'longitude': 2.3353}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700010286,MONDIAL,HSPARCFE,"{'latitude': 48.87192, 'longitude': 2.34398}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700225362,MISTRAL HOTEL,HSPARCEG,"{'latitude': 48.84536, 'longitude': 2.38339}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700054645,DARCET,HSPARBTJ,"{'latitude': 48.88344, 'longitude': 2.32531}",{'countryCode': 'FR'},2022-11-29T06:02:45
-HS,PAR,700039650,LONGCHAMP ELYSEES,HSPARASN,"{'latitude': 48.86524, 'longitude': 2.28562}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700158050,HOTEL DES HALLES,HSPARCEN,"{'latitude': 48.85922, 'longitude': 2.3473}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700082965,GARDETTE PARK HOTEL,HSPARBMD,"{'latitude': 48.86103, 'longitude': 2.37889}",{'countryCode': 'FR'},2022-11-29T06:02:45
-HS,PAR,700158021,HOTEL NEPTUNE,HSPARCEH,"{'latitude': 48.83191, 'longitude': 2.35738}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700165299,COSY MONCEAU,HSPARCEE,"{'latitude': 48.88613, 'longitude': 2.31043}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700041311,MOULIN PLAZA,HSPARBDG,"{'latitude': 48.88311, 'longitude': 2.33293}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700884161,HOTEL MONTMARTRE,HSPARCED,"{'latitude': 48.888, 'longitude': 2.34703}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700143668,THOUMIEUX,HSPARCBT,"{'latitude': 48.85974, 'longitude': 2.30865}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700136597,SAINT HONORE HOTEL,HSPARCCF,"{'latitude': 48.8612, 'longitude': 2.34367}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700092215,VIVALDI,HSPARBSY,"{'latitude': 48.88301, 'longitude': 2.24067}",{'countryCode': 'FR'},2022-11-29T06:02:45
-HS,PAR,700138983,LE FIACRE,HSPARCGV,"{'latitude': 50.3295, 'longitude': 1.59536}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700092277,GREEN HOTELS CONFORT,HSPARBWB,"{'latitude': 48.9759, 'longitude': 2.50769}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700092347,HOSTELLERIE DU PRIEURE LOGIS,HSPARBUU,"{'latitude': 49.01613, 'longitude': 2.26557}",{'countryCode': 'FR'},2022-11-29T06:02:46
-HS,PAR,700082274,LE MANHATTAN,HSPARAXB,"{'latitude': 48.90261, 'longitude': 2.33081}",{'countryCode': 'FR'},2022-11-29T06:02:44
-HS,PAR,700225382,HOTEL B-B ST. WITZ,HSPARCDH,"{'latitude': 49.08867, 'longitude': 2.55358}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700057142,CHATEAU DE SANCY,HSPARCDY,"{'latitude': 48.886, 'longitude': 2.9575}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700886498,GREEN HOTELS ECO,HSPARCGZ,"{'latitude': 48.62556, 'longitude': 2.35035}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700092551,RELAIS DE THIAIS,HSPARCDM,"{'latitude': 48.76005, 'longitude': 2.36859}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700127575,HOSTELLERIE DE VARENNES,HSPARCDP,"{'latitude': 48.67886, 'longitude': 2.56111}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700133433,LA FERME DES BARMONTS,HSPARCDF,"{'latitude': 48.80209, 'longitude': 2.36281}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HS,PAR,700158055,TRIANON,HSPARCBI,"{'latitude': 48.8471, 'longitude': 2.42122}",{'countryCode': 'FR'},2022-11-29T06:02:47
-HS,PAR,700183422,IBIS BUDGET,HSPARCDA,"{'latitude': 48.66233, 'longitude': 2.36966}",{'countryCode': 'FR'},2022-11-29T06:02:48
-HY,PAR,505001776,HYATT MARIE MADELEINE - DHISCO TEST,HYPAR003,"{'latitude': 48.8729, 'longitude': 2.32152}",{'countryCode': 'FR'},2022-11-29T06:04:35
-IC,PAR,700008708,INTERCONTINENTAL PARIS LE GRAN,ICPARICB,"{'latitude': 48.87033, 'longitude': 2.33001}",{'countryCode': 'FR'},2022-11-29T06:04:26
-IC,PAR,700092074,INTERCONTINENTAL PARIS AVE MAR,ICPAR70E,"{'latitude': 48.8677, 'longitude': 2.3643}",{'countryCode': 'FR'},2022-11-29T06:04:26
-IN,PAR,700055801,HOTEL INDIGO OPERA,INPARC49,"{'latitude': 48.87032, 'longitude': 2.32911}",{'countryCode': 'FR'},2022-11-29T06:04:43
-IQ,PAR,700092303,HOTEL DES ARTS - RUEIL-MALMAISON,IQPARART,"{'latitude': 48.87956, 'longitude': 2.18373}",{'countryCode': 'FR'},2022-11-29T06:04:41
-IQ,PAR,700165026,HIPARK RESIDENCE SERRIS,IQPARHRS,"{'latitude': 48.85772, 'longitude': 2.78574}",{'countryCode': 'FR'},2022-11-29T06:04:41
-IW,PAR,700192280,HOTEL LES PLEIADES,IWPARHLP,"{'latitude': 48.44376, 'longitude': 2.60978}",{'countryCode': 'FR'},2022-11-29T06:04:46
-IW,PAR,700059846,MANOIR DE GRESSY,IWPARMAN,"{'latitude': 48.9619, 'longitude': 2.67198}",{'countryCode': 'FR'},2022-11-29T06:04:46
-IW,PAR,700059841,LE JARDIN DE NEUILLY,IWPARUIL,"{'latitude': 48.87926, 'longitude': 2.27495}",{'countryCode': 'FR'},2022-11-29T06:04:46
-IW,PAR,700028590,HOTEL AMPERE,IWPARHAM,"{'latitude': 48.88465, 'longitude': 2.29958}",{'countryCode': 'FR'},2022-11-29T06:04:46
-IW,PAR,700042963,HOTEL LUMIERES,IWPARDAM,"{'latitude': 48.89403, 'longitude': 2.33677}",{'countryCode': 'FR'},
-IW,PAR,700057503,7 EIFFEL,IWPAR819,"{'latitude': 48.85825, 'longitude': 2.30767}",{'countryCode': 'FR'},2022-11-29T06:04:46
-IW,PAR,700029514,HOTEL DES GRANDS HOMMES,IWPAR006,"{'latitude': 48.84572, 'longitude': 2.34503}",{'countryCode': 'FR'},
-IW,PAR,700030525,LA VILLA BOHEME PARIS,IWPARBOH,"{'latitude': 48.88009, 'longitude': 2.33448}",{'countryCode': 'FR'},2022-11-29T06:04:46
-IW,PAR,700170971,ZZ-TBD-PARTICULIER MONTMARTRE,IWPARHPM,"{'latitude': 48.8884, 'longitude': 2.33551}",{'countryCode': 'FR'},2022-11-29T06:04:46
-IW,PAR,700046157,HOTEL ASTRID PARIS,IWPAR706,"{'latitude': 48.87683, 'longitude': 2.29228}",{'countryCode': 'FR'},2022-11-29T06:04:46
-IW,PAR,700041562,HOTEL MAC MAHON,IWPARMMP,"{'latitude': 48.87545, 'longitude': 2.29448}",{'countryCode': 'FR'},
-IW,PAR,700054613,HOTEL DU MINISTERE,IWPAR038,"{'latitude': 48.87137, 'longitude': 2.31938}",{'countryCode': 'FR'},2022-11-29T06:04:46
-IW,PAR,700029512,EIFFEL TROCADERO,IWPAREFT,"{'latitude': 48.86141, 'longitude': 2.28641}",{'countryCode': 'FR'},2022-11-29T06:04:46
-IW,PAR,700078848,PROVINCES OPERA,IWPARI6A,"{'latitude': 48.87165, 'longitude': 2.34978}",{'countryCode': 'FR'},2022-11-29T06:04:46
-IW,PAR,700072174,HOTEL GAVARNI,IWPAR302,"{'latitude': 48.85852, 'longitude': 2.28288}",{'countryCode': 'FR'},2022-11-29T06:04:46
-IW,PAR,700043787,DOMAINE DE LA CORNICHE,IWPAR355,"{'latitude': 49.02282, 'longitude': 1.6093}",{'countryCode': 'FR'},2022-11-29T06:04:46
-IW,PAR,700022430,HOTEL OPERA RICHEPANSE,IWPAR549,"{'latitude': 48.86895, 'longitude': 2.32524}",{'countryCode': 'FR'},2022-11-29T06:04:46
-KY,PAR,700005648,HOTEL CALIFORNIA SAINT GERMAIN,KYPARCSG,"{'latitude': 48.84908, 'longitude': 2.34717}",{'countryCode': 'FR'},
-LE,PAR,700013238,TERRASS HOTEL,LEPARTRR,"{'latitude': 48.88645, 'longitude': 2.3329}",{'countryCode': 'FR'},2022-11-29T06:04:55
-LE,PAR,700058585,HOTEL DE BUCI,LEPAR111,"{'latitude': 48.8537, 'longitude': 2.33675}",{'countryCode': 'FR'},2022-11-29T06:04:52
-LE,PAR,700062184,HOTEL BOURGOGNE ET MONTANA,LEPARBOU,"{'latitude': 48.86021, 'longitude': 2.3182}",{'countryCode': 'FR'},2022-11-29T06:04:52
-LE,PAR,700056765,HOTEL ARTUS,LEPAR012,"{'latitude': 48.85343, 'longitude': 2.3361}",{'countryCode': 'FR'},2022-11-29T06:04:52
-LE,PAR,700038399,HOTEL POWERS,LEPARPOW,"{'latitude': 48.86911, 'longitude': 2.30295}",{'countryCode': 'FR'},2022-11-29T06:04:55
-LE,PAR,700029538,HOTEL ARIOSO,LEPARARI,"{'latitude': 48.87463, 'longitude': 2.31699}",{'countryCode': 'FR'},2022-11-29T06:04:52
-LM,PAR,700054606,HOTEL PARIS RIVOLI,LMPAR581,"{'latitude': 48.85598, 'longitude': 2.35757}",{'countryCode': 'FR'},2022-11-29T06:05:04
-LM,PAR,700008857,KKHOTEL CAYRE PARIS,LMPARCRE,"{'latitude': 48.85552, 'longitude': 2.32554}",{'countryCode': 'FR'},2022-11-29T06:05:04
-LM,PAR,700009331,HOTEL LE CLOS MEDICIS,LMPARLCM,"{'latitude': 48.84831, 'longitude': 2.34061}",{'countryCode': 'FR'},
-LW,PAR,700009325,LE BRISTOL PARIS,LWPAR012,"{'latitude': 48.87161, 'longitude': 2.31455}",{'countryCode': 'FR'},2022-11-29T06:04:47
-LW,PAR,700011872,HOTEL RITZ PARIS,LWPAR008,"{'latitude': 48.86783, 'longitude': 2.32897}",{'countryCode': 'FR'},2022-11-29T06:04:47
-LW,PAR,700011610,HOTEL RAPHAEL,LWPAR616,"{'latitude': 48.87127, 'longitude': 2.29343}",{'countryCode': 'FR'},2022-11-29T06:04:47
-LW,PAR,700885860,LA RESERVE PARIS,LWPAR645,"{'latitude': 48.86813, 'longitude': 2.31717}",{'countryCode': 'FR'},2022-11-29T06:04:47
-LW,PAR,700009251,HOTEL LANCASTER,LWPAR615,"{'latitude': 48.87205, 'longitude': 2.30342}",{'countryCode': 'FR'},2022-11-29T06:04:47
-LW,PAR,700052136,HOTEL FOUQUETS BARRIERE,LWPAR635,"{'latitude': 48.87169, 'longitude': 2.3008}",{'countryCode': 'FR'},2022-11-29T06:04:47
-LX,PAR,700075066,HOTEL DE VENDOME,LXPARHDV,"{'latitude': 48.8668, 'longitude': 2.32875}",{'countryCode': 'FR'},2022-11-29T06:04:41
-LX,PAR,700885206,HOTEL MAISON SOUQUET,LXPARMAI,"{'latitude': 48.88351, 'longitude': 2.33144}",{'countryCode': 'FR'},2022-11-29T06:04:41
-LX,PAR,700082986,L HOTEL,LXPAR740,"{'latitude': 48.85638, 'longitude': 2.33513}",{'countryCode': 'FR'},2022-11-29T06:04:41
-LX,PAR,700011706,HOTEL RELAIS CHRISTINE,LXPARCHP,"{'latitude': 48.85441, 'longitude': 2.33994}",{'countryCode': 'FR'},2022-11-29T06:04:41
-LX,PAR,700005168,LE BELLECHASSE SAINT-GERMAIN,LXPARBEL,"{'latitude': 48.85973, 'longitude': 2.32431}",{'countryCode': 'FR'},2022-11-29T06:04:41
-MC,PAR,504020931,PROPERTY PAR 003,MCPAR003,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:42
-MC,PAR,504020933,PROPERTY PAR 005,MCPAR005,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:42
-MC,PAR,504020934,PROPERTY PAR 006,MCPAR006,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:42
-MC,PAR,504020936,PROPERTY PAR 008,MCPAR008,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:42
-MC,PAR,504020937,PROPERTY PAR 009,MCPAR009,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:42
-MC,PAR,504020938,PROPERTY PAR 010,MCPAR010,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:42
-MC,PAR,504020939,PROPERTY PAR 011,MCPAR011,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:42
-MC,PAR,504020941,PROPERTY PAR 013,MCPAR013,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020945,PROPERTY PAR 015,MCPAR015,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020946,PROPERTY PAR 016,MCPAR016,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020949,PROPERTY PAR 019,MCPAR019,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020950,PROPERTY PAR 020,MCPAR020,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020951,PROPERTY PAR 021,MCPAR021,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020952,PROPERTY PAR 022,MCPAR022,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020953,PROPERTY PAR 023,MCPAR023,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020954,PROPERTY PAR 024,MCPAR024,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020955,PROPERTY PAR 025,MCPAR025,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020956,PROPERTY PAR 026,MCPAR026,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020957,PROPERTY PAR 027,MCPAR027,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020958,PROPERTY PAR 028,MCPAR028,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020959,PROPERTY PAR 029,MCPAR029,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020960,PROPERTY PAR 030,MCPAR030,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020961,PROPERTY PAR 031,MCPAR031,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020962,PROPERTY PAR 032,MCPAR032,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020964,PROPERTY PAR 034,MCPAR034,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020965,PROPERTY PAR 035,MCPAR035,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020966,PROPERTY PAR 036,MCPAR036,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020967,PROPERTY PAR 037,MCPAR037,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020968,PROPERTY PAR 038,MCPAR038,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020969,PROPERTY PAR 039,MCPAR039,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020970,PROPERTY PAR 040,MCPAR040,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020971,PROPERTY PAR 041,MCPAR041,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:43
-MC,PAR,504020973,PROPERTY PAR 043,MCPAR043,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020975,PROPERTY PAR 045,MCPAR045,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020976,PROPERTY PAR 046,MCPAR046,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020979,PROPERTY PAR 049,MCPAR049,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020980,PROPERTY PAR 050,MCPAR050,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020982,PROPERTY PAR 052,MCPAR052,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020983,PROPERTY PAR 053,MCPAR053,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020984,PROPERTY PAR 054,MCPAR054,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020985,PROPERTY PAR 055,MCPAR055,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020986,PROPERTY PAR 056,MCPAR056,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020987,PROPERTY PAR 057,MCPAR057,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020988,PROPERTY PAR 058,MCPAR058,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020989,PROPERTY PAR 059,MCPAR059,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020991,PROPERTY PAR 061,MCPAR061,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020992,PROPERTY PAR 062,MCPAR062,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020993,PROPERTY PAR 063,MCPAR063,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020994,PROPERTY PAR 064,MCPAR064,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020995,PROPERTY PAR 065,MCPAR065,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020942,PROPERTY PAR 13B,MCPAR13B,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504020943,PROPERTY PAR 13T,MCPAR13T,"{'latitude': 34.26838, 'longitude': -119.27407}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,700011943,PARIS MARRIOTT RIVE GAUCHE,MCPARSTM,"{'latitude': 48.83188, 'longitude': 2.33953}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,504204979,TEST  MARRIOTT PARIS MCPARXXX,MCPAR100,"{'latitude': 48.87099, 'longitude': 2.30497}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,505093160,TEST  MARRIOTT PARIS MCPARABC,MCPARABC,"{'latitude': 48.87099, 'longitude': 2.30497}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MC,PAR,700009903,TEST MARRIOTT HOTEL PARIS XXX,MCPARDTM,"{'latitude': 48.87099, 'longitude': 2.30497}",{'countryCode': 'FR'},2022-11-29T06:04:44
-MD,PAR,700021297,LE MERIDIEN ETOILE,MDPARMER,"{'latitude': 48.87882, 'longitude': 2.28428}",{'countryCode': 'FR'},2022-11-29T06:04:59
-MK,PAR,700050725,MOEVENPICK HOTEL PARIS NEUILLY,MKPARCYC,"{'latitude': 48.89008, 'longitude': 2.27626}",{'countryCode': 'FR'},2022-11-29T06:05:03
-MU,PAR,700010183,MILLENNIUM OPERA PARIS,MUPARMCP,"{'latitude': 48.87246, 'longitude': 2.3378}",{'countryCode': 'FR'},
-NN,PAR,700118717,CAMPANILE PARIS SUD - PORTE D'ORLEANS,NNPARC24,"{'latitude': 48.80562, 'longitude': 2.32551}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700135757,PREMIERE CLASSE BEAUVAIS,NNPARP14,"{'latitude': 49.41145, 'longitude': 2.10555}",{'countryCode': 'FR'},
-NN,PAR,700058164,KYRIAD PARIS OUEST - BEZONS LA D?FENSE,NNPAR203,"{'latitude': 48.92937, 'longitude': 2.21412}",{'countryCode': 'FR'},2022-11-29T09:05:46
-NN,PAR,700160994,KYRIAD CRETEIL - BONNEUIL SUR MARNE,NNPARC27,"{'latitude': 48.76781, 'longitude': 2.48659}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700090970,CAMPANILE CR?TEIL BONNEUIL,NNPARC56,"{'latitude': 48.77076, 'longitude': 2.49195}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700090990,CAMPANILE - PARIS - BOULOGNE,NNPARC05,"{'latitude': 48.83467, 'longitude': 2.24237}",{'countryCode': 'FR'},2022-11-29T09:05:46
-NN,PAR,700091019,CAMPANILE BRIE COMTE ROBERT,NNPARC45,"{'latitude': 48.70317, 'longitude': 2.60646}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700124044,PREMIERE CLASSE MLV-BUSSY SAINT GEORGES,NNPARP36,"{'latitude': 48.83217, 'longitude': 2.7044}",{'countryCode': 'FR'},2022-11-29T09:05:51
-NN,PAR,700139999,KYRIAD DESIGN ENZO CANNES-ECLUSE,NNPARK44,"{'latitude': 48.35836, 'longitude': 2.98399}",{'countryCode': 'FR'},2022-11-29T09:05:51
-NN,PAR,700135770,PREMIERE CLASSE CERGY SAINT CHRISTOPHE,NNPARP17,"{'latitude': 49.05414, 'longitude': 2.01899}",{'countryCode': 'FR'},2022-11-29T09:05:51
-NN,PAR,700091107,PREMIERE CLASSE CERGY PONTOISE,NNPARP16,"{'latitude': 49.0372, 'longitude': 2.07568}",{'countryCode': 'FR'},
-NN,PAR,700160771,CAMPANILE CHANTILLY,NNPARC37,"{'latitude': 49.19176, 'longitude': 2.45902}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700091184,CAMPANILE CHANTILLY SUD - LUZARCHES,NNPARC59,"{'latitude': 49.12537, 'longitude': 2.42856}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700091187,CAMPANILE PARIS OUEST - CHAVILLE,NNPARC28,"{'latitude': 48.81212, 'longitude': 2.18867}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700076339,CAMPANILE CHELLES,NNPARC46,"{'latitude': 48.87843, 'longitude': 2.60969}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700889226,PREMIERE CLASSE MLV - CHELLES CENTRE,NNPARP37,"{'latitude': 48.88042, 'longitude': 2.60282}",{'countryCode': 'FR'},
-NN,PAR,700051541,PREMIERE CLASSE CHILLY MAZARIN,NNPARP20,"{'latitude': 48.70566, 'longitude': 2.29697}",{'countryCode': 'FR'},
-NN,PAR,700091241,CAMPANILE COMPIEGNE,NNPARC38,"{'latitude': 49.3945, 'longitude': 2.80404}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700118714,CAMPANILE CONFLANS ST HONORINE,NNPARC40,"{'latitude': 48.99064, 'longitude': 2.09863}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700091253,CAMPANILE EVRY OUEST CORBEIL ESSONNES,NNPARC53,"{'latitude': 48.59862, 'longitude': 2.46437}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700091280,CAMPANILE MELUN SUD - DAMMARIE LES LYS,NNPARC43,"{'latitude': 48.50446, 'longitude': 2.61438}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700140452,PREMIERE CLASSE EPINAY SUR ORGE,NNPARP25,"{'latitude': 48.67745, 'longitude': 2.33544}",{'countryCode': 'FR'},
-NN,PAR,700140453,PREMIERE CLASSE FLEURY MEROGIS,NNPARP26,"{'latitude': 48.64422, 'longitude': 2.36123}",{'countryCode': 'FR'},
-NN,PAR,700135785,PREMIERE CLASSE FONTENAY TRESIGNY,NNPARP27,"{'latitude': 48.70766, 'longitude': 2.8617}",{'countryCode': 'FR'},2022-11-29T09:05:51
-NN,PAR,700044983,KYRIAD FRESNES,NNPARC49,"{'latitude': 48.75988, 'longitude': 2.32059}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700118716,CAMPANILLE GENNEVILLIERS BARBANNIERS,NNPARC31,"{'latitude': 48.93355, 'longitude': 2.30263}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700135788,PREMIERE CLASSE PARIS-GENNEVILLIERS NORD,NNPARP04,"{'latitude': 48.93641, 'longitude': 2.30525}",{'countryCode': 'FR'},
-NN,PAR,700130217,CAMPANILE LE BOURGET - GONESSE,NNPARC67,"{'latitude': 48.97976, 'longitude': 2.45608}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700091449,PREMIERE CLASSE IGNY,NNPARP29,"{'latitude': 48.73213, 'longitude': 2.2343}",{'countryCode': 'FR'},
-NN,PAR,700091462,KYRIAD PRESTIGE JOINVILLE LE PONT,NNPAR593,"{'latitude': 48.82002, 'longitude': 2.47507}",{'countryCode': 'FR'},2022-11-29T09:05:46
-NN,PAR,700140460,PREMIERE CLASSE LA VILLE-DU-BOIS,NNPARP30,"{'latitude': 48.65081, 'longitude': 2.27111}",{'countryCode': 'FR'},
-NN,PAR,700133360,KYRIAD LE BOURGET,NNPARK17,"{'latitude': 48.93986, 'longitude': 2.43061}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700091599,CAMPANILE ROISSY LE MESNIL AMELOT,NNPARC55,"{'latitude': 49.01662, 'longitude': 2.59025}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700193042,CAMPANILE LES ULIS COURTABOEUF,NNPARC62,"{'latitude': 48.67787, 'longitude': 2.19443}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700117729,KYRIAD LINAS MONTLHERY,NNPARK39,"{'latitude': 48.62954, 'longitude': 2.26152}",{'countryCode': 'FR'},2022-11-29T09:05:51
-NN,PAR,700135813,PREMIERE CLASSE MAUREPAS CC - PARIWEST,NNPARP33,"{'latitude': 48.76214, 'longitude': 1.921}",{'countryCode': 'FR'},
-NN,PAR,700139219,PREMIERE CLASSE MONTREUIL,NNPARP42,"{'latitude': 48.8685, 'longitude': 2.43136}",{'countryCode': 'FR'},
-NN,PAR,700091875,CAMPANILE MORANGIS ORLY,NNPARC16,"{'latitude': 48.70493, 'longitude': 2.33962}",{'countryCode': 'FR'},2022-11-29T09:05:46
-NN,PAR,700140449,PREMIERE CLASSE COULOMMIERS - MOUROUX,NNPARP23,"{'latitude': 48.81796, 'longitude': 3.05256}",{'countryCode': 'FR'},
-NN,PAR,700135824,PREMIERE CLASSE PARIS-NANTERRE,NNPARP05,"{'latitude': 48.89703, 'longitude': 2.34513}",{'countryCode': 'FR'},
-NN,PAR,700135810,PREMIERE CLASSE MLV - NOISY LE GRAND,NNPARP38,"{'latitude': 48.83217, 'longitude': 2.7044}",{'countryCode': 'FR'},
-NN,PAR,700020939,CAMPANILE PARIS XIX LA VILLETTE,NNPAR374,"{'latitude': 48.89335, 'longitude': 2.37988}",{'countryCode': 'FR'},2022-11-29T09:05:46
-NN,PAR,700005676,CAMPANILE PARIS 14 - MAINE MONTPARNASSE,NNPARC13,"{'latitude': 48.8344, 'longitude': 2.32398}",{'countryCode': 'FR'},2022-11-29T09:05:46
-NN,PAR,700029513,KYRIAD PRESTIGE PARIS - LE 209,NNPAR231,"{'latitude': 48.83919, 'longitude': 2.3891}",{'countryCode': 'FR'},2022-11-29T09:05:46
-NN,PAR,700092087,KYRIAD PARIS 10 - GARE DU NORD,NNPAR585,"{'latitude': 48.87967, 'longitude': 2.35594}",{'countryCode': 'FR'},2022-11-29T09:05:46
-NN,PAR,700222898,KYRIAD PARIS 18 - PORTE CLIGNANCOURT - M,NNPARK46,"{'latitude': 48.89703, 'longitude': 2.34513}",{'countryCode': 'FR'},2022-11-29T09:05:51
-NN,PAR,700139756,CAMPANILE PLAISIR,NNPARC68,"{'latitude': 48.79897, 'longitude': 1.95477}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700140480,PREMIERE CLASSE SAINT BRICE SOUS FORET,NNPARP45,"{'latitude': 48.83217, 'longitude': 2.7044}",{'countryCode': 'FR'},
-NN,PAR,700092367,CAMPANILE - PARIS-ST-DENIS BASILIQUE,NNPARC09,"{'latitude': 48.93701, 'longitude': 2.3593}",{'countryCode': 'FR'},2022-11-29T09:05:46
-NN,PAR,700057373,KYRIAD PARIS EST PORTE DE BERCY ST MAURI,NNPAR568,"{'latitude': 48.81824, 'longitude': 2.42252}",{'countryCode': 'FR'},2022-11-29T09:05:46
-NN,PAR,700135842,PREMIERE CLASSE ROISSY - SAINT WITZ,NNPARP11,"{'latitude': 49.09209, 'longitude': 2.56785}",{'countryCode': 'FR'},
-NN,PAR,700161288,KYRIAD VERSAILLES ST CYR,NNPARK41,"{'latitude': 48.7972, 'longitude': 2.05774}",{'countryCode': 'FR'},2022-11-29T09:05:51
-NN,PAR,700092391,CAMPANILE ST GERMAIN EN LAYE,NNPARC15,"{'latitude': 48.90398, 'longitude': 2.05485}",{'countryCode': 'FR'},2022-11-29T09:05:46
-NN,PAR,700140482,PREMIERE CLASSE SAINT OUEN L AUMONE,NNPARP46,"{'latitude': 49.03401, 'longitude': 2.11701}",{'countryCode': 'FR'},
-NN,PAR,700135852,PREMIERE CLASSE SAINT QUENTIN,NNPARP47,"{'latitude': 49.85286, 'longitude': 3.26148}",{'countryCode': 'FR'},
-NN,PAR,700092535,CAMPANILE PARIS OUEST - PONT DE SURESNES,NNPARC34,"{'latitude': 48.86728, 'longitude': 2.22709}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700135832,PREMIERE CLASSE PARIS OUEST - PONT DE SU,NNPARP06,"{'latitude': 48.89703, 'longitude': 2.34513}",{'countryCode': 'FR'},
-NN,PAR,700038397,KYRIAD MLV - TORCY,NNPARK18,"{'latitude': 48.83888, 'longitude': 2.65738}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700092667,CAMPANILE VILLEJUIF,NNPARC22,"{'latitude': 48.79683, 'longitude': 2.34613}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700044990,KYRIAD PARIS OUEST-VILLENEUVE LA GARENNE,NNPARK29,"{'latitude': 48.94051, 'longitude': 2.32486}",{'countryCode': 'FR'},2022-11-29T09:05:51
-NN,PAR,700092672,CAMPANILE VILLENNES SUR SEINE - POISSY,NNPARC32,"{'latitude': 48.94365, 'longitude': 1.99313}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700225428,PREMIERE CLASSE VILLEPINTE - PARC EXPO,NNPARP52,"{'latitude': 48.96063, 'longitude': 2.55351}",{'countryCode': 'FR'},
-NN,PAR,700139764,CAMPANILE VOISINS LE BRETONNEUX,NNPARC71,"{'latitude': 48.75843, 'longitude': 2.05625}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700120767,PREMIERE CLASSE CHANTILLY - LUZARCHES,NNPARP18,"{'latitude': 49.12224, 'longitude': 2.42596}",{'countryCode': 'FR'},
-NN,PAR,700044992,KYRIAD - PARIS CLICHY CENTRE,NNPARK01,"{'latitude': 48.90276, 'longitude': 2.30465}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700091244,KYRIAD COMPIEGNE,NNPARK33,"{'latitude': 49.39396, 'longitude': 2.79098}",{'countryCode': 'FR'},2022-11-29T09:05:51
-NN,PAR,700186583,PREMIERE CLASSE CONFLANS SAINTE HONORINE,NNPARP22,"{'latitude': 49.0095, 'longitude': 2.08531}",{'countryCode': 'FR'},
-NN,PAR,700135863,PREMIERE CLASSE VILLEJUST-ZA COURTABOEUF,NNPARP50,"{'latitude': 48.68469, 'longitude': 2.21823}",{'countryCode': 'FR'},
-NN,PAR,700140450,PREMIERE CLASSE PARIS - BOBIGNY - DRANCY,NNPARP02,"{'latitude': 48.9143, 'longitude': 2.43291}",{'countryCode': 'FR'},
-NN,PAR,700192412,KYRIAD GONESSE,NNPARK42,"{'latitude': 48.98042, 'longitude': 2.44311}",{'countryCode': 'FR'},2022-11-29T09:05:51
-NN,PAR,700225291,PREMIERE CLASSE PARIS-GONESSE PARC EXPO,NNPARP07,"{'latitude': 48.98173, 'longitude': 2.44396}",{'countryCode': 'FR'},
-NN,PAR,700140456,PREMIERE CLASSE HERBLAY,NNPARP28,"{'latitude': 48.70766, 'longitude': 2.8617}",{'countryCode': 'FR'},
-NN,PAR,700140448,PREMIERE CLASSE COMPIEGNE - JAUX,NNPARP21,"{'latitude': 49.05414, 'longitude': 2.01899}",{'countryCode': 'FR'},
-NN,PAR,700091535,CAMPANILE LA VERRIERE,NNPARC61,"{'latitude': 48.75856, 'longitude': 1.94874}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700076364,CAMPANILE - PARIS (PORTE DITALIE),NNPARC06,"{'latitude': 48.81022, 'longitude': 2.35732}",{'countryCode': 'FR'},2022-11-29T09:05:46
-NN,PAR,700135797,PREMIERE CLASSE LES ULIS - COURTABOEUF,NNPARP32,"{'latitude': 48.68447, 'longitude': 2.20229}",{'countryCode': 'FR'},
-NN,PAR,700139218,PREMIERE CLASSE MEAUX-NANTEUIL LES MEAUX,NNPARP34,"{'latitude': 48.93592, 'longitude': 2.88029}",{'countryCode': 'FR'},2022-11-29T09:05:51
-NN,PAR,700092145,KYRIAD PARIS 9 - MONTMARTRE,NNPARK02,"{'latitude': 48.88119, 'longitude': 2.33842}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700140475,PREMIERE CLASSE PLAISIR,NNPARP44,"{'latitude': 48.79872, 'longitude': 1.95467}",{'countryCode': 'FR'},
-NN,PAR,700140467,PREMIERE CLASSE ST THIBAULT DES VIGNES,NNPARP39,"{'latitude': 48.85418, 'longitude': 2.66955}",{'countryCode': 'FR'},
-NN,PAR,700118718,CAMPANILE TAVERNY,NNPARC50,"{'latitude': 49.01964, 'longitude': 2.23285}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700140485,PREMIERE CLASSE ST QUENTIN EN YVELINES,NNPARP48,"{'latitude': 48.76406, 'longitude': 1.98}",{'countryCode': 'FR'},
-NN,PAR,700161229,PREMIERE CLASSE MELUN-VERT SAINT DENIS,NNPARP35,"{'latitude': 48.56691, 'longitude': 2.63277}",{'countryCode': 'FR'},
-NN,PAR,700139761,CAMPANILE VILLEJUST - ZA COURTABOEUF,NNPARC64,"{'latitude': 48.68188, 'longitude': 2.21456}",{'countryCode': 'FR'},2022-11-29T09:05:48
-NN,PAR,700140491,PREMIERE CLASSE VILLENEUVE SAINT GEORGES,NNPARP51,"{'latitude': 48.75607, 'longitude': 2.45147}",{'countryCode': 'FR'},
-NN,PAR,700031285,PREMIERE CLASSE ROISSY-VILLEPINTE EXPO,NNPARP12,"{'latitude': 48.97262, 'longitude': 2.51193}",{'countryCode': 'FR'},
-OG,PAR,504598482,TEST OGPAR123,OGPAR123,"{'latitude': 48.86402, 'longitude': 2.36592}",{'countryCode': 'FR'},2022-11-29T09:06:01
-OG,PAR,700034880,QUALYS-HOTEL GOLF PARIS EST ,OGPAR264,"{'latitude': 48.94757, 'longitude': 2.44023}",{'countryCode': 'FR'},2022-11-29T09:06:01
-OG,PAR,700060932,INTER-HOTEL RUEIL CENTRE      ,OGPARJBD,"{'latitude': 48.94757, 'longitude': 2.44023}",{'countryCode': 'FR'},2022-11-29T09:06:01
-OI,PAR,700001925,LOCK AND DELETE TESTING,OIPAR117,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'FR'},2022-03-30T05:58:17
-OI,PAR,700000799,CREATE AUTOMATIC PROPERTY,OIPAR229,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'FR'},2022-03-31T09:56:25
-OI,PAR,700001161,CREATE AUTOMATIC PROPERTY,OIPAR230,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'FR'},2022-03-31T10:15:24
-OI,PAR,505296995,VILLA BELLAGIO BUSSY,OIPARBUS,"{'latitude': 48.83329, 'longitude': 2.70507}",{'countryCode': 'FR'},2023-03-29T09:59:57
-OI,PAR,700134734,OLIVARIUS CERGY PONTOISE,OIPARIHC,"{'latitude': 49.0319, 'longitude': 2.06294}",{'countryCode': 'FR'},2022-11-29T09:05:49
-OI,PAR,700179471,HOTEL LE CHATEAUBRIAND - CHATENAY-MALABR,OIPAR5IH,"{'latitude': 48.76736, 'longitude': 2.25396}",{'countryCode': 'FR'},2022-11-29T09:05:48
-OI,PAR,700033305,HOTEL FRANKLIN - MONTREUIL-SOUS-BOIS,OIPARFRK,"{'latitude': 48.86253, 'longitude': 2.44361}",{'countryCode': 'FR'},2022-11-29T09:05:49
-OI,PAR,700118733,AU ROYAL CARDINAL,OIPARARC,"{'latitude': 48.84749, 'longitude': 2.35262}",{'countryCode': 'FR'},2022-11-29T09:05:48
-OI,PAR,700020941,HOTEL LE GREY,OIPARGRE,"{'latitude': 48.88126, 'longitude': 2.32737}",{'countryCode': 'FR'},2022-11-29T09:05:49
-OI,PAR,700050866,CHAMPERRET ELYSEES,OIPARCHM,"{'latitude': 48.8854, 'longitude': 2.29391}",{'countryCode': 'FR'},2022-11-29T09:05:49
-OI,PAR,700010339,MORIS GRAND BOULEVARD,OIPARMGB,"{'latitude': 48.86927, 'longitude': 2.35736}",{'countryCode': 'FR'},2022-11-29T09:05:51
-OI,PAR,700092048,ODEON SAINT-GERMAIN,OIPARODE,"{'latitude': 48.85149, 'longitude': 2.33747}",{'countryCode': 'FR'},2022-11-29T09:05:51
-OI,PAR,700092051,HOTEL RESIDENCE DES ARTS,OIPARRDA,"{'latitude': 48.85351, 'longitude': 2.34245}",{'countryCode': 'FR'},2022-11-29T09:05:51
-OI,PAR,700221469,HOTEL MANET,OIPARHMA,"{'latitude': 48.833, 'longitude': 2.35729}",{'countryCode': 'FR'},2022-11-29T09:05:49
-OI,PAR,700006438,HOTEL VILLA D ESTREES,OIPARVDE,"{'latitude': 48.85337, 'longitude': 2.34233}",{'countryCode': 'FR'},2022-11-29T09:05:51
-OI,PAR,700092100,HOTEL TERMINUS LYON,OIPARTRL,"{'latitude': 48.84563, 'longitude': 2.37187}",{'countryCode': 'FR'},2022-11-29T09:05:51
-OI,PAR,700158027,HOTEL ATHENEE PARIS,OIPARATH,"{'latitude': 48.87127, 'longitude': 2.32812}",{'countryCode': 'FR'},2022-11-29T09:05:48
-OI,PAR,700032371,HOTEL BOURG TIBOURG,OIPARBTI,"{'latitude': 48.85724, 'longitude': 2.35609}",{'countryCode': 'FR'},2023-03-31T07:52:04
-OI,PAR,700020652,HOTEL CARDINAL RIVE GAUCHE,OIPARHCA,"{'latitude': 48.83806, 'longitude': 2.34947}",{'countryCode': 'FR'},2022-11-29T09:05:49
-OI,PAR,700059484,HOTEL LILAS GAMBETTA,OIPARHLG,"{'latitude': 48.87431, 'longitude': 2.40542}",{'countryCode': 'FR'},2022-11-29T09:05:49
-OI,PAR,700059477,HOTEL AIGLON,OIPARAIG,"{'latitude': 48.83964, 'longitude': 2.33045}",{'countryCode': 'FR'},2022-11-29T09:05:48
-OI,PAR,700027584,"HOTEL ELYSEES MERMOZ, PARIS",OIPARMER,"{'latitude': 48.87164, 'longitude': 2.31209}",{'countryCode': 'FR'},2022-11-29T09:05:49
-OI,PAR,700030698,HOTEL REGENCE,OIPARHRG,"{'latitude': 48.88225, 'longitude': 2.326}",{'countryCode': 'FR'},2022-11-29T09:05:49
-OI,PAR,700080033,HOTEL REGENTS GARDEN,OIPARRGG,"{'latitude': 48.87993, 'longitude': 2.29174}",{'countryCode': 'FR'},2022-11-29T09:05:51
-OI,PAR,700029523,HOTEL WEST END,OIPARWES,"{'latitude': 48.8673, 'longitude': 2.30376}",{'countryCode': 'FR'},2022-11-29T09:05:51
-OI,PAR,700020940,HI MATIC - PARIS,OIPARHIM,"{'latitude': 48.85361, 'longitude': 2.38054}",{'countryCode': 'FR'},2022-11-29T09:05:49
-OI,PAR,700165295,HOTEL DU PRINTEMPS,OIPARPRI,"{'latitude': 48.8458, 'longitude': 2.40138}",{'countryCode': 'FR'},2022-11-29T09:05:51
-OI,PAR,501422675,HOTEL VIC EIFFEL,OIPARVIC,"{'latitude': 48.84536, 'longitude': 2.31012}",{'countryCode': 'FR'},2022-11-29T09:05:51
-OI,PAR,700140345,HOTEL PARIS SAINT-CLOUD,OIPARPSC,"{'latitude': 48.84228, 'longitude': 2.21962}",{'countryCode': 'FR'},2022-11-29T09:05:51
-OI,PAR,700031549,HOTEL ASTOR SURESNES,OIPARAST,"{'latitude': 48.87084, 'longitude': 2.22508}",{'countryCode': 'FR'},2022-11-29T09:05:48
-OK,PAR,700020936,HOTEL ARVOR,OKPARASG,"{'latitude': 48.87855, 'longitude': 2.33842}",{'countryCode': 'FR'},
-ON,PAR,700091110,CITEA CERGY AXE MAJEUR-CERGY,ONPARCAM,"{'latitude': 48.83911, 'longitude': 2.71319}",{'countryCode': 'FR'},2022-11-30T06:00:36
-ON,PAR,700091143,CITEA CHAMPS SUR MARNE,ONPARCSM,"{'latitude': 48.83911, 'longitude': 2.71319}",{'countryCode': 'FR'},2022-11-30T06:00:36
-ON,PAR,501365286,CITEA MARNE DE LA VALLEE FERRIERES,ONPARMVF,"{'latitude': 48.82805, 'longitude': 2.70809}",{'countryCode': 'FR'},2022-11-30T06:00:36
-ON,PAR,700189388,EXECUTIVE HOTEL,ONPAREXE,"{'latitude': 48.92122, 'longitude': 2.31874}",{'countryCode': 'FR'},2022-11-30T06:00:36
-ON,PAR,700091393,CITEA GIF SUR YVETTE,ONPARGIF,"{'latitude': 48.92122, 'longitude': 2.31874}",{'countryCode': 'FR'},2022-11-30T06:00:36
-ON,PAR,700023228,CITEA BUSSY - MARNE LA VALLEE,ONPARBUS,"{'latitude': 48.83911, 'longitude': 2.71319}",{'countryCode': 'FR'},2022-11-30T06:00:36
-ON,PAR,700020943,HOTEL WINDSOR OPERA,ONPARSAS,"{'latitude': 48.87336, 'longitude': 2.34946}",{'countryCode': 'FR'},2022-11-30T06:00:36
-ON,PAR,501421341,SPLENDOR HOTEL,ONPARSPL,"{'latitude': 48.88224, 'longitude': 2.305}",{'countryCode': 'FR'},2022-11-30T06:00:36
-ON,PAR,700045577,AVENIR HOTEL MONTMARTRE,ONPARAVE,"{'latitude': 48.88274, 'longitude': 2.34459}",{'countryCode': 'FR'},2022-11-30T06:00:36
-ON,PAR,700054616,HOTEL DE L ARCADE,ONPARARC,"{'latitude': 31.51519, 'longitude': -5.53477}",{'countryCode': 'FR'},2022-11-30T06:00:36
-ON,PAR,700005122,HOTEL BEDFORD,ONPARBED,"{'latitude': 48.87214, 'longitude': 2.3238}",{'countryCode': 'FR'},2022-11-30T06:00:36
-PH,PAR,700029554,LA TREMOILLE PREFERRED HOTELS,PHPARLTE,"{'latitude': 48.86687, 'longitude': 2.30275}",{'countryCode': 'FR'},2022-11-29T09:05:37
-PH,PAR,700143982,VILLA HOTEL MAJESTIC PREFERRED,PHPARVHM,"{'latitude': 48.87025, 'longitude': 2.29382}",{'countryCode': 'FR'},2022-11-29T09:05:37
-PH,PAR,700005874,CASTILLE PARIS PREFERRED HOTEL,PHPARCPH,"{'latitude': 48.86832, 'longitude': 2.32686}",{'countryCode': 'FR'},2022-11-29T09:05:35
-PH,PAR,700189762,BUDDHA BAR HOTEL PARIS,PHPARBBH,"{'latitude': 48.86933, 'longitude': 2.3205}",{'countryCode': 'FR'},2022-11-29T09:05:35
-PH,PAR,700029304,COLLECTIONNEUR ARC DE TRIOMPHE,PHPARHDC,"{'latitude': 48.87692, 'longitude': 2.30706}",{'countryCode': 'FR'},2022-11-29T09:05:37
-PH,PAR,700024751,HOTEL BALZAC PARIS CHAMPS ELYS,PHPARBAZ,"{'latitude': 48.87334, 'longitude': 2.30038}",{'countryCode': 'FR'},2022-11-29T09:05:35
-PN,PAR,700222607,THE PENINSULA PARIS,PNPARTPP,"{'latitude': 48.87111, 'longitude': 2.29332}",{'countryCode': 'FR'},2022-11-29T09:05:45
-PU,PAR,700020646,PULLMAN PARIS RIVE GAUCHE,PUPARSOF,"{'latitude': 48.83295, 'longitude': 2.27786}",,2022-11-29T09:05:58
-PU,PAR,700028589,PULLMAN PARIS TOUR EIFFEL,PUPARTOU,"{'latitude': 48.85598, 'longitude': 2.29321}",,2022-11-29T09:05:58
-PU,PAR,700024439,PULLMAN PARIS LA DEFENSE,PUPARARC,"{'latitude': 48.84005, 'longitude': 2.35191}",{'countryCode': 'FR'},2022-11-29T09:05:58
-QI,PAR,700029525,QUALITY HOTEL MALESHERBES- PARIS 8,QIPAR242,"{'latitude': 48.87548, 'longitude': 2.31904}",{'countryCode': 'FR'},2022-11-29T09:05:47
-QI,PAR,700010705,QUALITY HOTEL PARIS ORLEANS,QIPAR366,"{'latitude': 48.82346, 'longitude': 2.32401}",{'countryCode': 'FR'},2022-11-29T09:05:47
-QI,PAR,700029557,QUALITY HOTEL ABACA MESSIDOR - PARIS 15,QIPAR197,"{'latitude': 48.83672, 'longitude': 2.29542}",{'countryCode': 'FR'},2022-11-29T09:05:47
-RD,PAR,700038022,RADISSON BLU PARIS-BOULOGNE,RDPAR851,"{'latitude': 48.83648, 'longitude': 2.25321}",{'countryCode': 'FR'},2022-11-29T09:06:42
-RD,PAR,700076378,RADISSON BLU LE METROPOLITAN,RDPAR956,"{'latitude': 48.86552, 'longitude': 2.28316}",{'countryCode': 'FR'},2022-11-29T09:06:42
-RD,PAR,700013754,RADISSON BLU LE DOKHANS TROCAD,RDPAR958,"{'latitude': 48.86624, 'longitude': 2.28634}",{'countryCode': 'FR'},2022-11-29T09:06:42
-RM,PAR,700885789,CITIZENM PARIS CHARLES DE GAULLE,RMPARCM1,"{'latitude': 49.00947, 'longitude': 2.55711}",{'countryCode': 'FR'},2022-11-29T09:06:30
-RT,PAR,700032370,MERCURE PARIS PLACE ITALIE 3*,RTPARBLA,"{'latitude': 48.8303, 'longitude': 2.35283}",,2022-11-29T09:06:38
-RT,PAR,504478714,LEFISTON HOTEL,RTPARJUN,"{'latitude': 46.63728, 'longitude': 2.33826}",,2022-11-29T09:06:48
-RT,PAR,700092077,IBIS STYLES PARIS LAFAYETTE,RTPARPLO,"{'latitude': 48.87265, 'longitude': 2.34495}",,2022-11-29T09:06:54
-RT,PAR,504551239,LEFISTON HOTEL,RTPAR558,"{'latitude': 46.63728, 'longitude': 2.33826}",{'countryCode': 'FR'},2022-11-29T09:06:35
-RT,PAR,504478713,LEFISTON HOTEL,RTPARAPR,"{'latitude': 46.63728, 'longitude': 2.33826}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,504030171,CP TEST HOTEL,RTPAR005,"{'latitude': 30.29375, 'longitude': 120.15861}",{'countryCode': 'GB'},2022-11-29T09:06:35
-RT,PAR,505303586,BRIANPROPERTY,RTPARBZY,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'FR'},2022-04-06T05:25:43
-RT,PAR,505298504,ANITHAA PROPERTY,RTPARAYU,"{'latitude': 48.8569, 'longitude': 2.35085}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,505297506,ANITHAA PROPERTY,RTPARZYW,"{'latitude': 48.8569, 'longitude': 2.35085}",{'countryCode': 'FR'},2022-11-29T09:06:15
-RT,PAR,700054094,IBIS STYLES ASNIERES CENTRE,RTPARWIL,"{'latitude': 48.90636, 'longitude': 2.28688}",{'countryCode': 'FR'},2022-11-29T09:06:15
-RT,PAR,700091109,IBIS CERGY PONTOISE LE PORT,RTPARIBI,"{'latitude': 49.0314, 'longitude': 2.06948}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700060512,NOVOTEL CERGY PONTOISE,RTPARCGY,"{'latitude': 49.03417, 'longitude': 2.07141}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700024247,IBIS PARIS PORTE DE BERCY,RTPARPPB,"{'latitude': 48.82524, 'longitude': 2.39413}",{'countryCode': 'FR'},2022-11-29T09:06:54
-RT,PAR,700052915,ADAGIO ACCESS PTE DE CHARENTON,RTPARACH,"{'latitude': 48.82932, 'longitude': 2.40122}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700052304,NOVOTEL PARIS SUD CHARENTON,RTPARCHT,"{'latitude': 48.8263, 'longitude': 2.40557}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700083439,ADAGIO ACCESS PARIS CLAMART,RTPARCLA,"{'latitude': 48.78083, 'longitude': 2.24033}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700091262,IBIS PARIS DEFENSE COURBEVOIE,RTPARDOU,"{'latitude': 48.89565, 'longitude': 2.26207}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700055806,ADAGIO  LA DEFENSE KLEBER,RTPAR676,"{'latitude': 48.89451, 'longitude': 2.24915}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700080523,IBIS STYLES PARIS COURBEVOIE,RTPARBEV,"{'latitude': 48.8974, 'longitude': 2.2471}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700883064,ADAGIO LA DEFENSE COURBEVOIE,RTPAROIE,"{'latitude': 48.89377, 'longitude': 2.25267}",{'countryCode': 'FR'},2022-11-29T09:06:54
-RT,PAR,700027008,IBIS STYLES FONTENAY,RTPARFON,"{'latitude': 48.85265, 'longitude': 2.4862}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700010120,MERCURE PARIS VAL DE FONTENAY,RTPARVAL,"{'latitude': 48.85407, 'longitude': 2.48837}",{'countryCode': 'FR'},2022-11-29T09:06:15
-RT,PAR,700091385,IBIS PARIS GENNEVILLIERS,RTPARGVL,"{'latitude': 48.92574, 'longitude': 2.29093}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,504478539,RTPARSOF,RTPARSOF,"{'latitude': 23.13211, 'longitude': -82.36749}",{'countryCode': 'CU'},2022-11-29T09:06:15
-RT,PAR,700055807,ADAGIO PORTE DE VERSAILLES,RTPAR666,"{'latitude': 48.83145, 'longitude': 2.28144}",{'countryCode': 'FR'},2022-11-29T09:06:35
-RT,PAR,700080433,MERCURE PARIS IVRY SEINE 3*,RTPARIVR,"{'latitude': 48.8183, 'longitude': 2.40024}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700060516,NOVOTEL CHATEAU DE VERSAILLES,RTPARLEC,"{'latitude': 48.81555, 'longitude': 2.12851}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700060186,MERCURE PARC DU COUDRAY 3*,RTPARCOU,"{'latitude': 48.55579, 'longitude': 2.48516}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700034082,NOVOTEL PARIS PORTE D'ITALIE,RTPARKRE,"{'latitude': 48.81606, 'longitude': 2.36437}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700091635,IBIS LEVALLOIS PERRET,RTPARLEV,"{'latitude': 48.8911, 'longitude': 2.28988}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700183483,MERCURE LEVALLOIS PERRET,RTPARMLE,"{'latitude': 48.88963, 'longitude': 2.2827}",{'countryCode': 'FR'},2022-11-29T09:06:50
-RT,PAR,700031417,LAM002RT,RTPARARM,"{'latitude': 40.43602, 'longitude': -3.6833}",{'countryCode': 'ES'},2023-05-25T03:53:50
-RT,PAR,700010538,NOVOTEL MARNE VALLEE COLLEGIEN,RTPARMRV,"{'latitude': 48.83067, 'longitude': 2.67813}",{'countryCode': 'FR'},2022-11-29T09:06:50
-RT,PAR,700091775,IBIS STYLES MEAUX,RTPARMAX,"{'latitude': 48.95649, 'longitude': 2.8775}",{'countryCode': 'FR'},2022-11-29T09:06:50
-RT,PAR,700091869,IBIS STYLES PARIS PTE ORLEANS,RTPARIBS,"{'latitude': 48.81886, 'longitude': 2.32568}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700027835,NOVOTEL PARIS EST,RTPARBAG,"{'latitude': 48.8632, 'longitude': 2.41471}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700060546,NOVOTEL MASSY PALAISEAU,RTPARMAS,"{'latitude': 48.71915, 'longitude': 2.2637}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700020677,ADAGIO PARIS MONTMARTRE,RTPAR670,"{'latitude': 48.88332, 'longitude': 2.34254}",{'countryCode': 'FR'},2022-11-29T09:06:35
-RT,PAR,700031284,IBIS STYLES CADET LAFAYETTE,RTPARALS,"{'latitude': 48.87806, 'longitude': 2.34743}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700059478,IBIS STYLES PARIS GARE DU NORD,RTPARASS,"{'latitude': 48.87958, 'longitude': 2.35673}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700189758,ADAGIO ACCESS PARIS BASTILLE,RTPARADI,"{'latitude': 48.85015, 'longitude': 2.37284}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700039548,ADAGIO ACCESS PARIS P. AUGUSTE,RTPARAAU,"{'latitude': 48.85888, 'longitude': 2.39102}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700092086,IBIS GARE DU NORD LA FAYETTE,RTPARLAF,"{'latitude': 48.87812, 'longitude': 2.35268}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700053638,ADAGIO PARIS HAUSSMANN,RTPAR306,"{'latitude': 48.87519, 'longitude': 2.31355}",{'countryCode': 'FR'},2022-11-29T09:06:35
-RT,PAR,700189759,ADAGIO ACCESS PARIS REUILLY,RTPARADO,"{'latitude': 48.84905, 'longitude': 2.38569}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700868987,IBIS PARIS BASTILLE ST ANTOINE,RTPARBTL,"{'latitude': 48.85169, 'longitude': 2.37881}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700868912,IBIS PARIS MAINE MONTPARNASSE,RTPARMMP,"{'latitude': 48.83371, 'longitude': 2.32289}",{'countryCode': 'FR'},2022-11-29T09:06:50
-RT,PAR,700043330,NOVOTEL PARIS MONTPARNASSE,RTPARGMP,"{'latitude': 48.83845, 'longitude': 2.3152}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700045084,IBIS PARIS ITALIE TOLBIAC 13E,RTPARTOL,"{'latitude': 48.82582, 'longitude': 2.35259}",{'countryCode': 'FR'},2022-11-29T09:06:15
-RT,PAR,700024146,IBIS STYLES PARIS 15 LECOURBE,RTPARALL,"{'latitude': 48.83871, 'longitude': 2.28945}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700221053,MOLITOR PARIS BY MGALLERY,RTPARMOL,"{'latitude': 48.84465, 'longitude': 2.25222}",{'countryCode': 'FR'},2022-11-29T09:06:50
-RT,PAR,700009189,MERCURE PARIS NOTRE DAME,RTPARDAM,"{'latitude': 48.85025, 'longitude': 2.3452}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700009195,MERCURE PARIS LA VILLETTE,RTPARVIL,"{'latitude': 48.88882, 'longitude': 2.3932}",{'countryCode': 'FR'},2022-11-29T09:06:15
-RT,PAR,700092120,IBIS PARIS TOUR MONTPARNASSE,RTPARMAI,"{'latitude': 48.84333, 'longitude': 2.32019}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700061716,SUITE NOVOTEL PARIS MONTREUIL,RTPARSUI,"{'latitude': 48.85582, 'longitude': 2.41496}",{'countryCode': 'FR'},2022-11-29T09:06:15
-RT,PAR,700027007,LE STENDHAL PLACE VENDOME,RTPARSTE,"{'latitude': 48.86806, 'longitude': 2.33129}",{'countryCode': 'FR'},2022-11-29T09:06:15
-RT,PAR,700048021,NOVOTEL PARIS VAUGIRARD MONTP,RTPARVGR,"{'latitude': 48.83997, 'longitude': 2.30303}",{'countryCode': 'FR'},2022-11-29T09:06:15
-RT,PAR,700054641,MERCURE PARIS ARC TR ETOILE 3*,RTPARETO,"{'latitude': 48.87838, 'longitude': 2.29507}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700083437,ADAGIO ACCESS PARIS VILLETTE,RTPARADV,"{'latitude': 48.89672, 'longitude': 2.38486}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700020058,ADAGIO PARIS BUTTES CHAUMONT,RTPAR673,"{'latitude': 48.87811, 'longitude': 2.38766}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700010103,MERCURE MONTMARTRE SACRE COEUR,RTPARMTR,"{'latitude': 48.88505, 'longitude': 2.32992}",{'countryCode': 'FR'},2022-11-29T09:06:54
-RT,PAR,700042964,IBIS STYLES PARIS PIGALLE,RTPARSTY,"{'latitude': 48.88112, 'longitude': 2.33766}",{'countryCode': 'FR'},2022-11-29T09:06:15
-RT,PAR,700008561,IBIS GARE DE LYON DIDEROT,RTPARDID,"{'latitude': 48.84626, 'longitude': 2.37637}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700042298,IBIS STYLES PARIS ALESIA,RTPARALI,"{'latitude': 48.83017, 'longitude': 2.32344}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700032364,NOVOTEL PARIS 17,RTPARPOR,"{'latitude': 48.89177, 'longitude': 2.30185}",{'countryCode': 'FR'},2022-11-29T09:06:54
-RT,PAR,700887613,IBIS STYLES PARIS B CHAUMONT,RTPARONT,"{'latitude': 48.88448, 'longitude': 2.37937}",{'countryCode': 'FR'},2022-11-29T09:06:54
-RT,PAR,700047104,IBIS PARIS GARE LYON L.ROLLIN,RTPARLYN,"{'latitude': 48.84769, 'longitude': 2.37086}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700055802,ADAGIO PARIS OPERA,RTPAROPE,"{'latitude': 48.87287, 'longitude': 2.32826}",{'countryCode': 'FR'},2022-11-29T09:06:54
-RT,PAR,700053317,ADAGIO ACCESS PARIS EIFFEL,RTPARADC,"{'latitude': 48.84963, 'longitude': 2.28829}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700008575,IBIS PARIS MONTMARTRE,RTPARMTT,"{'latitude': 48.88518, 'longitude': 2.33015}",{'countryCode': 'FR'},2022-11-29T09:06:54
-RT,PAR,700060225,MERCURE MONTY OPERA 3*,RTPARMON,"{'latitude': 48.87306, 'longitude': 2.34461}",{'countryCode': 'FR'},2022-11-29T09:06:50
-RT,PAR,700027610,MERCURE PARIS CHAMPS ELYSEES,RTPARCHA,"{'latitude': 48.86998, 'longitude': 2.29068}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700045503,MERCURE PARIS BERCY BIBLIOTHEQ,RTPARBCY,"{'latitude': 48.83746, 'longitude': 2.37311}",{'countryCode': 'FR'},2023-04-25T13:59:53
-RT,PAR,700008560,IBIS PARIS GARE DE L'EST 10EME,RTPAREST,"{'latitude': 48.87544, 'longitude': 2.35845}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700017918,PARIS BASTILLE SAINT ANTOINE,RTPARBSA,"{'latitude': 48.84969, 'longitude': 2.37961}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700060229,MERCURE  PARIS VAUGIRARD PTE  V,RTPARVAU,"{'latitude': 48.8329, 'longitude': 2.28808}",{'countryCode': 'FR'},2022-11-29T09:06:15
-RT,PAR,700060224,MERCURE PARIS LAFAYETTE,RTPARFAY,"{'latitude': 48.87281, 'longitude': 2.34493}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700020937,IBIS ORNANO MONTMARTRE NORD,RTPARORN,"{'latitude': 48.89653, 'longitude': 2.34553}",{'countryCode': 'FR'},2022-11-29T09:06:54
-RT,PAR,700010056,IBIS STYLES PARIS BERCY,RTPARIBE,"{'latitude': 48.83859, 'longitude': 2.3812}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700134810,IBIS STYLES MONTMARTRE NORD,RTPARPAC,"{'latitude': 48.8951, 'longitude': 2.34095}",{'countryCode': 'FR'},2022-11-29T09:06:54
-RT,PAR,700076385,MERCURE PARIS GOBELINS ITALIE,RTPARGOB,"{'latitude': 48.83202, 'longitude': 2.35356}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700010549,NOVOTEL PARIS LES HALLES,RTPARNOV,"{'latitude': 48.86053, 'longitude': 2.34653}",{'countryCode': 'FR'},2022-11-29T09:06:54
-RT,PAR,700040714,IBIS STYLES PARIS MASSENA,RTPARENA,"{'latitude': 48.82347, 'longitude': 2.37148}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700043119,NOVOTEL PARIS BERCY,RTPARBER,"{'latitude': 48.83894, 'longitude': 2.38079}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700041979,IBIS PARIS GARE DE LYON REUILLY,RTPARBRR,"{'latitude': 48.84945, 'longitude': 2.38544}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700006432,MERCURE PARIS OPERA CUSSET,RTPARCUS,"{'latitude': 48.87114, 'longitude': 2.33951}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700026917,MERCURE PARIS ST LAZARE MONCEAU,RTPARLAZ,"{'latitude': 48.88378, 'longitude': 2.31868}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,504053221,TEST HOTEL ACCOR,RTPARAAB,"{'latitude': 48.82902, 'longitude': 2.37399}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,504094226,CREEPY HOTEL,RTPAR333,"{'latitude': 48.87519, 'longitude': 2.31355}",{'countryCode': 'FR'},2022-11-29T09:06:35
-RT,PAR,504094246,CREEPY HOTEL,RTPAR444,"{'latitude': 48.87519, 'longitude': 2.31355}",{'countryCode': 'FR'},2022-11-29T09:06:35
-RT,PAR,504098623,NORMAN BATES HOTEL,RTPAR555,"{'latitude': -22.91758, 'longitude': -43.17773}",{'countryCode': 'FR'},2022-11-29T09:06:35
-RT,PAR,700092302,IBIS PARIS RUEIL MALMAISON,RTPARRUE,"{'latitude': 48.88019, 'longitude': 2.18525}",{'countryCode': 'FR'},2022-11-29T09:06:54
-RT,PAR,700060561,NOVOTEL PARIS RUEIL MALMAISON,RTPARMAL,"{'latitude': 48.88833, 'longitude': 2.16828}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700061718,SUITE NOVOTEL PARIS RUEIL M,RTPARRLM,"{'latitude': 48.88989, 'longitude': 2.17413}",{'countryCode': 'FR'},2022-11-29T09:06:54
-RT,PAR,700092484,IBIS SENLIS,RTPARSEN,"{'latitude': 49.20888, 'longitude': 2.6056}",{'countryCode': 'FR'},2022-11-29T09:06:54
-RT,PAR,700092536,IBIS PARIS PONT DE SURESNES,RTPARBOU,"{'latitude': 48.86835, 'longitude': 2.22718}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700092634,IBIS PARIS VANVES PARC EXPO,RTPARVNN,"{'latitude': 48.82214, 'longitude': 2.29429}",{'countryCode': 'FR'},2022-11-29T09:06:15
-RT,PAR,700052916,ADAGIO ACCESS VANVES CHATILLON,RTPARPCH,"{'latitude': 48.81769, 'longitude': 2.2873}",{'countryCode': 'FR'},2022-11-29T09:06:54
-RT,PAR,700029548,MERCURE PARIS VELIZY,RTPARVEL,"{'latitude': 48.77881, 'longitude': 2.21573}",{'countryCode': 'FR'},2022-11-29T09:06:15
-RT,PAR,700885199,IBIS STYLES PARIS VELIZY,RTPARIZY,"{'latitude': 48.7809, 'longitude': 2.21806}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700091144,IBIS PARIS MARNE LA VALLEE,RTPARMLL,"{'latitude': 48.84266, 'longitude': 2.583}",{'countryCode': 'FR'},2022-11-29T09:06:50
-RT,PAR,700027674,MERCURE PARIS LA DEFENSE 5,RTPARDFS,"{'latitude': 48.89517, 'longitude': 2.25035}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700060522,NOVOTEL EVRY COURCOURONNES,RTPAREVR,"{'latitude': 48.61678, 'longitude': 2.42526}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700050951,NOVOTEL PARIS LA DEFENSE,RTPARLDF,"{'latitude': 48.88781, 'longitude': 2.25186}",{'countryCode': 'FR'},2022-11-29T09:06:48
-RT,PAR,700092119,IBIS PARIS TOUR EIFFEL,RTPARCAM,"{'latitude': 48.84765, 'longitude': 2.30145}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,700060564,NOVOTEL POISSY ORGEVAL,RTPARORG,"{'latitude': 48.84005, 'longitude': 2.35191}",{'countryCode': 'FR'},2022-11-29T09:06:54
-RT,PAR,700076368,ADAGIO LA DEFENSE ESPLANADE,RTPARDFF,"{'latitude': 48.88783, 'longitude': 2.24808}",{'countryCode': 'FR'},2022-11-29T09:06:38
-RT,PAR,504081622,HOTEL VILLA RICA,RTPAR500,"{'latitude': -22.91758, 'longitude': -43.17773}",{'countryCode': 'BR'},2022-11-29T09:06:35
-SG,PAR,700144200,SHANGRI LA PARIS,SGPARSHP,"{'latitude': 48.86421, 'longitude': 2.29351}",{'countryCode': 'FR'},2022-11-29T09:06:19
-SI,PAR,504197513,SHERATON SAS CHAMPS ELYSEES,SIPAR792,"{'latitude': 48.86667, 'longitude': 2.3175}",{'countryCode': 'FR'},2022-11-29T09:06:47
-SL,PAR,504812954,SWISSOTEL CERTIF,SLPAREXP,"{'latitude': 40.33391, 'longitude': -3.85394}",{'countryCode': 'FR'},2022-11-29T09:00:27
-UI,PAR,700076380,TIMHOTEL PARIS BOULOGNE,UIPAREHR,"{'latitude': 48.83357, 'longitude': 2.24389}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700054179,BORIS V. EX MY HOTEL IN FRANCE,UIPARMYH,"{'latitude': 48.89021, 'longitude': 2.2906}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700012904,SPLENDID ETOILE HOTEL,UIPARSPI,"{'latitude': 48.87428, 'longitude': 2.29447}",{'countryCode': 'FR'},2022-11-29T09:07:09
-UI,PAR,700023540,TIMHOTEL PARIS GARE DE LYON,UIPARGDL,"{'latitude': 48.84648, 'longitude': 2.36983}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700029543,ATALA HOTEL,UIPARATA,"{'latitude': 48.87337, 'longitude': 2.30184}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700092714,HOTEL ARC DE TRIOMPHE,UIPAR341,"{'latitude': 48.87668, 'longitude': 2.29378}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700032823,SAINT GERMAIN OBSERVATOIRE,UIPAROBS,"{'latitude': 48.84394, 'longitude': 2.33892}",{'countryCode': 'FR'},2022-11-29T09:07:09
-UI,PAR,700035194,REGINA OPERA,UIPAR765,"{'latitude': 48.87067, 'longitude': 2.35167}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700024347,TIMHOTEL TOUR EIFFEL,UIPARDUP,"{'latitude': 48.85008, 'longitude': 2.29235}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700013625,TIMHOTEL OPERA MADELEINE,UIPARLAZ,"{'latitude': 48.87549, 'longitude': 2.32615}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700211345,ASTOTEL LE 123 SEBASTOPOL,UIPARALS,"{'latitude': 48.86754, 'longitude': 2.35306}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700040012,ASTOTEL LE 123 ELYSEES,UIPARPHI,"{'latitude': 48.87423, 'longitude': 2.31117}",{'countryCode': 'FR'},2022-11-29T09:07:09
-UI,PAR,700050862,PAVILLON NATION,UIPARNAT,"{'latitude': 48.84945, 'longitude': 2.39884}",{'countryCode': 'FR'},2022-11-29T09:07:09
-UI,PAR,700008789,LES JARDINS DE MONTMARTRE,UIPAR648,"{'latitude': 48.89298, 'longitude': 2.34111}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700030838,HOTEL DE NEUVE,UIPAR647,"{'latitude': 48.85386, 'longitude': 2.3632}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700076362,LE SIX SAINT GERMAIN HOTEL,UIPAR427,"{'latitude': 48.84365, 'longitude': 2.32805}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700027676,LENOX MONTPARNASSE HOTEL,UIPARLNX,"{'latitude': 48.84173, 'longitude': 2.32805}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700014940,PAVILLON OPERA BOURSE,UIPARDPO,"{'latitude': 48.87402, 'longitude': 2.3448}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700005940,HOTEL CERVANTES PARIS,UIPARCER,"{'latitude': 48.88087, 'longitude': 2.32322}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700079249,AIDA MARAIS,UIPAR644,"{'latitude': 48.87008, 'longitude': 2.36025}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700128340,MY HOTEL IN FRANCE LE MARAIS,UIPARH72,"{'latitude': 48.86152, 'longitude': 2.36468}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700005188,BELLOY SAINT GERMAIN,UIPAR506,"{'latitude': 48.85032, 'longitude': 2.34252}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700029545,EMERAUDE HOTEL PLAZA ETOILE,UIPAREPE,"{'latitude': 48.8759, 'longitude': 2.2966}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700919610,TIMHOTEL SAINT GEORGES,UIPARGEO,"{'latitude': 48.88251, 'longitude': 2.33639}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700007721,ROYAL GARDEN CHAMPS ELYSEES HOTEL,UIPAR296,"{'latitude': 48.87576, 'longitude': 2.30343}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700010690,OPERA CADET HOTEL,UIPARERA,"{'latitude': 48.87562, 'longitude': 2.34354}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700007093,HOTEL ELYSEES BASSANO,UIPARHEB,"{'latitude': 48.86899, 'longitude': 2.29732}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700006914,TIMHOTEL PARIS GARE DE LEST,UIPAR729,"{'latitude': 48.87497, 'longitude': 2.36005}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700040861,STANDARD DESIGN HOTEL,UIPARSDH,"{'latitude': 48.85555, 'longitude': 2.37461}",{'countryCode': 'FR'},2022-11-29T09:07:09
-UI,PAR,700024314,EIFFEL SEINE,UIPARGRE,"{'latitude': 48.85408, 'longitude': 2.2894}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700026283,ASTOTEL PALM OPERA,UIPAR660,"{'latitude': 48.87756, 'longitude': 2.34337}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700010322,ASTOTEL MONTEROSA,UIPAR972,"{'latitude': 48.87946, 'longitude': 2.33415}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700161096,HOTEL ATMOSPHERES,UIPAR803,"{'latitude': 48.84874, 'longitude': 2.34807}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700012041,ROYAL HOTEL,UIPARROZ,"{'latitude': 48.87424, 'longitude': 2.29965}",{'countryCode': 'FR'},2022-11-29T09:07:09
-UI,PAR,700079250,HOTEL EIFFEL SEGUR,UIPAR614,"{'latitude': 48.84691, 'longitude': 2.3046}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700005408,TIMHOTEL OPERA BLANCHE FONTAINE,UIPARBLA,"{'latitude': 48.8826, 'longitude': 2.33348}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700009567,ASTOTEL LORETTE OPERA,UIPAR531,"{'latitude': 48.8788, 'longitude': 2.33704}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700024313,HOTEL MAGENTA 38,UIPARMTA,"{'latitude': 48.87202, 'longitude': 2.35984}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700005674,TIMHOTEL BERTHIER PARIS 17,UIPAR355,"{'latitude': 48.89437, 'longitude': 2.31266}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700024346,TIMHOTEL LE LOUVRE,UIPARLEL,"{'latitude': 48.86315, 'longitude': 2.33592}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700026282,ASTOTEL ACADIA OPERA,UIPAR343,"{'latitude': 48.87326, 'longitude': 2.34337}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700128338,BLC DESIGN HOTEL,UIPAR306,"{'latitude': 48.85417, 'longitude': 2.38259}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700004776,ASTOTEL ASTORIA OPERA,UIPAR129,"{'latitude': 48.88152, 'longitude': 2.32303}",{'countryCode': 'FR'},2022-11-29T09:07:02
-UI,PAR,700092072,HOTEL ARC ELYSEES,UIPARARC,"{'latitude': 48.87428, 'longitude': 2.30473}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700020674,TIMHOTEL NATION,UIPARTHN,"{'latitude': 48.86796, 'longitude': 2.39804}",{'countryCode': 'FR'},2022-11-29T09:07:09
-UI,PAR,700013989,VILLA BEAUMARCHAIS,UIPARBEA,"{'latitude': 48.85909, 'longitude': 2.36683}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700018144,HOTEL GASTON,UIPAR166,"{'latitude': 48.88754, 'longitude': 2.30768}",{'countryCode': 'FR'},2022-11-29T09:07:02
-UI,PAR,700006166,HOTEL BASSS,UIPAR147,"{'latitude': 48.88556, 'longitude': 2.33563}",{'countryCode': 'FR'},2022-11-29T09:07:02
-UI,PAR,700009212,EUGENE EN VILLE,UIPAR132,"{'latitude': 48.87504, 'longitude': 2.34153}",{'countryCode': 'FR'},2022-11-29T09:07:02
-UI,PAR,700061053,HOTEL MAISON FL,UIPARPAS,"{'latitude': 48.85864, 'longitude': 2.28415}",{'countryCode': 'FR'},2022-11-29T09:07:09
-UI,PAR,700062224,HOTEL CENTREVILLE ETOILE,UIPAR175,"{'latitude': 48.87608, 'longitude': 2.28962}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700006913,EMERAUDE LODGE DU CENTRE HOTEL,UIPARDUC,"{'latitude': 48.87374, 'longitude': 2.34391}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700058802,HOTEL CHAMBELLAN MORGANE,UIPAR121,"{'latitude': 48.86959, 'longitude': 2.29753}",{'countryCode': 'FR'},2022-11-29T09:07:02
-UI,PAR,700027006,CHATEAUBRIAND HOTEL,UIPARWCH,"{'latitude': 48.87323, 'longitude': 2.30233}",{'countryCode': 'FR'},2022-11-29T09:07:09
-UI,PAR,700031100,MY HOTEL IN FRANCE OPERA ST GEORGES,UIPAR232,"{'latitude': 48.87949, 'longitude': 2.33948}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700011712,MADEMOISELLE,UIPAR467,"{'latitude': 48.8773, 'longitude': 2.35468}",{'countryCode': 'FR'},2022-11-29T09:07:05
-UI,PAR,700006445,EMERAUDE HOTEL D ESPAGNE,UIPAREHD,"{'latitude': 48.87191, 'longitude': 2.34438}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UI,PAR,700869037,VILLA DES TERNES HOTEL,UIPARVIL,"{'latitude': 48.88048, 'longitude': 2.28614}",{'countryCode': 'FR'},2022-11-29T09:07:09
-UI,PAR,700026898,WALDORF TROCADERO HOTEL,UIPARWTH,"{'latitude': 48.86715, 'longitude': 2.2877}",{'countryCode': 'FR'},2022-11-29T09:07:10
-UI,PAR,505009678,UI TEST PROPERTY     ,UIPARF14,"{'latitude': 48.85717, 'longitude': 2.3414}",{'countryCode': 'FR'},2022-11-29T09:07:07
-UZ,PAR,700007094,ELYSEES CERAMIC HOTEL,UZPARECH,"{'latitude': 48.87683, 'longitude': 2.29754}",{'countryCode': 'FR'},2022-11-29T09:07:20
-VE,PAR,700038717,FERTEL MAILLOT,VEPAR299,"{'latitude': 48.87816, 'longitude': 2.28524}",{'countryCode': 'FR'},
-VI,PAR,700034084,MAGIC CIRCUS,VIPAR9BB,"{'latitude': 48.87433, 'longitude': 2.8043}",{'countryCode': 'FR'},2022-11-29T09:07:17
-VI,PAR,700022138,DREAM CASTLE,VIPARDCH,"{'latitude': 48.87433, 'longitude': 2.8043}",{'countryCode': 'FR'},2022-11-29T09:07:17
-WB,PAR,700081232,SAINT JAMES PARIS,WBPARSJP,"{'latitude': 48.87084, 'longitude': 2.27992}",{'countryCode': 'FR'},2022-11-29T09:06:56
-WB,PAR,700058515,HOTEL DANIEL,WBPARS17,"{'latitude': 48.87289, 'longitude': 2.30724}",{'countryCode': 'FR'},2022-11-29T09:06:56
-WK,PAR,700014266,HOTEL WESTMINSTER,WKPARWES,"{'latitude': 48.86933, 'longitude': 2.33129}",{'countryCode': 'FR'},2022-11-29T09:06:54
-WK,PAR,700014208,WARWICK CHAMPS ELYSEES,WKPARWAR,"{'latitude': 48.87181, 'longitude': 2.30314}",{'countryCode': 'FR'},2022-11-29T09:06:54
-WV,PAR,504478540,HOTEL WVPARELP,WVPARELP,"{'latitude': 23.13211, 'longitude': -82.36749}",{'countryCode': 'CU'},2022-11-29T09:07:11
-WV,PAR,700158026,HOTEL JEAN GABRIEL MONTMARTRE,WVPARJAN,"{'latitude': 48.88395, 'longitude': 2.32548}",{'countryCode': 'FR'},2022-11-29T09:07:11
-WV,PAR,700020459,HOTEL PULITZER PARIS,WVPARPUL,"{'latitude': 48.87319, 'longitude': 2.34301}",{'countryCode': 'FR'},2022-11-29T09:07:11
-WV,PAR,700048470,HOTEL LE VIGNON OPERA,WVPARVIG,"{'latitude': 48.87187, 'longitude': 2.32641}",{'countryCode': 'FR'},2022-11-29T09:07:11
-WV,PAR,700092010,HOTEL CAMBON,WVPAR887,"{'latitude': 48.86601, 'longitude': 2.32505}",{'countryCode': 'FR'},2022-11-29T09:07:09
-WV,PAR,700942245,BRIDGESTREET OPERA SERVICED APARTMENTS,WVPARBRO,"{'latitude': 48.87699, 'longitude': 2.32191}",{'countryCode': 'FR'},2022-11-29T09:07:11
-WV,PAR,700009473,HOTEL MAXIM QUARTIER LATIN,WVPARMXE,"{'latitude': 48.84005, 'longitude': 2.35191}",{'countryCode': 'FR'},2022-11-29T09:07:11
-WW,PAR,700046958,KUBE HOTEL PARIS,WWPARKUB,"{'latitude': 48.8867, 'longitude': 2.35849}",{'countryCode': 'FR'},2022-11-29T09:07:12
-WW,PAR,700083058,1K PARIS,WWPARSTR,"{'latitude': 48.86402, 'longitude': 2.36592}",{'countryCode': 'FR'},2022-11-29T09:07:12
-WW,PAR,700012089,HOTEL ROYAL SAINT HONORE,WWPARROY,"{'latitude': 48.86583, 'longitude': 2.33002}",{'countryCode': 'FR'},2022-11-29T09:07:12
-WW,PAR,700058049,HOTEL CLARIDGE,WWPARCLA,"{'latitude': 48.86859, 'longitude': 2.30378}",{'countryCode': 'FR'},2022-11-29T09:07:12
-WW,PAR,700006995,EDOUARD 7 HOTEL,WWPAREDO,"{'latitude': 48.86869, 'longitude': 2.33312}",{'countryCode': 'FR'},2022-11-29T09:07:12
-WW,PAR,700045819,HOTEL DE SERS CHAMPS ELYSEES,WWPARDES,"{'latitude': 48.86809, 'longitude': 2.30049}",{'countryCode': 'FR'},2022-11-29T09:07:12
-WW,PAR,700018106,VILLA PANTHEON,WWPARVLP,"{'latitude': 48.84917, 'longitude': 2.34615}",{'countryCode': 'FR'},2022-11-29T09:07:12
-WW,PAR,700010452,NEW HOTEL ROBLIN LA MADELEINE,WWPARROB,"{'latitude': 48.87122, 'longitude': 2.3239}",{'countryCode': 'FR'},2022-11-29T09:07:12
-WW,PAR,700026984,HOTEL PONT ROYAL,WWPARPON,"{'latitude': 48.8567, 'longitude': 2.32742}",{'countryCode': 'FR'},2022-11-29T09:07:12
-XK,PAR,501107986,THE DEMO HOTEL,XKPAR321,"{'latitude': 48.85821, 'longitude': 2.34654}",,2022-11-29T09:08:13
-XK,PAR,504614809,GROUPS TESTING PROPERTY2,XKPAR555,"{'latitude': 48.85721, 'longitude': 2.34144}",{'countryCode': 'FR'},2022-11-29T09:08:13
-XK,PAR,501160248,CROWNE PLAZA PLACE DEREPUBLIQU,XKPAR32D,"{'latitude': 48.86747, 'longitude': 2.36464}",{'countryCode': 'FR'},2022-11-29T09:08:13
-XK,PAR,501131690,EXPRESS BY HOLIDAY INN PARIS,XKPARD03,"{'latitude': 48.83297, 'longitude': 2.36296}",{'countryCode': 'FR'},2022-11-29T09:08:13
-XK,PAR,501161452,HOLIDAY INN AUTEUIL,XKPAR880,"{'latitude': 48.83807, 'longitude': 2.25826}",{'countryCode': 'FR'},2022-11-29T09:08:13
-XK,PAR,501162538,HOLIDAY INN OPERA GRANDS BLVDS,XKPAREA4,"{'latitude': 48.87155, 'longitude': 2.34356}",{'countryCode': 'FR'},2022-11-29T09:08:13
-XK,PAR,501108199,SILVER PLACE PARIS,XKPAR130,"{'latitude': 48.87556, 'longitude': 2.28559}",{'countryCode': 'FR'},2022-11-29T09:08:13
-XK,PAR,501103408,THE RED HOTEL,XKPAR101,"{'latitude': 48.86982, 'longitude': 2.30765}",{'countryCode': 'FR'},2022-11-29T09:08:13
-XK,PAR,501108178,DIAMOND HOTEL,XKPAR120,"{'latitude': 48.86831, 'longitude': 2.31222}",{'countryCode': 'FR'},2022-11-29T09:08:13
-XK,PAR,504019629,BOOKING COM TEST HOTEL (REGDBEBI),XKPAR027,"{'latitude': 48.75312, 'longitude': 2.35146}",{'countryCode': 'FR'},2022-11-29T09:08:13
-XK,PAR,501259559,SWI AHPCRS HOTEL PNR INT,XKPARPNR,"{'latitude': 48.8732, 'longitude': 2.39057}",{'countryCode': 'FR'},2022-11-29T09:08:14
-XK,PAR,501146032,HOLIDAY INN VERSAILLES BOUGIVA,XKPAR4FC,"{'latitude': 48.86769, 'longitude': 2.14514}",{'countryCode': 'FR'},2022-11-29T09:08:13
-XK,PAR,504204922,HOTEL XKHPAR 1,XKPART01,"{'latitude': 41.47396, 'longitude': -72.19833}",{'countryCode': 'US'},2023-04-04T02:46:40
-XL,PAR,700014039,VILLA MAILLOT ARC DE TRIOMPHE,XLPARVML,"{'latitude': 48.87553, 'longitude': 2.28371}",{'countryCode': 'FR'},2022-11-29T09:08:02
-XL,PAR,700038378,HOTEL CALIFORNIA,XLPARHCP,"{'latitude': 48.8733, 'longitude': 2.3049}",{'countryCode': 'FR'},2022-11-29T09:08:02
-XL,PAR,700007527,HOTEL FRANCOIS 1ER SUMMIT HOTE,XLPAR1ER,"{'latitude': 48.871, 'longitude': 2.29963}",{'countryCode': 'FR'},2022-11-29T09:08:02
-XL,PAR,700008401,LES JARDINS DU MARAIS,XLPARLJM,"{'latitude': 48.86053, 'longitude': 2.36798}",{'countryCode': 'FR'},2022-11-29T09:08:02
-XN,PAR,700134143,MAMA SHELTER,XNPARMAM,"{'latitude': 48.85964, 'longitude': 2.40286}",{'countryCode': 'FR'},
-YR,PAR,505093011,RAFFLES HOTELS       ,YRPARRAF,"{'latitude': 48.85717, 'longitude': 2.3414}",{'countryCode': 'FR'},2022-11-29T09:08:16
-YX,PAR,504220038,LAM001YX,YXPAR187,"{'latitude': 40.43602, 'longitude': -3.6833}",{'countryCode': 'ES'},2023-05-25T03:53:49
-YY,PAR,504614812,GROUPS TESTING PROPERTY2,YYPAR123,"{'latitude': 48.85721, 'longitude': 2.34144}",{'countryCode': 'FR'},2022-11-29T09:08:17
-YY,PAR,504614813,GROUPS TESTING PROPERTY2,YYPAR324,"{'latitude': 48.85721, 'longitude': 2.34144}",{'countryCode': 'FR'},2022-11-29T09:08:17
-ZL,PAR,504220431,THE HOTEL ZELDA PAR 004ZL,ZLPAR004,"{'latitude': 41.47396, 'longitude': -72.19833}",{'countryCode': 'US'},2023-03-20T02:48:02
+chainCode,iataCode,dupeId,name,hotelId,geoCode,address,giataId,lastUpdate
+AR,MAD,700025872,AC BY MARRIOTT ALCALA DE HENAR,ARMADALC,"{'latitude': 40.5028, 'longitude': -3.36574}",{'countryCode': 'ES'},49342,2023-06-15T09:53:25
+AR,MAD,700025393,AC BY MARRIOTT GUADALAJARA,ARMADGUA,"{'latitude': 40.63472, 'longitude': -3.17281}",{'countryCode': 'ES'},48764,2023-06-15T09:53:25
+AR,MAD,700142091,AC BY MARRIOTT HOTEL ATOCHA,ARMADATO,"{'latitude': 40.40393, 'longitude': -3.68976}",{'countryCode': 'ES'},228494,2023-06-15T10:19:04
+AR,MAD,700032826,AC BY MARRIOTT COSLADA AEROPUE,ARMADCOS,"{'latitude': 40.44518, 'longitude': -3.54075}",{'countryCode': 'ES'},60623,2023-06-15T09:52:54
+AR,MAD,700025394,AC BY MARRIOTT HOTEL ARAVACA,ARMADACH,"{'latitude': 40.46466, 'longitude': -3.78494}",{'countryCode': 'ES'},48765,2023-06-15T09:59:26
+AR,MAD,700024391,AC BY MARRIOTT AVENIDA AMERICA,ARMADAVE,"{'latitude': 40.43804, 'longitude': -3.67244}",{'countryCode': 'ES'},47176,2023-06-15T09:53:09
+AR,MAD,700025974,AC BY MARRIOTT LOS VASCOS,ARMADVAS,"{'latitude': 40.44901, 'longitude': -3.71128}",{'countryCode': 'ES'},49455,2023-06-15T09:52:38
+AR,MAD,700025809,AC BY MARRIOTT HOTEL CUZCO,ARMADCUZ,"{'latitude': 40.45856, 'longitude': -3.69038}",{'countryCode': 'ES'},49269,2023-06-15T09:52:38
+AR,MAD,700017113,AC BY MARRIOTT HOTEL AITANA,ARMADAIT,"{'latitude': 40.45606, 'longitude': -3.68986}",{'countryCode': 'ES'},29740,2023-06-15T09:59:10
+AR,MAD,700024508,AC CARLTON MADRID,ARMADCAR,"{'latitude': 40.40516, 'longitude': -3.69347}",{'countryCode': 'ES'},47348,2023-06-15T10:16:43
+AR,MAD,700046865,AC BY MARRIOTT HOTEL RECOLETOS,ARMADREC,"{'latitude': 40.42156, 'longitude': -3.68946}",{'countryCode': 'ES'},85737,2023-06-15T09:53:09
+AR,MAD,700045200,AC BY MARRIOTT HOTEL MADRID FE,ARMADFER,"{'latitude': 40.47578, 'longitude': -3.63639}",{'countryCode': 'ES'},82763,2023-06-15T09:52:06
+AR,MAD,700042760,AC BY MARRIOTT HOTEL LA FINCA,ARMADFIN,"{'latitude': 40.42114, 'longitude': -3.80455}",{'countryCode': 'ES'},77861,2023-06-15T09:52:22
+AR,MAD,700034056,AC BY MARRIOTT SAN SEBASTIAN,ARMADSEB,"{'latitude': 40.54692, 'longitude': -3.61306}",{'countryCode': 'ES'},63191,2023-06-15T09:53:09
+BN,MAD,700041454,BARCELO ARANJUEZ,BNMAD770,"{'latitude': 40.05695, 'longitude': -3.60508}",{'countryCode': 'ES'},75608,2023-06-15T09:52:06
+BN,MAD,700054349,BARCELO CASTELLANA NORTE,BNMADCST,"{'latitude': 40.48832, 'longitude': -3.66934}",{'countryCode': 'ES'},100654,2023-06-15T10:10:26
+BN,MAD,700041080,BARCELO TORRE ARIAS,BNMAD943,"{'latitude': 40.43416, 'longitude': -3.63061}",{'countryCode': 'ES'},74882,2023-06-15T09:53:09
+BW,MAD,700062207,BEST WESTERN HOTEL TRAFALGAR,BWMAD214,"{'latitude': 40.4341, 'longitude': -3.70165}",{'countryCode': 'ES'},111773,2023-06-15T09:52:06
+BW,MAD,700046025,BEST WESTERN VILLA DE BARAJAS,BWMAD186,"{'latitude': 40.41829, 'longitude': -3.7054}",{'countryCode': 'ES'},83937,2023-06-15T09:52:54
+BW,MAD,700009576,BEST WESTERN  HOTEL LOS CONDES,BWMAD200,"{'latitude': 40.42193, 'longitude': -3.70645}",{'countryCode': 'ES'},16485,2023-06-15T09:52:54
+BW,MAD,700005766,BEST WESTERN HOTEL CARLOS V,BWMAD119,"{'latitude': 40.41829, 'longitude': -3.7054}",{'countryCode': 'ES'},9758,2023-06-15T09:52:06
+CA,MAD,700080651,CONFORTEL ATRIUM,CAMAD914,"{'latitude': 40.44766, 'longitude': -3.65501}",{'countryCode': 'ES'},137697,2023-06-15T10:12:32
+CA,MAD,700020273,CONFORTEL SUITES MADRID,CAMADCOM,"{'latitude': 40.44759, 'longitude': -3.66906}",{'countryCode': 'ES'},36113,2023-06-15T10:12:32
+CA,MAD,700024460,CONFORTEL PIO XII,CAMADXII,"{'latitude': 40.46578, 'longitude': -3.67566}",{'countryCode': 'ES'},47266,2023-06-15T10:12:47
+CA,MAD,700027762,CONFORTEL ALCALA NORTE,CAMADANC,"{'latitude': 40.43728, 'longitude': -3.62106}",{'countryCode': 'ES'},51917,2023-06-15T10:12:32
+CH,MAD,700027881,HOTEL FRANCISCO I,CHMADHFR,"{'latitude': 40.41742, 'longitude': -3.7071}",{'countryCode': 'ES'},52063,2023-06-15T09:52:06
+CH,MAD,700135278,PRADO APARTMENTS,CHMADHOT,"{'latitude': 40.41297, 'longitude': -3.69665}",{'countryCode': 'ES'},215720,2023-06-15T09:52:22
+CP,MAD,700147089,CROWNE PLAZA MADRID AIRPORT,CPMAD668,"{'latitude': 40.44736, 'longitude': -3.54262}",{'countryCode': 'ES'},236460,2023-06-15T10:19:52
+DH,MAD,700047209,REYES CATOLICOS,DHMADATX,"{'latitude': 40.40985, 'longitude': -3.71305}",{'countryCode': 'ES'},86364,2023-06-15T10:25:07
+DH,MAD,700025743,CANTABRICO,DHMADATW,"{'latitude': 40.40535, 'longitude': -3.75089}",{'countryCode': 'ES'},49186,2023-06-15T10:25:07
+DH,MAD,700081168,ALCALA PLAZA,DHMADATT,"{'latitude': 40.37587, 'longitude': -3.6831}",{'countryCode': 'ES'},138410,2023-06-15T10:22:13
+DH,MAD,700056704,CONVENCION BARAJAS,DHMADATV,"{'latitude': 40.45167, 'longitude': -3.59549}",{'countryCode': 'ES'},104084,2023-06-15T10:25:07
+DH,MAD,700183196,ACTA MADFOR,DHMADAUH,"{'latitude': 40.42142, 'longitude': -3.72171}",{'countryCode': 'ES'},301462,2023-06-15T10:29:02
+DH,MAD,700094541,ABALU,DHMADATU,"{'latitude': 40.42, 'longitude': -3.71}",{'countryCode': 'ES'},156614,2023-06-15T10:15:40
+DH,MAD,700148092,HOTEL PETIT PALACE SANTA BARBARA,DHMADAUN,"{'latitude': 40.42645, 'longitude': -3.69635}",{'countryCode': 'ES'},237831,2023-06-15T10:31:08
+DH,MAD,700005853,CASON DEL TORMES,DHMADATY,"{'latitude': 40.42028, 'longitude': -3.70577}",{'countryCode': 'ES'},10138,2023-06-15T10:25:38
+DS,MAD,700032747,HOTEL URBAN,DSMADURB,"{'latitude': 40.41646, 'longitude': -3.69822}",{'countryCode': 'ES'},60488,2023-06-15T09:52:23
+EP,MAD,700034057,HOTEL MENINAS,EPMADMEN,"{'latitude': 40.41912, 'longitude': -3.70931}",{'countryCode': 'ES'},63192,2023-06-15T09:53:10
+FA,MAD,502289814,TEST HOTEL COVID MEASURES TAKEN         ,FAMAD128,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-06-15T10:22:29
+HA,MAD,700026436,HOTEL DON MANUEL-ARANJUEZ,HAMADDON,"{'latitude': 40.03609, 'longitude': -3.59874}",{'countryCode': 'ES'},50062,2023-06-15T09:52:23
+HA,MAD,700026764,PUERTA DE GREDOS - BARCO DE AVILA,HAMADGRE,"{'latitude': 40.35304, 'longitude': -5.52163}",{'countryCode': 'ES'},50486,2023-06-15T10:12:01
+HA,MAD,700116906,H2 AVILA,HAMADAVI,"{'latitude': 40.66355, 'longitude': -4.67997}",{'countryCode': 'ES'},182222,2023-06-15T10:03:38
+HA,MAD,700025937,TH BOADILLA,HAMADBOA,"{'latitude': 40.39439, 'longitude': -3.85119}",{'countryCode': 'ES'},49415,2023-06-15T10:12:17
+HA,MAD,700056596,ALFONSO VIII-CUENCA,HAMADALF,"{'latitude': 40.06657, 'longitude': -2.13325}",{'countryCode': 'ES'},103936,2023-06-15T09:52:23
+HA,MAD,700055688,TORREMANGANA - CUENCA,HAMADH10,"{'latitude': 40.07512, 'longitude': -2.13965}",{'countryCode': 'ES'},102603,2023-06-15T09:55:47
+HA,MAD,700078771,H2 FUENLABRADA,HAMADH2F,"{'latitude': 40.27447, 'longitude': -3.75501}",{'countryCode': 'ES'},134365,2023-06-15T10:29:18
+HA,MAD,700026437,SIDORME FUENCARRAL,HAMADFUE,"{'latitude': 40.42356, 'longitude': -3.70066}",{'countryCode': 'ES'},50063,2023-06-15T11:20:55
+HA,MAD,700094503,IRIS - GUADALAJARA,HAMADIRI,"{'latitude': 40.41604, 'longitude': -3.69961}",{'countryCode': 'ES'},156571,2023-06-15T10:27:13
+HA,MAD,700025943,ALCARRIA - GUADALAJARA,HAMADRIA,"{'latitude': 40.62252, 'longitude': -3.15848}",{'countryCode': 'ES'},49421,2023-06-15T09:55:47
+HA,MAD,700081571,GRAN HOTEL ALMENAR,HAMADROZ,"{'latitude': 40.55002, 'longitude': -3.8992}",{'countryCode': 'ES'},138930,2023-06-15T09:52:07
+HA,MAD,700183196,HOTEL ACTA MADFOR,HAMADANT,"{'latitude': 40.47961, 'longitude': -3.36505}",{'countryCode': 'ES'},301462,2023-06-15T09:52:23
+HA,MAD,700082856,APARTHOTEL ANDROMEDA,HAMADAND,"{'latitude': 40.42864, 'longitude': -3.69469}",{'countryCode': 'ES'},141011,2023-06-15T09:52:07
+HA,MAD,700094551,ISIS HOTEL,HAMADISI,"{'latitude': 40.38861, 'longitude': -3.70009}",{'countryCode': 'ES'},156625,2023-06-15T09:51:35
+HA,MAD,700189387,HOTEL EXE MONCLOA,HAMADMON,"{'latitude': 40.43401, 'longitude': -3.71784}",{'countryCode': 'ES'},365547,2023-06-15T10:28:16
+HA,MAD,700026804,EUROSTARS GRAN MADRID - ALCOBENDAS,HAMADGRA,"{'latitude': 40.526, 'longitude': -3.62439}",{'countryCode': 'ES'},50539,2023-06-15T09:52:07
+HA,MAD,700033759,HOTEL CLEMENT BARAJAS,HAMADCLE,"{'latitude': 40.47106, 'longitude': -3.58004}",{'countryCode': 'ES'},62687,2023-06-15T10:29:34
+HA,MAD,700037938,INFANTA MERCEDES HOTEL,HAMADMER,"{'latitude': 40.45794, 'longitude': -3.69865}",{'countryCode': 'ES'},68590,2023-06-15T10:13:19
+HA,MAD,700141818,AGORA JUAN DE AUSTRIA HOTEL,HAMADAGO,"{'latitude': 40.43179, 'longitude': -3.6991}",{'countryCode': 'ES'},228062,2023-06-15T10:17:30
+HA,MAD,700218670,HOTEL VALDEMORO,HAMADVAL,"{'latitude': 40.19163, 'longitude': -3.68132}",{'countryCode': 'ES'},403322,2023-06-15T11:05:21
+HA,MAD,700026439,HOTEL VIA LUSITANA,HAMADEGI,"{'latitude': 40.42139, 'longitude': -3.67268}",{'countryCode': 'ES'},50065,2023-06-15T09:52:23
+HA,MAD,700032864,EUROSTARS ZARZUELA PARK,HAMADZAR,"{'latitude': 40.46794, 'longitude': -3.76689}",{'countryCode': 'ES'},60668,2023-06-15T09:52:23
+HA,MAD,700189386,EUROSTARS PLAZA MAYOR,HAMADPLM,"{'latitude': 40.39464, 'longitude': -3.7377}",{'countryCode': 'ES'},365546,2023-06-15T10:29:03
+HA,MAD,700189967,U HOSTELS,HAMADUHO,"{'latitude': 40.42803, 'longitude': -3.69828}",{'countryCode': 'ES'},367172,2023-06-15T10:26:41
+HA,MAD,700032281,HOSTAL RESIDENCIA DON DIEGO,HAMADHDD,"{'latitude': 40.42702, 'longitude': -3.68397}",{'countryCode': 'ES'},59539,2023-06-15T10:28:00
+HA,MAD,700046814,HOTEL FC VILLALBA,HAMADLUX,"{'latitude': 40.65021, 'longitude': -4.00844}",{'countryCode': 'ES'},85667,2023-06-15T10:30:21
+HA,MAD,700083069,ORION,HAMADORI,"{'latitude': 40.43486, 'longitude': -3.68503}",{'countryCode': 'ES'},141470,2023-06-15T09:53:26
+HA,MAD,700188470,HOSTAL BUELTA,HAMADBUE,"{'latitude': 40.39439, 'longitude': -3.85119}",{'countryCode': 'ES'},363394,2023-06-15T10:28:16
+HA,MAD,700032828,MEDIUM CORTEZO HOTEL,HAMADMED,"{'latitude': 40.41359, 'longitude': -3.70376}",{'countryCode': 'ES'},60625,2023-06-15T10:11:45
+HA,MAD,700133054,HOTEL VITA INGLES,HAMADING,"{'latitude': 40.41604, 'longitude': -3.69961}",{'countryCode': 'ES'},211761,2023-06-15T11:10:32
+HA,MAD,700045208,SUITES 33,HAMADS33,"{'latitude': 40.42213, 'longitude': -3.71053}",{'countryCode': 'ES'},82773,2023-06-15T09:52:23
+HA,MAD,700025588,HOTEL REGENTE,HAMADGEN,"{'latitude': 40.41951, 'longitude': -3.70436}",{'countryCode': 'ES'},48998,2023-06-15T09:52:07
+HA,MAD,700025257,CONVENCION HOTEL,HAMADCON,"{'latitude': 40.42139, 'longitude': -3.67268}",{'countryCode': 'ES'},48585,2023-06-15T10:17:30
+HA,MAD,700025848,VIA CASTELLANA,HAMADCAP,"{'latitude': 40.46732, 'longitude': -3.6886}",{'countryCode': 'ES'},49317,2023-06-15T10:03:07
+HA,MAD,700070718,EUROSTARS MADRID TOWER,HAMADTOW,"{'latitude': 40.47988, 'longitude': -3.68563}",{'countryCode': 'ES'},122577,2023-06-15T09:50:49
+HA,MAD,700022917,FLORIDA NORTE,HAMADFLO,"{'latitude': 40.4213, 'longitude': -3.72117}",{'countryCode': 'ES'},40952,2023-06-15T09:52:07
+HA,MAD,700166052,APARTAMENTOS LAS LETRAS,HAMADLET,"{'latitude': 40.41306, 'longitude': -3.70001}",{'countryCode': 'ES'},267284,2023-06-15T10:31:08
+HA,MAD,700056706,APT. TURISTICOS PRINCIPE 11,HAMADPRI,"{'latitude': 40.41575, 'longitude': -3.70026}",{'countryCode': 'ES'},104086,2023-06-15T09:52:23
+HA,MAD,700156307,DORMIRDCINE HOTEL,HAMADCIN,"{'latitude': 40.43606, 'longitude': -3.67923}",{'countryCode': 'ES'},249673,2023-06-15T10:19:52
+HA,MAD,700094559,HOTEL TACH MADRID AIRPORT,HAMADTAC,"{'latitude': 40.4729, 'longitude': -3.58509}",{'countryCode': 'ES'},156633,2023-06-15T10:29:34
+HA,MAD,700116902,COMPOSTELA SUITES,HAMADCOM,"{'latitude': 40.44767, 'longitude': -3.5803}",{'countryCode': 'ES'},182218,2023-06-15T09:43:28
+HA,MAD,700138646,HOTEL EMPERATRIZ-OCANA,HAMADEMP,"{'latitude': 40.42139, 'longitude': -3.67268}",{'countryCode': 'ES'},221870,2023-06-15T10:03:23
+HA,MAD,700025744,CIUDAD DE PARLA HOTEL,HAMADCDP,"{'latitude': 40.24034, 'longitude': -3.74997}",{'countryCode': 'ES'},49188,2023-06-15T10:18:17
+HA,MAD,700045199,LAS ARTES,HAMADART,"{'latitude': 40.24927, 'longitude': -3.68531}",{'countryCode': 'ES'},82762,2023-06-15T09:52:07
+HA,MAD,700026438,PLAZA DE SANTIAGO - PINTO,HAMADPDS,"{'latitude': 40.24528, 'longitude': -3.70063}",{'countryCode': 'ES'},50064,2023-06-15T09:52:07
+HA,MAD,700026655,POSADAS DE ESPANA PINTO,HAMADPIN,"{'latitude': 40.26305, 'longitude': -3.69187}",{'countryCode': 'ES'},50348,2023-06-15T10:19:52
+HA,MAD,700022880,EUROSTARS PLAZA ACUEDUCTO - SEGOVIA,HAMADPLA,"{'latitude': 40.94802, 'longitude': -4.11652}",{'countryCode': 'ES'},40904,2023-06-15T09:53:26
+HA,MAD,700041300,CANDIDO - SEGOVIA,HAMADDID,"{'latitude': 40.42139, 'longitude': -3.67268}",{'countryCode': 'ES'},75341,2023-06-15T10:15:56
+HA,MAD,700083074,PALACIO SAN FACUNDO - SEGOVIA,HAMADFAC,"{'latitude': 40.42139, 'longitude': -3.67268}",{'countryCode': 'ES'},141480,2023-06-15T09:46:21
+HA,MAD,700055914,BE SMART TALAVERA - TALAVERA DE LA REINA,HAMADTLV,"{'latitude': 39.96233, 'longitude': -4.82533}",{'countryCode': 'ES'},102944,2023-06-15T10:20:39
+HA,MAD,700025344,MAYORAL - TOLEDO,HAMADMAY,"{'latitude': 40.41306, 'longitude': -3.70001}",{'countryCode': 'ES'},48707,2023-06-15T09:52:23
+HA,MAD,700022886,MARIA CRISTINA - TOLEDO,HAMADMAC,"{'latitude': 39.8667, 'longitude': -4.02262}",{'countryCode': 'ES'},40910,2023-06-15T09:52:07
+HA,MAD,700028530,CASONA DE LA REYNA - TOLEDO,HAMADRES,"{'latitude': 40.94308, 'longitude': -4.11092}",{'countryCode': 'ES'},53153,2023-06-15T10:10:11
+HA,MAD,700030489,EUROSTARS TOLEDO - TOLEDO,HAMADTOL,"{'latitude': 39.87304, 'longitude': -4.02405}",{'countryCode': 'ES'},56250,2023-06-15T09:52:54
+HA,MAD,501902924,HOTEL TORREJON,HAMADTOR,"{'latitude': 40.45935, 'longitude': -3.46347}",{'countryCode': 'ES'},0,2023-06-15T11:21:05
+HA,MAD,700164758,POSADAS DE ESPANA ASSET - TORREJON ARDOZ,HAMADPOS,"{'latitude': 40.45586, 'longitude': -3.47897}",{'countryCode': 'ES'},265077,2023-06-15T11:08:13
+HA,MAD,700220016,HACIENDA CASTELLAR-VILLARRUBIA SANTIAGO,HAMADHCA,"{'latitude': 40.526, 'longitude': -3.62439}",{'countryCode': 'ES'},405066,2023-06-15T11:07:08
+HI,MAD,700132319,EXP BY HOLIDAY INN GETAFE,HIMAD2B3,"{'latitude': 40.27109, 'longitude': -3.70092}",{'countryCode': 'ES'},210563,2023-06-15T10:03:07
+HI,MAD,700051474,HOLIDAY INN EX MADRID AIRPORT,HIMAD16F,"{'latitude': 40.44944, 'longitude': -3.56643}",{'countryCode': 'ES'},93905,2023-06-15T09:52:23
+HI,MAD,700025740,HOLIDAY INN  BERNABEU,HIMAD765,"{'latitude': 40.45094, 'longitude': -3.69394}",{'countryCode': 'ES'},49182,2023-06-15T09:52:39
+HI,MAD,700043904,HOLIDAY INN EXPRESS MADRID-ALC,HIMAD428,"{'latitude': 40.35286, 'longitude': -3.82984}",{'countryCode': 'ES'},79972,2023-06-15T09:52:23
+HI,MAD,700043962,HOLIDAY INN EXP ALCOBENDAS,HIMAD71A,"{'latitude': 40.52699, 'longitude': -3.65298}",{'countryCode': 'ES'},80072,2023-06-15T09:53:26
+HL,MAD,700059251,HILTON MADRID AIRPORT,HLMAD100,"{'latitude': 40.45003, 'longitude': -3.60329}",{'countryCode': 'ES'},107579,2023-06-15T09:52:23
+HN,MAD,502338698,TEST PROPERTY FOR OPT SERVICES4,HNMADLKO,"{'latitude': 40.42748, 'longitude': -3.68502}",{'countryCode': 'ES'},0,2023-06-15T11:10:11
+HN,MAD,502338696,TEST PROPERTY FOR OPT SERVICES6,HNMADFTC,"{'latitude': 40.42748, 'longitude': -3.68502}",{'countryCode': 'ES'},0,2023-06-15T11:10:11
+HN,MAD,502338697,TEST PROPERTY FOR OPT SERVICES5,HNMADCSH,"{'latitude': 40.42748, 'longitude': -3.68502}",{'countryCode': 'ES'},0,2023-06-15T11:10:32
+HN,MAD,502338694,TEST PROPERTY FOR OPT SERVICES11,HNMADHFG,"{'latitude': 40.42748, 'longitude': -3.68502}",{'countryCode': 'ES'},0,2023-06-15T11:10:32
+HN,MAD,502338802,TEST PROP,HNMADHEM,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-06-15T11:07:30
+HN,MAD,502338668,HOT OPT TEST PROP TST,HNMADUMV,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-06-15T11:11:26
+HN,MAD,502338690,HOTEL MGM,HNMADXEB,"{'latitude': 40.42748, 'longitude': -3.68502}",{'countryCode': 'ES'},0,2023-06-15T11:11:15
+HN,MAD,502338689,TEST PROPERTY FOR OPT SERVICES1,HNMADUMS,"{'latitude': 40.42748, 'longitude': -3.68502}",{'countryCode': 'ES'},0,2023-06-15T11:11:15
+HN,MAD,502338692,TEST PROPERTY FOR OPT SERVICES3,HNMADYOH,"{'latitude': 40.42748, 'longitude': -3.68502}",{'countryCode': 'ES'},0,2023-06-15T10:29:50
+HN,MAD,502338570,HOT TEST WBS,HNMAD799,"{'latitude': 29.9, 'longitude': 28.6}",{'countryCode': 'ES'},0,2023-06-15T11:05:21
+HN,MAD,502344900,HOT TEST PROP FOR LKP,HNMAD900,"{'latitude': 1.26, 'longitude': -7.8}",{'countryCode': 'ES'},0,2023-06-15T11:06:37
+HN,MAD,502338691,TEST PROPERTY FOR OPT SERVICES2,HNMADFTL,"{'latitude': 40.42748, 'longitude': -3.68502}",{'countryCode': 'ES'},0,2023-06-15T11:11:26
+HN,MAD,502338695,TEST PROPERTY FOR OPT SERVICES10,HNMADGLB,"{'latitude': 40.42748, 'longitude': -3.68502}",{'countryCode': 'ES'},0,2023-06-15T10:29:50
+HN,MAD,502338693,TEST PROPERTY FOR OPT SERVICES12,HNMADTPN,"{'latitude': 40.42748, 'longitude': -3.68502}",{'countryCode': 'ES'},0,2023-06-15T11:11:15
+HN,MAD,502322161,TEST HOTEL HOT,HNMAD123,"{'latitude': 40.41669, 'longitude': -3.70035}",{'countryCode': 'ES'},0,2023-06-15T11:08:34
+HN,MAD,502322388,TEST HOTEL  FOR HOT,HNMAD999,"{'latitude': 40.41669, 'longitude': -3.70035}",{'countryCode': 'ES'},0,2023-06-15T11:11:15
+HS,MAD,700094386,LAS LEYENDAS,HSMADANJ,"{'latitude': 40.65401, 'longitude': -4.69995}",{'countryCode': 'ES'},156428,2023-06-15T11:19:08
+HS,MAD,700033256,FONTECRUZ AVILA GOLF,HSMADAQY,"{'latitude': 40.63183, 'longitude': -4.64914}",{'countryCode': 'ES'},61259,2023-06-15T11:18:57
+HS,MAD,700054441,LAS GACELAS HOTEL RURAL,HSMADAKC,"{'latitude': 40.71109, 'longitude': -3.99404}",{'countryCode': 'ES'},100801,2023-06-15T11:19:08
+HS,MAD,700037990,GLOBALES ACIS Y GALATEA,HSMADAHH,"{'latitude': 40.45044, 'longitude': -3.61303}",{'countryCode': 'ES'},68673,2023-06-15T11:16:59
+HS,MAD,700004826,ASTURIAS,HSMADABV,"{'latitude': 40.4168, 'longitude': -3.70018}",{'countryCode': 'ES'},8197,2023-06-15T11:19:08
+HS,MAD,700149880,MIGUEL DE CERVANTES HOSTAL,HSMADAMD,"{'latitude': 40.48272, 'longitude': -3.36761}",{'countryCode': 'ES'},240231,2023-06-15T10:34:17
+HS,MAD,700103574,ALCALA CENTRO APARTHOTEL,HSMADAUJ,"{'latitude': 40.48577, 'longitude': -3.36713}",{'countryCode': 'ES'},167549,2023-06-15T11:05:33
+HS,MAD,700026651,DON CARMELO,HSMADAEQ,"{'latitude': 40.6579, 'longitude': -4.6843}",{'countryCode': 'ES'},50344,2023-06-15T10:33:15
+HS,MAD,700046570,COMENDADOR,HSMADAGL,"{'latitude': 40.17183, 'longitude': -3.89613}",{'countryCode': 'ES'},85155,2023-06-15T10:35:36
+HS,MAD,700156441,MADRID CENTRAL SUITES APARTAMENTOS,HSMADACU,"{'latitude': 40.42734, 'longitude': -3.70104}",{'countryCode': 'ES'},249829,2023-06-15T10:34:02
+HS,MAD,502023443,BALLESTA HOSTAL,HSMADAOC,"{'latitude': 40.4215, 'longitude': -3.70352}",{'countryCode': 'ES'},0,2023-06-15T11:08:03
+HS,MAD,700032834,SAN LORENZO HOSTAL,HSMADAIG,"{'latitude': 40.4204, 'longitude': -3.6992}",{'countryCode': 'ES'},60631,2023-06-15T10:37:42
+HS,MAD,700049515,MARLASCA HOSTAL,HSMADAHR,"{'latitude': 40.41559, 'longitude': -3.70183}",{'countryCode': 'ES'},90100,2023-06-15T11:05:54
+HS,MAD,700184939,ESMERALDA HOSTAL,HSMADAPS,"{'latitude': 40.41666, 'longitude': -3.70154}",{'countryCode': 'ES'},315049,2023-06-15T10:39:31
+HS,MAD,700132494,SALAMANCA HOSTAL,HSMADANE,"{'latitude': 40.43016, 'longitude': -3.68059}",{'countryCode': 'ES'},210830,2023-06-15T10:31:40
+HS,MAD,700025901,NEGRESCO,HSMADAFV,"{'latitude': 40.4195, 'longitude': -3.7042}",{'countryCode': 'ES'},49379,2023-06-15T10:38:44
+HS,MAD,700024853,AVENIDA GRAN VIA,HSMADAKF,"{'latitude': 40.41972, 'longitude': -3.70409}",{'countryCode': 'ES'},47900,2023-06-15T11:15:45
+HS,MAD,700038242,A-H PLAZA DEL LICEO,HSMADAOU,"{'latitude': 40.45706, 'longitude': -3.64796}",{'countryCode': 'ES'},69153,2023-06-15T10:35:21
+HS,MAD,700131347,EL PASAJE,HSMADAJV,"{'latitude': 40.41625, 'longitude': -3.7013}",{'countryCode': 'ES'},208752,2023-06-15T10:39:16
+HS,MAD,700038243,A-H EL PARQUE,HSMADAHX,"{'latitude': 40.45109, 'longitude': -3.6523}",{'countryCode': 'ES'},69154,2023-06-15T10:37:42
+HS,MAD,700032766,SONSOLES HOSTAL,HSMADAIR,"{'latitude': 40.42114, 'longitude': -3.70132}",{'countryCode': 'ES'},60516,2023-06-15T11:07:20
+HS,MAD,700072285,LUIS XV. HOSTAL,HSMADAMH,"{'latitude': 40.41973, 'longitude': -3.7018}",{'countryCode': 'ES'},125341,2023-06-15T11:06:05
+HS,MAD,700147905,HOTEL MIRAFLORES,HSMADAPI,"{'latitude': 40.81127, 'longitude': -3.769}",{'countryCode': 'ES'},237577,2023-06-15T10:31:56
+HS,MAD,700169488,EL TORREON DE NAVACERRADA OPTIMAL HOTELS,HSMADAUF,"{'latitude': 40.72514, 'longitude': -4.02067}",{'countryCode': 'ES'},274660,2023-06-15T11:07:20
+HS,MAD,700162089,RINCON DE TRASPALACIO,HSMADAVK,"{'latitude': 40.50033, 'longitude': -4.2371}",{'countryCode': 'ES'},259884,2023-06-15T10:35:21
+HS,MAD,700169492,PRADERON,HSMADATY,"{'latitude': 40.55645, 'longitude': -3.6266}",{'countryCode': 'ES'},274669,2023-06-15T10:38:29
+HS,MAD,700094646,LA CASA MUDEJAR HOTEL - SPA,HSMADASA,"{'latitude': 40.94977, 'longitude': -4.12395}",{'countryCode': 'ES'},156741,2023-06-15T10:32:12
+HS,MAD,700138834,HOSTERIA DEL MUDEJAR,HSMADANL,"{'latitude': 40.84153, 'longitude': -4.62302}",{'countryCode': 'ES'},222291,2023-06-15T11:10:33
+IN,MAD,700211421,HOTEL INDIGO GRAN VIA,INMAD23B,"{'latitude': 40.42073, 'longitude': -3.70744}",{'countryCode': 'ES'},391308,2023-06-15T11:08:04
+KY,MAD,700025935,HOTEL CISNEROS - ALCALA DE HENARES,KYMADCIS,"{'latitude': 40.47141, 'longitude': -3.3667}",{'countryCode': 'ES'},49413,2023-06-15T09:52:39
+KY,MAD,700024528,PALACIO DE LOS VELADA - AVILA,KYMADPAL,"{'latitude': 40.65621, 'longitude': -4.69818}",{'countryCode': 'ES'},47370,2023-06-15T10:16:44
+KY,MAD,700025920,HOTEL H2 GETAFE,KYMADGET,"{'latitude': 40.31698, 'longitude': -3.73449}",{'countryCode': 'ES'},49398,2023-06-15T10:23:17
+KY,MAD,700049517,GRAN HOTEL LAS ROZAS,KYMADROZ,"{'latitude': 40.54484, 'longitude': -3.8952}",{'countryCode': 'ES'},90103,2023-06-15T09:53:58
+KY,MAD,700094556,SHS AEROPUERTO,KYMADSHS,"{'latitude': 40.50048, 'longitude': -3.33724}",{'countryCode': 'ES'},156630,2023-06-15T09:57:06
+KY,MAD,700094544,EXE AMADOR DE LOS RIOS,KYMADAMA,"{'latitude': 40.42714, 'longitude': -3.69133}",{'countryCode': 'ES'},156617,2023-06-15T09:52:23
+KY,MAD,700147531,EUROSTARS ARENAS DE PINTO,KYMAD9UJ,"{'latitude': 40.34516, 'longitude': -3.71114}",{'countryCode': 'ES'},237046,2023-06-15T10:15:41
+KY,MAD,700056752,LA POSADA DE EL CHAFLAN,KYMADARI,"{'latitude': 40.46683, 'longitude': -3.67436}",{'countryCode': 'ES'},104153,2023-06-15T09:52:23
+KY,MAD,700024226,ESPAHOTEL GRAN VIA 65,KYMADGRA,"{'latitude': 40.42277, 'longitude': -3.70975}",{'countryCode': 'ES'},46893,2023-06-15T09:52:23
+KY,MAD,700025931,HOTEL OSUNA,KYMADOSU,"{'latitude': 40.45286, 'longitude': -3.61344}",{'countryCode': 'ES'},49409,2023-06-15T10:30:06
+KY,MAD,700025349,GRAN HOTEL VELAZQUEZ,KYMADLAZ,"{'latitude': 40.42816, 'longitude': -3.68388}",{'countryCode': 'ES'},48712,2023-06-15T10:30:06
+KY,MAD,700025906,ESPAHOTEL PLAZA BASILICA,KYMADBAS,"{'latitude': 40.44966, 'longitude': -3.69852}",{'countryCode': 'ES'},49384,2023-06-15T09:52:07
+KY,MAD,700033111,GRAN ATLANTA HOTEL,KYMADATL,"{'latitude': 40.45023, 'longitude': -3.69824}",{'countryCode': 'ES'},61040,2023-06-15T09:52:23
+KY,MAD,700007795,GRAN VERSALLES,KYMADVER,"{'latitude': 40.42831, 'longitude': -3.6971}",{'countryCode': 'ES'},13408,2023-06-15T09:56:19
+KY,MAD,700094553,HOTEL JULIA,KYMADJUL,"{'latitude': 40.43419, 'longitude': -3.63269}",{'countryCode': 'ES'},156627,2023-06-15T10:30:06
+KY,MAD,700061706,SUITE PRADOHOTEL,KYMADSUI,"{'latitude': 40.41513, 'longitude': -3.69915}",{'countryCode': 'ES'},111030,2023-06-15T09:59:12
+KY,MAD,700211471,HOTEL DOME MADRID,KYMADDOM,"{'latitude': 40.51379, 'longitude': -3.67301}",{'countryCode': 'ES'},391440,2023-06-15T10:33:32
+KY,MAD,700094543,APARTO-HOTEL ROSALES,KYMADROS,"{'latitude': 40.42964, 'longitude': -3.71879}",{'countryCode': 'ES'},156616,2023-06-15T09:59:12
+KY,MAD,700094561,GRAN LEGAZPI,KYMADLEG,"{'latitude': 40.39188, 'longitude': -3.69605}",{'countryCode': 'ES'},156635,2023-06-15T09:52:23
+KY,MAD,700070373,ESPAHOTEL PLAZA ESPANA,KYMADPLA,"{'latitude': 40.4224, 'longitude': -3.71218}",{'countryCode': 'ES'},121502,2023-06-15T09:53:10
+KY,MAD,700042340,EUROSTARS I-HOTEL,KYMADIHO,"{'latitude': 40.39706, 'longitude': -3.79553}",{'countryCode': 'ES'},77124,2023-06-15T09:53:26
+KY,MAD,700031287,POZUELO - POZUELO DE ALARCON,KYMADPOZ,"{'latitude': 40.43765, 'longitude': -3.81801}",{'countryCode': 'ES'},57551,2023-06-15T09:52:39
+KY,MAD,700023502,ALFONSO VI-TOLEDO,KYMADALF,"{'latitude': 39.63491, 'longitude': -4.47584}",{'countryCode': 'ES'},42145,2023-06-15T09:52:23
+KY,MAD,700041587,FONTECRUZ TOLEDO - TOLEDO,KYMADEUG,"{'latitude': 39.85555, 'longitude': -4.02604}",{'countryCode': 'ES'},75848,2023-06-15T09:52:23
+KY,MAD,700025315,EXE CARLOS V - TOLEDO,KYMADCAL,"{'latitude': 39.85761, 'longitude': -4.02192}",{'countryCode': 'ES'},48670,2023-06-15T09:52:23
+KY,MAD,700094677,RESTON VALDEMORO,KYMADRES,"{'latitude': 40.1832, 'longitude': -3.68163}",{'countryCode': 'ES'},156777,2023-06-15T09:52:39
+LE,MAD,700148715,PETIT PALACE SAVOY ALFONSO XII,LEMADPPS,"{'latitude': 40.41723, 'longitude': -3.68921}",{'countryCode': 'ES'},238667,2023-06-15T10:24:52
+LE,MAD,700025953,SENATOR GRAN VIA 21 HOTEL,LEMADVIA,"{'latitude': 40.41997, 'longitude': -3.70151}",{'countryCode': 'ES'},49432,2023-06-15T10:16:44
+LE,MAD,700026577,SENATOR GRAN VIA 70 SPA HOTEL,LEMADESP,"{'latitude': 40.42257, 'longitude': -3.70963}",{'countryCode': 'ES'},50256,2023-06-15T10:18:18
+LE,MAD,700148092,PETIT PALACE SANTA BARBARA,LEMADSBA,"{'latitude': 40.42642, 'longitude': -3.69671}",{'countryCode': 'ES'},237831,2023-06-15T09:55:48
+LE,MAD,700010688,HOTEL OPERA,LEMAD294,"{'latitude': 40.41878, 'longitude': -3.71028}",{'countryCode': 'ES'},18332,2023-06-15T09:53:42
+LW,MAD,700014038,HOTEL VILLA MAGNA,LWMAD433,"{'latitude': 40.42965, 'longitude': -3.68884}",{'countryCode': 'ES'},23929,2023-06-15T09:44:16
+LX,MAD,700014060,VILLA REAL HOTEL,LXMADVIL,"{'latitude': 40.41556, 'longitude': -3.697}",{'countryCode': 'ES'},23992,2023-06-15T09:54:29
+ME,MAD,502148737,GROUPS TESTING ANVITY3,MEMAD312,"{'latitude': 40.42028, 'longitude': -3.70577}",{'countryCode': 'ES'},0,2023-06-15T10:22:14
+ME,MAD,502148674,SHREYA ANVITY PROPERTY1,MEMAD511,"{'latitude': 40.42028, 'longitude': -3.70577}",{'countryCode': 'ES'},0,2023-06-15T10:21:58
+ME,MAD,502148675,SHREYA ANVITY PROPERTY1,MEMAD512,"{'latitude': 40.42028, 'longitude': -3.70577}",{'countryCode': 'ES'},0,2023-06-15T10:22:14
+ME,MAD,502148677,SHREYA ANVITY PROPERTY1,MEMAD514,"{'latitude': 40.42028, 'longitude': -3.70577}",{'countryCode': 'ES'},0,2023-06-15T10:22:14
+ME,MAD,700156672,SHREYA ANVITY PROPERTY1,MEMAD600,"{'latitude': 40.42028, 'longitude': -3.70577}",{'countryCode': 'ES'},250127,2023-06-15T10:22:14
+ME,MAD,502148733,SHREYA ANVITY PROPERTY1,MEMAD801,"{'latitude': 40.42028, 'longitude': -3.70577}",{'countryCode': 'ES'},0,2023-06-15T10:22:14
+ME,MAD,502148734,SHREYA ANVITY PROPERTY1,MEMAD802,"{'latitude': 40.42028, 'longitude': -3.70577}",{'countryCode': 'ES'},0,2023-06-15T10:21:42
+ME,MAD,502148736,SHREYA ANVITY PROPERTY1,MEMAD804,"{'latitude': 40.42028, 'longitude': -3.70577}",{'countryCode': 'ES'},0,2023-06-15T10:22:14
+NN,MAD,700042447,CAMPANILE MADRID - ALCALA DE HENARES,NNMADC01,"{'latitude': 40.48239, 'longitude': -3.39454}",{'countryCode': 'ES'},77341,2023-06-15T09:54:29
+NN,MAD,700042448,CAMPANILE MADRID - LAS ROZAS,NNMADC02,"{'latitude': 40.60502, 'longitude': -3.9684}",{'countryCode': 'ES'},77342,2023-06-15T09:54:14
+NS,MAD,700032964,NH COLLECTION PALACIO ARANJUEZ,NSMADPAZ,"{'latitude': 40.03376, 'longitude': -3.60823}",{'countryCode': 'ES'},60806,2023-06-15T09:54:14
+NS,MAD,700030491,NH CIUDAD DE CUENCA,NSMADCUE,"{'latitude': 40.06237, 'longitude': -2.13237}",{'countryCode': 'ES'},56252,2023-06-15T09:57:06
+NS,MAD,700032827,NH MADRID PUERTA DE ALCALA,NSMADALC,"{'latitude': 40.42226, 'longitude': -3.68126}",{'countryCode': 'ES'},60624,2023-06-15T09:56:35
+NS,MAD,700032963,NH MADRID SUR,NSMADPAC,"{'latitude': 40.39871, 'longitude': -3.67003}",{'countryCode': 'ES'},60805,2023-06-15T09:56:51
+NS,MAD,700071480,NH MADRID LAS TABLAS,NSMADLTA,"{'latitude': 40.49543, 'longitude': -3.66782}",{'countryCode': 'ES'},124296,2023-06-15T10:00:46
+NS,MAD,700019407,NH COLLECTION MADRID ABASCAL,NSMADABA,"{'latitude': 40.43844, 'longitude': -3.69466}",{'countryCode': 'ES'},34276,2023-06-15T09:58:09
+NS,MAD,700032957,NH MADRID SANVY,NSMADSAN,"{'latitude': 40.42618, 'longitude': -3.68899}",{'countryCode': 'ES'},60799,2023-06-15T09:59:12
+NS,MAD,700032959,NH COLLECTION EUROBUILDING,NSMADERB,"{'latitude': 40.45864, 'longitude': -3.68558}",{'countryCode': 'ES'},60801,2023-06-15T09:59:12
+NS,MAD,700025813,NH PASEO DE LA HABANA,NSMADHAB,"{'latitude': 40.45574, 'longitude': -3.68178}",{'countryCode': 'ES'},49273,2023-06-15T09:57:06
+NS,MAD,700007097,NH MADRID ALONSO MARTINEZ,NSMADEMB,"{'latitude': 40.42887, 'longitude': -3.69601}",{'countryCode': 'ES'},12101,2023-06-15T09:56:19
+NS,MAD,700032760,NH MADRID ZURBANO,NSMADZUR,"{'latitude': 40.43869, 'longitude': -3.69286}",{'countryCode': 'ES'},60507,2023-06-15T09:54:14
+NS,MAD,700027199,NH BARAJAS,NSMADBAR,"{'latitude': 40.45233, 'longitude': -3.59466}",{'countryCode': 'ES'},51072,2023-06-15T09:59:27
+NS,MAD,700032961,NH VILLA DE COSLADA,NSMADCOS,"{'latitude': 40.42765, 'longitude': -3.56059}",{'countryCode': 'ES'},60803,2023-06-15T09:56:19
+NS,MAD,700032968,NH MONTE ROZAS,NSMADMON,"{'latitude': 40.49197, 'longitude': -3.87457}",{'countryCode': 'ES'},60810,2023-06-15T09:59:12
+NS,MAD,700032956,NH LEGANES,NSMADLGA,"{'latitude': 40.32761, 'longitude': -3.74577}",{'countryCode': 'ES'},60798,2023-06-15T09:53:58
+NS,MAD,700032967,NH POZUELO CIUDAD DE LA IMAGEN,NSMADIMA,"{'latitude': 40.39803, 'longitude': -3.78781}",{'countryCode': 'ES'},60809,2023-06-15T09:54:30
+NS,MAD,700027049,NH EL ESCORIAL VICTORIA PALACE,NSMADVIC,"{'latitude': 40.59151, 'longitude': -4.14404}",{'countryCode': 'ES'},50865,2023-06-15T10:10:59
+OI,MAD,502344787,WBS DRI TEST PROP,OIMADVHO,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-06-15T11:11:16
+OI,MAD,502345061,TEST PROPERTY FOR WBS TESTING VPG,OIMADGZR,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-03-29T06:49:12
+OI,MAD,502345163,NEW TEST PROPERTY5,OIMADSFV,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-04-28T10:12:18
+OI,MAD,502345151,TEST LINKHOTEL,OIMAD223,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-04-24T11:38:48
+OI,MAD,502345150,NEW TEST PROPERTY3,OIMADLPO,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-04-24T09:01:37
+OI,MAD,502338727,NEW WBS TEST PROPERTY,OIMADGDB,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-06-15T11:09:29
+OI,MAD,502338803,NEW TEST PROPERTY FOR E2E FLOW,OIMADBPM,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-06-15T11:05:02
+OI,MAD,502344767,DUMMY PROPERTY,OIMADEAF,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-06-15T11:11:16
+OI,MAD,502344774,TEST PROP OPT SVC VALIDATION,OIMADYNG,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-06-15T11:09:29
+OI,MAD,502333846,HOSAWAY TEST HOTEL,OIMADHTS,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-06-15T10:30:22
+OI,MAD,502335315,BOOKINGJINI IN TEST HOTEL,OIMADBKN,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-06-15T11:11:28
+OI,MAD,502345051,TEST PROP ROOMCLOUD,OIMADRMC,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-03-28T07:29:26
+OI,MAD,502338587,TRUSTED STA,OIMADTSY,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-06-15T11:12:11
+OI,MAD,502344827,REZEN TEST HOTEL,OIMADRZG,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-06-15T11:11:16
+OI,MAD,502265328,BOOKING PAL HOTEL,OIMADTTT,"{'latitude': 40.40059, 'longitude': -3.67156}",{'countryCode': 'ES'},0,2023-06-15T11:11:39
+OI,MAD,700025930,HOTEL MONTE REAL,OIMADHMR,"{'latitude': 40.47502, 'longitude': -3.74242}",{'countryCode': 'ES'},49408,2023-06-15T11:04:50
+OI,MAD,700010174,HOTEL MIGUEL ANGEL - MADRID,OIMADMIG,"{'latitude': 40.43741, 'longitude': -3.69124}",{'countryCode': 'ES'},17447,2023-06-15T11:06:28
+OI,MAD,700094541,HOTEL ABALU,OIMADHAB,"{'latitude': 40.4239, 'longitude': -3.70571}",{'countryCode': 'ES'},156614,2023-06-15T11:08:35
+OI,MAD,502326332,HOTEL TEST AVIRATO,OIMADAVI,"{'latitude': 40.43986, 'longitude': -3.65697}",{'countryCode': 'ES'},0,2023-06-15T11:11:28
+OI,MAD,502322631,KROSS BOOKING TEST PROPERTY,OIMADKRO,"{'latitude': 40.32298, 'longitude': -3.77928}",{'countryCode': 'ES'},0,2023-06-15T11:06:06
+OI,MAD,700228447,HOTEL REZEXCHANGE TEST PROPERTIES,OIMADRZE,"{'latitude': 12.0, 'longitude': 12.0}",{'countryCode': 'US'},417661,2023-06-15T14:12:22
+OI,MAD,700124089,HOTEL AVANT AEROPUERTO - TORREJON DE ARD,OIMADAVA,"{'latitude': 40.44533, 'longitude': -3.48575}",{'countryCode': 'ES'},195936,2023-06-15T10:29:50
+ON,MAD,700046821,HOTEL ISLA DE LA GARENA-ALCALA D,ONMADISL,"{'latitude': 40.48122, 'longitude': -3.40504}",{'countryCode': 'ES'},85674,2023-06-15T11:05:44
+ON,MAD,700031480,HOTEL ATLANTICO,ONMADATL,"{'latitude': 40.42046, 'longitude': -3.70456}",{'countryCode': 'ES'},57827,2023-06-15T10:39:33
+ON,MAD,700035022,LUSSO INFANTAS,ONMADLUS,"{'latitude': 40.42002, 'longitude': -3.69704}",{'countryCode': 'ES'},64662,2023-06-15T11:05:34
+PH,MAD,700019951,HESPERIA MADRID PREFERRED HOTE,PHMADHMH,"{'latitude': 40.43898, 'longitude': -3.69156}",{'countryCode': 'ES'},35465,2023-06-15T10:31:25
+PH,MAD,700027031,NH COLLECTION PASEO DEL PRADO,PHMADPAS,"{'latitude': 40.4153, 'longitude': -3.69477}",{'countryCode': 'ES'},50834,2023-06-15T11:10:23
+RD,MAD,700144622,RADISSON BLU MADRID PRADO,RDMAD137,"{'latitude': 40.41255, 'longitude': -3.69569}",{'countryCode': 'ES'},233070,2023-06-15T10:15:57
+RT,MAD,501440614,IBIS BUDGET ALCALA DE HENARES,RTMADRES,"{'latitude': 40.50054, 'longitude': -3.33719}",{'countryCode': 'ES'},0,2023-06-15T11:09:08
+RT,MAD,700094491,IBIS MADRID GETAFE,RTMADGTF,"{'latitude': 40.31622, 'longitude': -3.73543}",{'countryCode': 'ES'},156557,2023-06-15T09:58:09
+RT,MAD,700094555,IBIS MADRID AEROPUERTO,RTMADIIS,"{'latitude': 40.47023, 'longitude': -3.58066}",{'countryCode': 'ES'},156629,2023-06-15T09:54:30
+RT,MAD,700026135,NOVOTEL MADRID CAMPO NACIONES,RTMADCMP,"{'latitude': 40.46248, 'longitude': -3.61447}",{'countryCode': 'ES'},49653,2023-06-15T09:54:14
+RT,MAD,700007916,IBIS STYLES MADRID PRADO,RTMADPRA,"{'latitude': 40.41483, 'longitude': -3.69883}",{'countryCode': 'ES'},13583,2023-06-15T09:50:03
+RT,MAD,700012793,MERCURE MADRID PLAZA DE ESPANA,RTMADPUL,"{'latitude': 40.42566, 'longitude': -3.7138}",{'countryCode': 'ES'},21818,2023-06-15T09:59:12
+RT,MAD,700094375,IBIS MADRID ALCORCON TRESAGUAS,RTMADALR,"{'latitude': 40.35685, 'longitude': -3.8225}",{'countryCode': 'ES'},156412,2023-06-15T09:59:28
+RT,MAD,700219108,IBIS BUDGET MADRID GETAFE,RTMADAFE,"{'latitude': 40.27676, 'longitude': -3.69528}",{'countryCode': 'ES'},403831,2023-06-15T11:08:36
+RT,MAD,700183254,IBIS BUDGET MADRID VALLECAS,RTMADCAS,"{'latitude': 40.37228, 'longitude': -3.64076}",{'countryCode': 'ES'},301534,2023-06-15T11:08:25
+RT,MAD,501440616,IBIS BUDGET MADRID LAS VENTAS,RTMADTAS,"{'latitude': 40.4326, 'longitude': -3.65621}",{'countryCode': 'ES'},0,2023-06-15T11:08:25
+RT,MAD,700183253,IBIS BUDGET MADRID V BEATO,RTMADATO,"{'latitude': 40.43933, 'longitude': -3.62712}",{'countryCode': 'ES'},301533,2023-06-15T11:08:25
+SI,MAD,700040933,SHERATON MADRID MIRASIERRA HOTEL & SPA,SIMAD787,"{'latitude': 40.48706, 'longitude': -3.70244}",{'countryCode': 'ES'},74616,2023-06-15T09:45:51
+SM,MAD,700024351,MELIA BARAJAS,SMMADBAR,"{'latitude': 40.46956, 'longitude': -3.58134}",{'countryCode': 'ES'},47123,2023-06-15T09:54:14
+SM,MAD,700001545,MELIA GALGOS,SMMAD130,"{'latitude': 40.43565, 'longitude': -3.68529}",{'countryCode': 'ES'},2399,2023-06-15T09:57:07
+SM,MAD,700001543,MELIA AVENIDA DE AMERICA,SMMAD133,"{'latitude': 40.44777, 'longitude': -3.62826}",{'countryCode': 'ES'},2397,2023-06-15T09:58:09
+SM,MAD,700013044,INNSIDE SUECIA,SMMADSUE,"{'latitude': 40.41792, 'longitude': -3.69616}",{'countryCode': 'ES'},22271,2023-06-15T10:36:24
+SM,MAD,700070374,TRYP CENTRO NORTE APT,SMMADPCN,"{'latitude': 40.47187, 'longitude': -3.68569}",{'countryCode': 'ES'},121503,2023-06-15T09:56:36
+TG,MAD,700034115,TRAVELODGE MADRID TORRELAGUNA,TGMAD003,"{'latitude': 40.44545, 'longitude': -3.65539}",{'countryCode': 'ES'},63278,2023-06-15T10:18:03
+TG,MAD,700189965,TRAVELODGE MADRID ALCALA,TGMAD015,"{'latitude': 40.43692, 'longitude': -3.631}",{'countryCode': 'ES'},367170,2023-06-15T10:28:48
+TY,MAD,700079122,PARADOR DE ALCALA,TYMADALC,"{'latitude': 40.48149, 'longitude': -3.36241}",{'countryCode': 'ES'},135077,2023-06-15T10:14:55
+TY,MAD,700020185,PARADOR DE AVILA,TYMADAVI,"{'latitude': 40.6579, 'longitude': -4.7015}",{'countryCode': 'ES'},35977,2023-06-15T10:12:49
+TY,MAD,700041982,HOTEL MIDAMA,TYMADDAM,"{'latitude': 40.10515, 'longitude': -2.22195}",{'countryCode': 'ES'},76505,2023-06-15T10:18:03
+TY,MAD,700001506,PARADOR DE CUENCA,TYMADCUE,"{'latitude': 40.07868, 'longitude': -2.12644}",{'countryCode': 'ES'},2352,2023-06-15T10:14:23
+TY,MAD,700141746,HOTEL INFANTE,TYMADINF,"{'latitude': 40.63476, 'longitude': -3.16913}",{'countryCode': 'ES'},227974,2023-06-15T10:12:34
+TY,MAD,700013783,HOTEL REX,TYMADTRR,"{'latitude': 40.42066, 'longitude': -3.70677}",{'countryCode': 'ES'},23412,2023-06-15T10:16:14
+TY,MAD,700010361,MURALTO SUITES,TYMADMUR,"{'latitude': 40.4294, 'longitude': -3.71643}",{'countryCode': 'ES'},17772,2023-06-15T10:15:10
+TY,MAD,700166030,POSADA DEL DRAGON,TYMADDRA,"{'latitude': 40.41313, 'longitude': -3.70849}",{'countryCode': 'ES'},267259,2023-06-15T10:23:01
+TY,MAD,700129179,APARTHOTEL ENCASA,TYMADENC,"{'latitude': 40.40397, 'longitude': -3.59201}",{'countryCode': 'ES'},204908,2023-06-15T10:07:50
+TY,MAD,700129224,APARTOSUITES JARDINES DE SABATINI,TYMADPRI,"{'latitude': 40.42085, 'longitude': -3.71475}",{'countryCode': 'ES'},205021,2023-06-15T09:47:09
+TY,MAD,700009982,HOTEL MEDIODIA,TYMADMED,"{'latitude': 40.40855, 'longitude': -3.69257}",{'countryCode': 'ES'},17177,2023-06-15T10:20:09
+TY,MAD,700020313,PARADOR DE GREDOS - AVILA,TYMADGRE,"{'latitude': 40.35499, 'longitude': -5.11291}",{'countryCode': 'ES'},36177,2023-06-15T10:13:36
+TY,MAD,700094601,APARTHOTEL VILLA DE PARLA,TYMADPAR,"{'latitude': 40.23865, 'longitude': -3.76049}",{'countryCode': 'ES'},156688,2023-06-15T10:02:37
+TY,MAD,700001613,PARADOR DE SEGOVIA,TYMADSEG,"{'latitude': 40.96083, 'longitude': -4.11104}",{'countryCode': 'ES'},2476,2023-06-15T10:13:36
+TY,MAD,700001522,PARADOR DE SIGUENZA,TYMADSIG,"{'latitude': 41.06477, 'longitude': -2.64153}",{'countryCode': 'ES'},2368,2023-06-15T10:14:23
+TY,MAD,700166118,HOSTAL PUERTA DE BISAGRA,TYMADBIS,"{'latitude': 39.86217, 'longitude': -4.02486}",{'countryCode': 'ES'},267383,2023-06-15T10:17:47
+TY,MAD,700032920,TH LAS ROZAS,TYMADROZ,"{'latitude': 40.48415, 'longitude': -3.85665}",{'countryCode': 'ES'},60742,2023-06-15T11:09:19
+UI,MAD,700033452,PETIT PALACE EMBASSY SERRANO,UIMADPPE,"{'latitude': 40.42754, 'longitude': -3.6829}",{'countryCode': 'ES'},61920,2023-06-15T09:53:12
+UI,MAD,700025680,PRAGA HOTEL,UIMADPRA,"{'latitude': 40.39418, 'longitude': -3.70802}",{'countryCode': 'ES'},49113,2023-06-15T09:52:56
+UI,MAD,700031289,PETIT PALACE PUERTA DEL SOL,UIMADPPP,"{'latitude': 40.41691, 'longitude': -3.70506}",{'countryCode': 'ES'},57553,2023-06-15T09:53:27
+UI,MAD,700025865,PETIT PALACE ARTURO SORIA ALCA,UIMADART,"{'latitude': 40.43995, 'longitude': -3.63927}",{'countryCode': 'ES'},49334,2023-06-15T09:56:36
+UI,MAD,700149859,CATALONIA ATOCHA,UIMAD326,"{'latitude': 40.41187, 'longitude': -3.69806}",{'countryCode': 'ES'},240201,2023-06-15T10:20:25
+UI,MAD,700117724,AXOR FERIA HOTEL,UIMAD080,"{'latitude': 40.44767, 'longitude': -3.58238}",{'countryCode': 'ES'},183445,2023-06-15T10:14:55
+UI,MAD,700034066,CATALONIA GOYA,UIMADCAC,"{'latitude': 40.42507, 'longitude': -3.68214}",{'countryCode': 'ES'},63203,2023-06-15T09:57:23
+UI,MAD,700070717,PETIT PALACE MAYOR HOTEL,UIMAD811,"{'latitude': 40.4159, 'longitude': -3.70887}",{'countryCode': 'ES'},122576,2023-06-15T10:04:58
+UI,MAD,700035097,VINCCI SOHO HOTEL,UIMADVSM,"{'latitude': 40.41503, 'longitude': -3.69817}",{'countryCode': 'ES'},64840,2023-06-15T10:07:19
+UI,MAD,700054440,VINCCI SOMA HOTEL,UIMADPIN,"{'latitude': 40.42492, 'longitude': -3.67826}",{'countryCode': 'ES'},100800,2023-06-15T10:22:30
+UI,MAD,700024431,VINCCI CAPITOL,UIMADCPH,"{'latitude': 40.42049, 'longitude': -3.70631}",{'countryCode': 'ES'},47234,2023-06-15T11:08:36
+UI,MAD,700047517,VINCCI VIA 66,UIMAD439,"{'latitude': 40.42225, 'longitude': -3.70904}",{'countryCode': 'ES'},86884,2023-06-15T11:08:57
+UI,MAD,700024392,SILKEN PUERTA MADRID,UIMADSPM,"{'latitude': 40.44829, 'longitude': -3.63612}",{'countryCode': 'ES'},47177,2023-06-15T09:53:27
+UI,MAD,700165136,PETIT PALACE LEALTAD PLAZA,UIMADPPL,"{'latitude': 40.41651, 'longitude': -3.69093}",{'countryCode': 'ES'},265660,2023-06-15T10:27:29
+UI,MAD,700041299,CATALONIA LAS CORTES HOTEL,UIMADCLC,"{'latitude': 40.41467, 'longitude': -3.69951}",{'countryCode': 'ES'},75340,2023-06-15T09:54:14
+UI,MAD,700222604,APART HOTEL SERRANO RECOLETOS,UIMADREC,"{'latitude': 40.4231, 'longitude': -3.69077}",{'countryCode': 'ES'},408661,2023-06-15T11:08:47
+UI,MAD,700019950,PETIT PALACE CLIPER,UIMADCLI,"{'latitude': 40.41984, 'longitude': -3.70349}",{'countryCode': 'ES'},35463,2023-06-15T09:54:14
+UI,MAD,700025975,PETIT PALACE MADRID AEROPUERTO,UIMADMAD,"{'latitude': 40.45859, 'longitude': -3.58221}",{'countryCode': 'ES'},49456,2023-06-15T09:52:40
+UI,MAD,700015081,H10 VILLA DE LA REINA,UIMAD30A,"{'latitude': 40.42001, 'longitude': -3.70032}",{'countryCode': 'ES'},25968,2023-06-15T09:53:12
+UI,MAD,501120381,PETIT PALACE ITALIA GRAN VIA HOTEL,UIMADPPI,"{'latitude': 40.42044, 'longitude': -3.70302}",{'countryCode': 'ES'},0,2023-06-15T09:53:12
+UI,MAD,700027026,SILKEN TORRE GARDEN HOTEL,UIMADSTG,"{'latitude': 40.41485, 'longitude': -3.62141}",{'countryCode': 'ES'},50829,2023-06-15T09:52:09
+UI,MAD,700022875,PETIT PALACE DUCAL CHUECA HOTEL,UIMADPET,"{'latitude': 40.42028, 'longitude': -3.70098}",{'countryCode': 'ES'},40899,2023-06-15T09:52:09
+UI,MAD,700025971,HOTEL SERRANO,UIMAD926,"{'latitude': 40.43118, 'longitude': -3.68732}",{'countryCode': 'ES'},49452,2023-06-15T10:30:54
+UI,MAD,700070716,MAYDRIT HOTEL,UIMAD854,"{'latitude': 40.4514, 'longitude': -3.59311}",{'countryCode': 'ES'},122574,2023-06-15T10:11:46
+UI,MAD,700017714,INTUR PALACIO SAN MARTIN HOTEL,UIMADMAR,"{'latitude': 40.41851, 'longitude': -3.70706}",{'countryCode': 'ES'},30806,2023-06-15T10:04:11
+UI,MAD,700040936,PETIT PALACE PLAZA DEL CARMEN,UIMADPPC,"{'latitude': 40.41851, 'longitude': -3.70287}",{'countryCode': 'ES'},74619,2023-06-15T09:52:56
+UI,MAD,700034064,PETIT PALACE POSADA DEL PEINE,UIMADPPO,"{'latitude': 40.41573, 'longitude': -3.70612}",{'countryCode': 'ES'},63200,2023-06-15T09:52:09
+UI,MAD,700025280,AGUMAR HOTEL,UIMADAGU,"{'latitude': 40.40672, 'longitude': -3.68327}",{'countryCode': 'ES'},48617,2023-06-15T09:59:13
+UI,MAD,700094539,VP JARDIN METROPOLITANO HOTEL,UIMADMET,"{'latitude': 40.44713, 'longitude': -3.70691}",{'countryCode': 'ES'},156612,2023-06-15T09:54:46
+UI,MAD,700044278,LIABENY HOTEL,UIMADLIA,"{'latitude': 40.41861, 'longitude': -3.70398}",{'countryCode': 'ES'},80721,2023-06-15T10:12:34
+UI,MAD,700042195,PETIT PALACE SAN BERNARDO,UIMADPSB,"{'latitude': 40.42981, 'longitude': -3.70594}",{'countryCode': 'ES'},76921,2023-06-15T09:52:09
+UI,MAD,700050225,ECO ALCALA SUITES,UIMAD177,"{'latitude': 40.43771, 'longitude': -3.63165}",{'countryCode': 'ES'},91619,2023-06-15T10:29:19
+UI,MAD,700040733,SILKEN PUERTA AMERICA,UIMADSPA,"{'latitude': 40.43883, 'longitude': -3.67538}",{'countryCode': 'ES'},73884,2023-06-15T09:53:12
+UI,MAD,700026130,AMURA ALCOBENDAS HOTEL,UIMADAMA,"{'latitude': 40.53591, 'longitude': -3.6415}",{'countryCode': 'ES'},49648,2023-06-15T09:54:30
+UI,MAD,700059758,LA MORALEJA HOTEL,UIMADLAM,"{'latitude': 40.51592, 'longitude': -3.65594}",{'countryCode': 'ES'},108276,2023-06-15T09:53:27
+UI,MAD,700026083,GLOBALES DE LOS REYES HOTEL,UIMADREY,"{'latitude': 40.56104, 'longitude': -3.63088}",{'countryCode': 'ES'},49593,2023-06-15T09:42:27
+UZ,MAD,700154831,LUXURY SUITES HOTEL,UZMAD513,"{'latitude': 40.41989, 'longitude': -3.69146}",{'countryCode': 'ES'},247610,2023-06-15T10:23:49
+UZ,MAD,700027734,LOS ARCOS HOTEL- SEGOVIA,UZMAD989,"{'latitude': 40.94364, 'longitude': -4.12015}",{'countryCode': 'ES'},51886,2023-06-15T09:52:09
+VP,MAD,502345029,TEST PROPERTY FOR VP,VPMADYNJ,"{'latitude': -17.78306, 'longitude': 177.21639}",{'countryCode': 'ES'},0,2023-04-28T09:00:17
+VP,MAD,502345232,NEW PROPERTY FOR PROMOTIONS TESTING8,VPMADUWX,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T10:31:57
+VP,MAD,502345237,NEW PROPERTY FOR PROMOTIONS TESTING13,VPMADCVW,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T11:01:50
+VP,MAD,502345241,NEW PROPERTY FOR PROMOTIONS TESTING17,VPMADKJC,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T11:09:16
+VP,MAD,502345245,NEW PROPERTY FOR PROMOTIONS TESTING21,VPMADBHG,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T11:14:47
+VP,MAD,502345236,NEW PROPERTY FOR PROMOTIONS TESTING12,VPMADAQA,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T11:00:10
+VP,MAD,502345240,NEW PROPERTY FOR PROMOTIONS TESTING16,VPMADLVR,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T11:07:59
+VP,MAD,502345246,NEW PROPERTY FOR PROMOTIONS TESTING4,VPMADPBG,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-30T05:22:14
+VP,MAD,502345247,NEW PROPERTY FOR PROMOTIONS TESTING1,VPMADVXI,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-30T05:31:22
+VP,MAD,502345244,NEW PROPERTY FOR PROMOTIONS TESTING20,VPMADLZF,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-30T08:20:00
+VP,MAD,502345243,NEW PROPERTY FOR PROMOTIONS TESTING19,VPMADLOM,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T11:13:09
+VP,MAD,502345234,NEW PROPERTY FOR PROMOTIONS TESTING10,VPMADUWF,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T10:42:58
+VP,MAD,502345242,NEW PROPERTY FOR PROMOTIONS TESTING18,VPMADUVX,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T11:10:38
+VP,MAD,502345229,NEW PROPERTY FOR PROMOTIONS TESTING6,VPMADXSA,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T10:25:27
+VP,MAD,502345239,NEW PROPERTY FOR PROMOTIONS TESTING15,VPMADOVO,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T11:06:39
+VP,MAD,502345329,VP TEST PROPERTY SH,VPMAD555,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-06-15T06:21:25
+VP,MAD,502345238,NEW PROPERTY FOR PROMOTIONS TESTING14,VPMADEPL,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T11:04:24
+VP,MAD,502345235,NEW PROPERTY FOR PROMOTIONS TESTING11,VPMADQEZ,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T10:45:12
+VP,MAD,502345233,NEW PROPERTY FOR PROMOTIONS TESTING9,VPMADKOQ,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T10:37:02
+VP,MAD,502345230,NEW PROPERTY FOR PROMOTIONS TESTING2,VPMADSTB,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T10:27:53
+VP,MAD,502345231,NEW PROPERTY FOR PROMOTIONS TESTING7,VPMADEPW,"{'latitude': 0.0, 'longitude': 0.0}",{'countryCode': 'ES'},0,2023-05-29T10:29:37
+WB,MAD,700026440,HOTEL ORFILA,WBMADS20,"{'latitude': 40.42737, 'longitude': -3.69316}",{'countryCode': 'ES'},50066,2023-06-15T09:52:24
+WB,MAD,700020292,MOLINO DE ALCUNEZA,WBMADMDA,"{'latitude': 41.10537, 'longitude': -2.60703}",{'countryCode': 'ES'},36135,2023-06-15T10:35:37
+WB,MAD,700094671,VALDEPALACIOS,WBMADS31,"{'latitude': 39.90797, 'longitude': -5.17218}",{'countryCode': 'ES'},156770,2023-06-15T10:09:41
+WI,MAD,700013562,THE WESTIN PALACE MADRID,WIMAD079,"{'latitude': 40.41575, 'longitude': -3.69573}",{'countryCode': 'ES'},23057,2023-06-15T09:52:09
+WK,MAD,700040949,HOTEL PASEO DEL ARTE,WKMADHPD,"{'latitude': 40.40968, 'longitude': -3.69354}",{'countryCode': 'ES'},74647,2023-06-15T11:10:35
+WT,MAD,700055845,TRYP MADRID GETAFE LOS ANGELES,WTMAD518,"{'latitude': 40.2961, 'longitude': -3.69082}",{'countryCode': 'ES'},102842,2023-06-15T10:17:16
+WT,MAD,700024303,TRYP MADRID ALAMEDA AEROPUERTO,WTMADALA,"{'latitude': 40.46888, 'longitude': -3.58147}",{'countryCode': 'ES'},47034,2023-06-15T10:21:59
+WT,MAD,700024354,TRYP MADRID ATOCHA,WTMADATO,"{'latitude': 40.41153, 'longitude': -3.69748}",{'countryCode': 'ES'},47127,2023-06-15T09:45:20
+WT,MAD,700013776,TRYP MADRID GRAN VIA,WTMADTRG,"{'latitude': 40.41986, 'longitude': -3.70237}",{'countryCode': 'ES'},23404,2023-06-15T10:15:58
+WT,MAD,700189966,TRYP MADRID AIRPORT SUITES,WTMADAIR,"{'latitude': 40.44685, 'longitude': -3.5427}",{'countryCode': 'ES'},367171,2023-06-15T10:29:35
+WT,MAD,700013772,TRYP MADRID CIBELES,WTMADTCB,"{'latitude': 40.42073, 'longitude': -3.70394}",{'countryCode': 'ES'},23398,2023-06-15T10:21:43
+WT,MAD,700026693,TRYP NAYADE,WTMADNAY,"{'latitude': 40.77774, 'longitude': -4.2117}",{'countryCode': 'ES'},50396,2023-06-15T10:17:48
+WT,MAD,700022882,TRYP COMENDADOR,WTMADCOM,"{'latitude': 40.7749, 'longitude': -4.20769}",{'countryCode': 'ES'},40906,2023-06-15T10:15:26
+WT,MAD,700035018,TRYP MADRID LEGANES,WTMADLEG,"{'latitude': 40.32964, 'longitude': -3.76361}",{'countryCode': 'ES'},64657,2023-06-15T10:16:14
+WV,MAD,700085192,RAFAELHOTELES FORUM ALCALA,WVMADFOR,"{'latitude': 40.48113, 'longitude': -3.37649}",{'countryCode': 'ES'},145191,2023-06-15T10:06:01
+WV,MAD,700120786,HOTEL NUEVO BOSTON,WVMADNBO,"{'latitude': 40.44941, 'longitude': -3.57748}",{'countryCode': 'ES'},188245,2023-06-15T10:20:09
+WV,MAD,700032832,HOTEL NUEVO MADRID,WVMADNUE,"{'latitude': 40.46974, 'longitude': -3.66933}",{'countryCode': 'ES'},60629,2023-06-15T10:04:11
+WV,MAD,700011550,RAFAELHOTELES ATOCHA,WVMAD011,"{'latitude': 40.4028, 'longitude': -3.68809}",{'countryCode': 'ES'},19830,2023-06-15T09:52:24
+WV,MAD,700041081,ROOM MATE ALICIA,WVMAD955,"{'latitude': 40.41872, 'longitude': -3.69386}",{'countryCode': 'ES'},74883,2023-06-15T09:52:24
+WV,MAD,700042342,ROOM MATE LAURA,WVMADLAU,"{'latitude': 40.41861, 'longitude': -3.70701}",{'countryCode': 'ES'},77126,2023-06-15T09:52:09
+WV,MAD,700094428,HOTEL ANTIGUO CONVENTO BOADILLA,WVMADANT,"{'latitude': 40.41617, 'longitude': -3.93002}",{'countryCode': 'ES'},156478,2023-06-15T09:51:37
+WW,MAD,700023494,HUSA PRINCESA,WWMADPPL,"{'latitude': 40.42957, 'longitude': -3.71532}",{'countryCode': 'ES'},42135,2023-06-15T09:52:09
+WW,MAD,700017112,HOTEL ADLER,WWMADADL,"{'latitude': 40.42534, 'longitude': -3.684}",{'countryCode': 'ES'},29739,2023-06-15T09:53:28
+XK,MAD,502030022,NH EUROBUILDING,XKMAD6CV,"{'latitude': 40.45818, 'longitude': -3.68561}",{'countryCode': 'ES'},0,2023-06-15T11:21:39
+YX,MAD,700131190,DON PIO HOTEL,YXMADHDP,"{'latitude': 40.4628, 'longitude': -3.67628}",{'countryCode': 'ES'},208453,2023-06-15T10:18:51
+YX,MAD,700018150,HOTEL MODERNO PUERTA DEL SOL,YXMADMOD,"{'latitude': 40.41695, 'longitude': -3.70492}",{'countryCode': 'ES'},31725,2023-06-15T10:17:48

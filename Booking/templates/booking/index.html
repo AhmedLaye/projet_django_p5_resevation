@@ -10,6 +10,9 @@
                 
                 <h2>REservez</h2>
                 <h6>Reservez en un Click</h6>
+                {% if username %}
+                    {{username}}
+                {% endif %}
                 <p>If you are looking at blank cassettes on the web, you may be very confused at the<br> difference in price. You may see some for as low as $.17 each.</p>
                 <a href="#" class="btn theme_btn button_hover">Get Started</a>
             </div>
@@ -23,36 +26,5 @@
   
 </section>
 </div>
-     <h3>OFFRES</h3>
-<div class="decouverte">
-        <p>Découvrez nos offres et choisissez <br> destinations vos préférées !</p>
-        <p>Découvrez nos offres et choisissez <br> destinations vos préférées !</p> 
-</div>
-<div class="decouverte">
-    <img src="{% static 'images/voyage-à-Hawaï-2.jpg' %}" alt="" width="45%">
-    <img src="{% static 'images/resto*.jpg' %}" alt="resto" width="45%">
-</div>
-<div class="decouverte1">  
-    <a href="">Voir toutes les offres</a>
-    <a href="">Restaurants à proximité</a>
-</div>
-<h3>DECOUVREZ</h3>
-<div class="decouverte"><p>Les meilleurs endroits au Sénégal</p></div>
-<div class="endroit">
-    <div class="ville">
-        <p>Mbour</p>
-        <p>Somone</p>
-        <p>Cap SKirring</p>
-        <p>Dakar</p>
-        <p>Lac Rose</p>
-    </div>
-    <div class="photo">
-        <img src="{% static 'images/Mbour.jpg' %}" alt="" width="15%">
-        <img src="{% static 'images/somone.jpg' %}" alt="" width="15%">
-        <img src="{% static 'images/cap.jpg' %}" alt="" width="15%">
-        <img src="{% static 'images/dakar.jpg' %}" alt="" width="15%">
-        <img src="{% static 'images/lac.jpg'%}" alt="" width="15%">
-    </div>
-    <a href="">Voir Plus</a>
-</div>
+ 
 {% endblock %}

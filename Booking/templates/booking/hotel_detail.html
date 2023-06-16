@@ -2,7 +2,11 @@
 {% load static %}
 
 {% block content %}
-    
+<style>
+    .autre img{
+        width: 200px;
+    }
+</style>
         <section>
             
             <div class="container mt-5">
@@ -21,14 +25,17 @@
                     <div class="col-6">
                         {% if message %}
                             <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                <h4 class="alert-heading">Well done! {{date_depart}}</h4>
-                                <p>{{message}}.</p>
-                                <hr>
-                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-
+                                <h3 class="alert-heading">😇  Well done! {{message}}</h3>
+                                <button class="btn btn-outloine-success"><a href="#autre">
+                                    Voir </a></button>
                             </div>
            
+                         {% endif %}
+                         {% if message_error %}
+                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <h3 class="alert-heading">Dommage 😞 !  {{message_error}} </h3>
+                        
+                        </div>
                          {% endif %}
                          
                         <div class="p-3"><h2 class="fs-4 text-dark">{{hotel.nom}}</h2></div>
@@ -60,7 +67,6 @@
                                         <a href="{% url 'reserver_hotel' hotel.id %}" class="btn theme_btn button_hover">Book Now</a>
                                     </button>
                                     
-                                   
                                     {% endif %}
                                 </div>
 
@@ -69,7 +75,49 @@
                     </div>
                   
                 </div>
-              </div>
+                {% if data %}
+                <div class="row mt-5" id="autre">
+                    <h1 class="fs-1">Trouvez la chambre qui vous convient !</h1>
+                    <hr>
+                    {% for item in chambre %}
+                     <!-- |slice:":1" -->
+                    <div class="row container mx-auto">
+                        <div class="d-flex  accomodation_item">
+                            <div class="flex-shrink-0">
+                              <img src="" width="400px" alt="...">
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h3>{{room_descript}}</h3>
+                                <div class="row">
+                                    
+                                </div>
+                                From<h4 class="fs-2 text-success bg-outline-success"><i class="bi bi-tags fs-2"></i> {{room_price}} £<small>/night</small></h4>
+                                <div class="row">
+                                    <div class="col-md-2 align-items-center text-center">
+                                        <i class="bi bi-cup-hot fs-2"></i>
+                                        <H4>Coffee</H4>
+                                    </div>
+                                    <div class="col-md-2 text-center">
+                                        <i class="bi bi-wifi fs-2"></i>
+                                        <h4>Wireless</h4>
+                                    </div>
+                                    <div class="col-md-2 text-center">
+                                        <i class="bi bi-tv fs-2"></i>
+                                        <h4>Tv</h4>
+                                    </div>
+                                    
+                                </div>
+                                <button class="btn-sm btn-outline-dark"><a href="{% url 'reserver_chambre' item.id %}"> Reserver maintenant ! </a></button>
+                                
+                            </div>
+                          </div>
+                    </div>
+                       
+                    {% endfor %}
+
+                </div>
+                {% endif %}
+            </div>
         </section>
 
 {% endblock %}

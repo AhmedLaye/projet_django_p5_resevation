@@ -18,7 +18,19 @@
             });
         };
     };
-    navbarFixed();
+    function rechercheFixed(){
+        if ( $('.recherche').length ){ 
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();   
+                if (scroll >= nav_offset_top ) {
+                    $(".recherche").addClass("navbar_fixed");
+                } else {
+                    $(".recherche").removeClass("navbar_fixed");
+                }
+            });
+        };
+    };
+    rechercheFixed();
     
     function testimonialSlider(){
         if ( $('.testimonial_slider').length ){

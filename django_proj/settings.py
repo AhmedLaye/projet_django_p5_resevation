@@ -80,9 +80,9 @@ WSGI_APPLICATION = 'django_proj.wsgi.application'
 DATABASES = {
 'default': {
     'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'reservation',
-    'USER': 'mouhamed',
-    'PASSWORD': '    ',
+    'NAME': 'reserver',
+    'USER': 'amade',
+    'PASSWORD': 'acces',
     'HOST': 'localhost',
     'PORT': '3306',
 }

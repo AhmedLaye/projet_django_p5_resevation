@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section class="my-5 py-5 container mx-auto">
+       
+<main class=" text-center row g-3 border bg-light shadow mt-3">
+    {% if error_message %}
+    <div class="messages">
+        <div class="alert alert-danger">
+            {{ error_message }}
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="col-md-6" style="background-image: url('https://img.freepik.com/photos-gratuite/abstrait-colore-splash-3d-fond-generatif-fond-ai_60438-2509.jpg?w=1480&t=st=1685063999~exp=1685064599~hmac=c0917486680652ac2c1fa597e6f183f59b60786d045ae10f95171b6076ce5e7c') ;">
+
+    </div>
+    <div class="col-md-6">
+        <form class="" method="post">
+            {% csrf_token %}
+            <a class="navbar-brand logo_h" href="index.html"><span class="fs-1 h1 ">K</span>aay reserver</a>
+              <h1 class="h3 mb-3 fw-normal">Welcom, Bienvenue</h1>
+          
+              <div class="form-floating py-2">
+                <input type="text" class="form-control" id="floatingInput" placeholder=".com" name="username">
+                <label for="floatingInput"></label>
+              </div>
+             
+              <div class="form-floating py-2">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
+                <label for="floatingPassword">Password</label>
+              </div>
+          
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+              <hr>
+              <h4>Pas encore de compte ? </h4>
+              <p class="mt-5 mb-3 text-muted"></p>
+            </form>
+    </div>
+   
+    
+  </main>
+</section>
+
+<style>
+    
+</style>
+{% endblock %}

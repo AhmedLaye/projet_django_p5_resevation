@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="mt-5 pt-5 row container mx-auto">
+    <div class="d-flex  accomodation_item">
+        <div class="flex-shrink-0">
+          <img src="https://img.freepik.com/free-photo/double-bed-with-pillows_1203-124.jpg?w=826&t=st=1686840649~exp=1686841249~hmac=381001e54df4c543e6fb105f88853fd950d75ba01b9c949afe6a46bfc57a6cb6" width="400px" alt="...">
+        </div>
+        <div class="flex-grow-1 ms-3">
+            <h3>{{room_descript}}</h3>
+            <div class="row">
+                
+            </div>
+            From<h4 class="fs-2 text-success bg-outline-success"><i class="bi bi-tags fs-2"></i> {{chambre.prix_nuit}} £<small>/night</small></h4>
+            <div class="row">
+                <div class="col-md-2 align-items-center text-center">
+                    <i class="bi bi-cup-hot fs-2"></i>
+                    <H4>Coffee</H4>
+                </div>
+                <div class="col-md-2 text-center">
+                    <i class="bi bi-wifi fs-2"></i>
+                    <h4>Wireless</h4>
+                </div>
+                <div class="col-md-2 text-center">
+                    <i class="bi bi-tv fs-2"></i>
+                    <h4>Tv</h4>
+                </div>
+                
+            </div>
+            <button class="btn-sm btn-outline-dark"><a href=""> Reserver maintenant ! </a></button>
+            
+        </div>
+      </div>
+</div>
+{% endblock %}

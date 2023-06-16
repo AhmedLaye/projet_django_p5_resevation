@@ -4,6 +4,7 @@ from django.db import models
 import pandas as pd
 from django.db import connection
 import csv
+import json
 import  amadeus
 # Create your models here.
 class Utilisateur(models.Model):
@@ -20,7 +21,7 @@ class Hotels(models.Model):
     nom = models.CharField(max_length=100)
     adresse = models.CharField(max_length=100)
     description = models.TextField()
-    note_moyenne = models.CharField(max_length=100)
+    note = models.CharField(max_length=100)
     # Autres champs sur l'hôtel
     site_web = models.CharField(max_length=100)
     telephone = models.CharField(max_length=20)
@@ -35,7 +36,7 @@ class Hotels(models.Model):
                     nom = row[3]
                     adresse = row[1]
                     description = row[2]
-                    note_moyenne = row[3]
+                    note = row[3]
                     site_web = row[4]
                     telephone = row[0]
 
@@ -45,19 +46,47 @@ class Hotels(models.Model):
                     result = cursor.fetchone()
                     if not result:
                         query_insert = """
-                            INSERT INTO Booking_hotels (nom, adresse, description, note_moyenne, site_web, telephone)
+                            INSERT INTO Booking_hotels (nom, adresse, description, note, site_web, telephone)
                             VALUES (%s, %s, %s, %s, %s, %s)
                         """
-                        cursor.execute(query_insert, [nom, adresse, description, note_moyenne, site_web, telephone])
+                        cursor.execute(query_insert, [nom, adresse, description, note, site_web, telephone])
 
 Hotels.import_data_from_csv()
 
 class Chambre(models.Model):
-    hotel = models.ForeignKey(Hotels, on_delete=models.CASCADE)
+    hotel = models.CharField(max_length=50)
     type_chambre = models.CharField(max_length=50)
     description = models.TextField()
     prix_nuit = models.DecimalField(max_digits=8, decimal_places=2)
-    disponibilite = models.BooleanField(default=True)
+    offre_id = models.CharField(max_length=50)
+
+    @staticmethod
+    def insert_chambres_from_csv():
+        with open('rooms.csv', 'r') as file:
+            csv_data = csv.reader(file)
+            next(csv_data)  # Skip the header row
+
+            for row in csv_data:
+                # Extraction des données du fichier CSV
+                hotel_data = json.loads(row[1].replace("'", '"'))
+                hotel = hotel_data['hotelId']
+                type_chambre = row[0]
+                offre_data = json.loads(row[3].replace("'", '"'))
+                offre_id = offre_data[0]['id']
+                description = offre_data[0]['room']['description']['text']
+                prix_nuit = offre_data[0]['price']['base']
+
+                # Construction de la requête SQL d'insertion
+                query_insert = """
+                    INSERT INTO Booking_chambre (hotel, type_chambre, description, prix_nuit, offre_id)
+                    VALUES (%s, %s, %s, %s, %s)
+                """
+                # Exécution de la requête SQL avec les valeurs correspondantes
+                with connection.cursor() as cursor:
+                    cursor.execute("DELETE  FROM Booking_chambre")
+                    cursor.execute(query_insert, [hotel, type_chambre, description, prix_nuit,offre_id])
+Chambre.insert_chambres_from_csv()
+    
 
 
 class Reservation(models.Model):
@@ -68,7 +97,7 @@ class Reservation(models.Model):
     # Autres champs de la réservation
     nombre_invite = models.IntegerField()
 
-# Create your models here.
+# Create your model
 class voiture(models.Model):
     
     class transmission(models.TextChoices):
