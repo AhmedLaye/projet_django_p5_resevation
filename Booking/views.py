@@ -111,4 +111,23 @@ def deconnection(request):
     return redirect('voiture')
 
     
-    
+def recherches_voitures(request):
+    if request.method == 'POST':
+        date_debut = request.POST['date_debut']
+        date_fin = request.POST['date_fin']
+
+        # Requête pour récupérer les voitures disponibles
+        voitures_disponibles = voiture.objects.exclude(
+            reservation__date_debut_reservation__lte=date_fin,
+            reservation__date_fin_reservation__gte=date_debut
+        )
+
+        context = {
+            'voitures_disponibles': voitures_disponibles,
+            'date_debut': date_debut,
+            'date_fin': date_fin
+        }
+
+        return render(request, 'results.html', context)
+
+    return render(request, 'search.html')
