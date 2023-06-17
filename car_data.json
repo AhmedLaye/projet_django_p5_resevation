@@ -1,0 +1,128 @@
+[
+    {
+        "marque": "Mercedes-Benz",
+        "model": "S-Class",
+        "fuel_type": "Essence",
+        "capacity": 5,
+        "transmission": "Automatique",
+        "prix_location": 32625,
+        "image": "Mercedes-Benz_S-Class.png"
+    },
+    {
+        "marque": "Toyota",
+        "model": "Corolla",
+        "fuel_type": "Hybride",
+        "capacity": 5,
+        "transmission": "Manuelle",
+        "prix_location": 59837,
+        "image": "Toyota_Corolla.png"
+    },
+    {
+        "marque": "Kia",
+        "model": "Optima",
+        "fuel_type": "Hybride",
+        "capacity": 2,
+        "transmission": "Manuelle",
+        "prix_location": 83382,
+        "image": "Kia_Optima.png"
+    },
+    {
+        "marque": "BMW",
+        "model": "Series 3",
+        "fuel_type": "Gazoil",
+        "capacity": 2,
+        "transmission": "Manuelle",
+        "prix_location": 86025,
+        "image": "BMW_Series 3.png"
+    },
+    {
+        "marque": "Toyota",
+        "model": "Camry",
+        "fuel_type": "Hybride",
+        "capacity": 5,
+        "transmission": "Manuelle",
+        "prix_location": 54557,
+        "image": "Toyota_Camry.png"
+    },
+    {
+        "marque": "Honda",
+        "model": "Pilot",
+        "fuel_type": "Essence",
+        "capacity": 2,
+        "transmission": "Automatique",
+        "prix_location": 77954,
+        "image": "Honda_Pilot.png"
+    },
+    {
+        "marque": "Audi",
+        "model": "A4",
+        "fuel_type": "Hybride",
+        "capacity": 5,
+        "transmission": "Manuelle",
+        "prix_location": 81041,
+        "image": "Audi_A4.png"
+    },
+    {
+        "marque": "Toyota",
+        "model": "RAV4",
+        "fuel_type": "Essence",
+        "capacity": 2,
+        "transmission": "Automatique",
+        "prix_location": 30104,
+        "image": "Toyota_RAV4.png"
+    },
+    {
+        "marque": "Honda",
+        "model": "Pilot",
+        "fuel_type": "Gazoil",
+        "capacity": 2,
+        "transmission": "Manuelle",
+        "prix_location": 42170,
+        "image": "Honda_Pilot.png"
+    },
+    {
+        "marque": "Mercedes-Benz",
+        "model": "S-Class",
+        "fuel_type": "Gazoil",
+        "capacity": 5,
+        "transmission": "Automatique",
+        "prix_location": 60640,
+        "image": "Mercedes-Benz_S-Class.png"
+    },
+    {
+        "marque": "Hyundai",
+        "model": "Sonata",
+        "fuel_type": "Gazoil",
+        "capacity": 2,
+        "transmission": "Manuelle",
+        "prix_location": 78180,
+        "image": "Hyundai_Sonata.png"
+    },
+    {
+        "marque": "Toyota",
+        "model": "Corolla",
+        "fuel_type": "Essence",
+        "capacity": 2,
+        "transmission": "Automatique",
+        "prix_location": 76156,
+        "image": "Toyota_Corolla.png"
+    },
+    {
+        "marque": "Audi",
+        "model": "Q7",
+        "fuel_type": "Gazoil",
+        "capacity": 2,
+        "transmission": "Automatique",
+        "prix_location": 30178,
+        "image": "Audi_Q7.png"
+    },
+    {
+        "marque": "Chevrolet",
+        "model": "Cruze",
+        "fuel_type": "Hybride",
+        "capacity": 5,
+        "transmission": "Automatique",
+        "prix_location": 63008,
+        "image": "Chevrolet_Cruze.png"
+    }
+]
