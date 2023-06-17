@@ -89,7 +89,9 @@
             <div class="booking_table d_flex align-items-center">
             	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" style="background-image: url('{% static 'images/fond.jpg'%}');background-attachment: fixed;"></div>
 				<div class="container recherches">
-                    <form id="booking-form" class="booking-form" method="POST">
+                    
+                    <form id="booking-form" class="booking-form" method="POST" action="{% url 'voiture'%}">
+                            {% csrf_token %}
                             <div class="form-group">
                                 <div class="form-destination">
                                     <label for="destination">Destination</label>
@@ -97,12 +99,12 @@
                                 </div>
                                 <div class="form-date-from form-icon">
                                     <label for="date_from">From</label>
-                                    <input type="date" id="date_to" class="date_from" placeholder="Pick a date" />
+                                    <input type="date" id="date_to" class="date_from"  name="date_debut" placeholder="Pick a date" />
                                     <!-- <span class="icon"><i class="zmdi zmdi-calendar-alt"></i></span> -->
                                 </div>
                                 <div class="form-date-to form-icon">
                                     <label for="date_to">To</label>
-                                    <input type="date" id="date_to" class="date_to" placeholder="Pick a date" />
+                                    <input type="date" id="date_to" class="date_to"  name="date_fin" placeholder="Pick a date" />
                                     <!-- <span class="icon"><i class="zmdi zmdi-calendar-alt"></i></span> -->
                                 </div>
                                 

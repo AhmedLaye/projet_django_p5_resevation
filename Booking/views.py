@@ -36,9 +36,22 @@ def index_view(request):
     return render(request,  'booking/index.html')
 
 def voiture_view(request):
-    voitures=voiture.objects.raw("SELECT * FROM Booking_voiture WHERE id IN (1,2,3,4,5,6)")
+    # voitures=voiture.objects.raw("SELECT * FROM Booking_voiture WHERE id IN (1,2,3,4,5,6)")
 
-    return render(request,  'booking/voiture.html',{'voitures':voitures})
+    # return render(request,  'booking/voiture.html',{'voitures':voitures})
+    date_debut = request.GET.get('date_debut')
+    date_fin = request.GET.get('date_fin')
+
+    if date_debut and date_fin:
+        # Effectuer la recherche en utilisant les paramètres
+        # de date_debut et date_fin
+        voitures = voiture.objects.filter(reservation_voiture__date_debut_location__lte=date_fin, reservation_voiture__date_fin_location__gte=date_debut)
+    else:
+        # Afficher les premières voitures de la base de données
+        voitures = voiture.objects.all()
+
+    # Passer les voitures à votre template pour l'affichage
+    return render(request, 'booking/voiture.html', {'voitures': voitures})
 
 def vol_view(request):
 
@@ -118,8 +131,8 @@ def recherches_voitures(request):
 
         # Requête pour récupérer les voitures disponibles
         voitures_disponibles = voiture.objects.exclude(
-            reservation__date_debut_reservation__lte=date_fin,
-            reservation__date_fin_reservation__gte=date_debut
+            Reservation_voiture__date_debut_reservation__lte=date_fin,
+            Reservation_voiture__date_fin_reservation__gte=date_debut
         )
 
         context = {
@@ -128,6 +141,6 @@ def recherches_voitures(request):
             'date_fin': date_fin
         }
 
-        return render(request, 'results.html', context)
+        return render(request, 'voiture.html', context)
 
-    return render(request, 'search.html')
+    return render(request, 'voiture.html')

@@ -371,6 +371,7 @@ a {
     height: 47px;
     border-radius: 5px;
     border: #530808df solid 2px;
+    display: flex;
   }
   .submit:hover{
     background-color:#530808df ;
