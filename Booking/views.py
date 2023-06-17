@@ -5,7 +5,7 @@ from django.http import HttpResponseRedirect, HttpResponse
 from .forms import *
 import pandas as pd
 import os
-from Booking.models import Hotels,Chambre
+from Booking.models import Hotels,Chambre, Reservation
 from datetime import datetime,timedelta
 
 
@@ -15,42 +15,10 @@ amadeus = Client(
         client_id='yMHEq6Q7ipGdqP8m6Fovtgn4xFwCAwNJ',
         client_secret='NBITauWAZGbzHNSN'
     )
-try:
-    response = amadeus.reference_data.locations.hotels.by_city.get(cityCode='MAD')
-    
-    
-    
-    pd.DataFrame(response.data)      
-    df = pd.DataFrame(response.data)
-    df.to_csv(os.path.join(os.getcwd(), "hotels.csv"), index=False)
 
-except ResponseError as error:
-    raise error
 def index_view(request):
-    try:
-        all_id=[hotel.get('hotelId') for hotel in response.data[:100]]
-        # check_in_date = check_in_date = (pd.to_datetime('today') + pd.DateOffset(days=1)).strftime('%Y-%m-%d')
-        # check_out_date = (pd.to_datetime('today') + pd.DateOffset(days=2)).strftime('%Y-%m-%d')
-        search_hotels = amadeus.shopping.hotel_offers_search.get(hotelIds=all_id)
-        
-        print("**************************")
-        print(search_hotels.data[0])
-        print("µµµµµµµµµµµµµµµµµµµµµµµµµµµ")
-        
-
-    except ResponseError as error:
-        raise error
     
     return render(request,  'booking/index.html')
-
-def voiture_view(request):
-
-    return render(request,  'booking/voiture.html')
-
-def vol_view(request):
-
-
-    return render(request,  'booking/vol.html')
 
 def resto_view(request):
     hotels = Hotels.objects.raw("SELECT * FROM  Booking_hotels")
@@ -62,7 +30,6 @@ def hotel_detail(request, id):
     hotel = Hotels.objects.get(id=id)
     
     return render(request, 'booking/hotel_detail.html', {'hotel': hotel})
-
 
 def reserver_hotel(request, id):
     hotel = Hotels.objects.get(id=id)
@@ -87,18 +54,7 @@ def reserver_hotel(request, id):
                 data=hotels_by_city.data
                 
                 if len(data)!=0:
-                    offerId = data[0]['offers'][0]['id']
-                    guests = [{'id': 1, 'name': {'title': 'MR', 'firstName': 'BOB', 'lastName': 'SMITH'},
-                        'contact': {'phone': '+33679278416', 'email': 'bob.smith@email.com'}}]
-                    payments = {'id': 1, 'method': 'creditCard', 'card': {
-                        'vendorCode': 'VI', 'cardNumber': '4151289722471370', 'expiryDate': '2027-08'}}
-
-        # Hotel booking API to book the offer 
-                    hotel_booking = amadeus.booking.hotel_bookings.post(
-                    offerId, guests, payments)
-                    print("******************************************")
-                    print(hotel_booking.data)
-                    print("******************************************")
+                    
                         # 2023-10-01'
                     print(data)
                     room_price = data[0]['offers'][0]['price']['base']
@@ -131,37 +87,16 @@ def reserver_hotel(request, id):
 
 def reserver_chambre(request, id):
     chambre=Chambre.objects.get(id=id)
+    # if request.method== 'POST':
+    #     reservation =Reservation(utilisateur="1", chambre=chambre, date_arrivee=datetime.now(), date_depart=datetime.now(),
+    #                                   nombre_invite=1)
+    #     reservation.save()
+    #     message='reussi'
+        
+        # return render(request, 'booking/reservation/chambre.html', {'chambre':chambre, 'message':message})
 
-    
     return render(request, 'booking/reservation/chambre.html', {'chambre':chambre})
     
 
 
 
-def login_view(request):
-    if request.method == 'POST':
-        username = request.POST.get('username')
-        password = request.POST.get('password')
-        
-        try:
-            user = User.objects.get(username=username)
-            if user.check_password(password):
-                
-                request.session['username'] = username
-                if 'username' in request.session:
-                    username = request.session['username']
-                    # L'utilisateur est connecté, vous pouvez effectuer les actions souhaitées ici
-                    return render(request, 'booking/index.html', {'username': username}) # Remplacez '/dashboard/' par l'URL souhaitée en cas d'authentification réussie
-            else:
-                
-                error_message = "Mot de passe incorrect."
-                return render(request, 'booking/connexion/login.html', {'error_message': error_message})
-        except User.DoesNotExist:
-            # Nom d'utilisateur invalide, afficher un message d'erreur
-            error_message = "Nom d'utilisateur invalide."
-            return render(request, 'booking/connexion/login.html', {'error_message': error_message})
-
-       
-        return HttpResponse("connexion reussi pour l'instant")  # Remplacez '/dashboard/' par l'URL souhaitée
-
-    return render(request, 'booking/connexion/login.html')

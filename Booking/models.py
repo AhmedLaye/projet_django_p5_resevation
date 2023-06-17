@@ -1,11 +1,13 @@
 from django.db import models
 import csv
-from django.db import models
+
 import pandas as pd
 from django.db import connection
 import csv
 import json
 import  amadeus
+from django.contrib.auth.models import User
+
 # Create your models here.
 class Utilisateur(models.Model):
     nom = models.CharField(max_length=50)
@@ -90,7 +92,7 @@ Chambre.insert_chambres_from_csv()
 
 
 class Reservation(models.Model):
-    utilisateur = models.ForeignKey(Utilisateur, on_delete=models.CASCADE)
+    utilisateur = models.ForeignKey(User, on_delete=models.CASCADE)
     chambre = models.ForeignKey(Chambre, on_delete=models.CASCADE)
     date_arrivee = models.DateField()
     date_depart = models.DateField()

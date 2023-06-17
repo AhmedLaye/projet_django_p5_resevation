@@ -2,11 +2,15 @@
 
 {% block content %}
 <div class="mt-5 pt-5 row container mx-auto">
+    
     <div class="d-flex  accomodation_item">
         <div class="flex-shrink-0">
           <img src="https://img.freepik.com/free-photo/double-bed-with-pillows_1203-124.jpg?w=826&t=st=1686840649~exp=1686841249~hmac=381001e54df4c543e6fb105f88853fd950d75ba01b9c949afe6a46bfc57a6cb6" width="400px" alt="...">
         </div>
         <div class="flex-grow-1 ms-3">
+            {% if message %}
+    {{message}}
+    {% endif %}
             <h3>{{room_descript}}</h3>
             <div class="row">
                 
@@ -27,7 +31,10 @@
                 </div>
                 
             </div>
-            <button class="btn-sm btn-outline-dark"><a href=""> Reserver maintenant ! </a></button>
+            <form action="{% url 'reserver_chambre' chambre.id %}" method="post">
+                {% csrf_token %} 
+            <button type="submit" class="btn-sm btn-outline-dark">Reserver maintenant </button>
+            </form>
             
         </div>
       </div>
