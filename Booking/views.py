@@ -39,19 +39,21 @@ def voiture_view(request):
     # voitures=voiture.objects.raw("SELECT * FROM Booking_voiture WHERE id IN (1,2,3,4,5,6)")
 
     # return render(request,  'booking/voiture.html',{'voitures':voitures})
-    date_debut = request.GET.get('date_debut')
-    date_fin = request.GET.get('date_fin')
+    if request.method == 'POST':
+        date_debut = request.POST.get('date_debut')
+        date_fin = request.POST.get('date_fin')
 
-    if date_debut and date_fin:
-        # Effectuer la recherche en utilisant les paramètres
-        # de date_debut et date_fin
-        voitures = voiture.objects.filter(reservation_voiture__date_debut_location__lte=date_fin, reservation_voiture__date_fin_location__gte=date_debut)
+            # Effectuer la recherche en utilisant les paramètres
+            # de date_debut et date_fin
+        voitures = voiture.objects.filter(voiture_id__date_debut_location__lte=date_fin, voiture_id__date_fin_location__gte=date_debut)
+        return render(request, 'booking/voiture.html', {'voitures': voitures})
     else:
-        # Afficher les premières voitures de la base de données
+            # Afficher les premières voitures de la base de données
         voitures = voiture.objects.all()
 
-    # Passer les voitures à votre template pour l'affichage
-    return render(request, 'booking/voiture.html', {'voitures': voitures})
+            # Passer les voitures à votre template pour l'affichage
+        return render(request, 'booking/voiture.html', {'voitures': voitures})
+    
 
 def vol_view(request):
 
