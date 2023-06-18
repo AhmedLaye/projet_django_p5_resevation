@@ -12,6 +12,12 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate , login ,logout
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.core.mail import EmailMessage
+from django.template.loader import render_to_string
+from django.conf import settings
+
+
+
 # Create your views here.
 amadeus = Client(
         client_id='yMHEq6Q7ipGdqP8m6Fovtgn4xFwCAwNJ',
@@ -90,13 +96,21 @@ def reserver_hotel(request, id):
 
 def reserver_chambre(request, id):
     chambre=Chambre.objects.get(id=id)
-    # if request.method== 'POST':
-    #     reservation =Reservation(utilisateur="1", chambre=chambre, date_arrivee=datetime.now(), date_depart=datetime.now(),
-    #                                   nombre_invite=1)
-    #     reservation.save()
-    #     message='reussi'
+    if request.method== 'POST':
+        reservation =Reservation(utilisateur=request.user, chambre=chambre, date_arrivee=datetime.now(), date_depart=datetime.now(),
+                                      nombre_invite=1)
+        reservation.save()
+        message='Reservation réussie'
+        user=request.user
+        subject = 'Confirmation de réservation'
+        context = {'user': user, 'chambre': chambre}
+        html_content = render_to_string('booking/email/email.html', context)
+        email = EmailMessage(subject, html_content, settings.DEFAULT_FROM_EMAIL, [user.email])
+        email.content_subtype = 'html'
+        email.send()
+            
         
-        # return render(request, 'booking/reservation/chambre.html', {'chambre':chambre, 'message':message})
+        return render(request, 'booking/reservation/chambre.html', {'chambre':chambre, 'message':message})
 
     return render(request, 'booking/reservation/chambre.html', {'chambre':chambre})
     
@@ -165,7 +179,7 @@ def connection(request):
         if user is not None and user.is_active:
             login(request, user)
             messages.success(request, 'Connexion réussie ')
-            return redirect('voiture')
+            return redirect('index')
         else:
             messages.error(request, "Nom d'utilisateur ou mot de passe incorrect")
      

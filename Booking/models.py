@@ -1,16 +1,10 @@
 from django.db import models
 import csv
 import json
-import mysql.connector
-
-
-
-from django.db import models
 import pandas as pd
 from django.db import connection
 import csv
 import json
-import  amadeus
 from django.contrib.auth.models import User
 
 # Create your models here.

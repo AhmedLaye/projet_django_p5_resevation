@@ -2,15 +2,26 @@
 
 {% block content %}
 <div class="mt-5 pt-5 row container mx-auto">
-    
+    {% if message %}
+        <div class="row">   
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <h3 class="alert-heading">Well done!, {{message}}</h3>
+                <p>Un mail contenant les details de votre Reservation vous a été envoyé.</p>
+                <hr>
+                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+
+            </div>           
+           
+        </div>
+    {% endif %}
+   
     <div class="d-flex  accomodation_item">
         <div class="flex-shrink-0">
           <img src="https://img.freepik.com/free-photo/double-bed-with-pillows_1203-124.jpg?w=826&t=st=1686840649~exp=1686841249~hmac=381001e54df4c543e6fb105f88853fd950d75ba01b9c949afe6a46bfc57a6cb6" width="400px" alt="...">
         </div>
         <div class="flex-grow-1 ms-3">
-            {% if message %}
-    {{message}}
-    {% endif %}
+
             <h3>{{room_descript}}</h3>
             <div class="row">
                 
