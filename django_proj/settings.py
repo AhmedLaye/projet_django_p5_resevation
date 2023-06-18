@@ -81,8 +81,8 @@ DATABASES = {
 'default': {
     'ENGINE': 'django.db.backends.mysql',
     'NAME': 'gestion_reservation',
-    'USER': 'anna',
-    'PASSWORD': '1234',
+    'USER': 'el_rawane',
+    'PASSWORD': '007700',
     'HOST': 'localhost',
     'PORT': '3306',
 }

@@ -3,8 +3,7 @@ import csv
 import json
 import mysql.connector
 
-
-
+from django.contrib.auth.models import User
 from django.db import models
 import pandas as pd
 from django.db import connection
@@ -75,39 +74,50 @@ class Reservation(models.Model):
 # Create your models here.
 class voiture(models.Model):
     
-    class transmission(models.TextChoices):
+    class boite(models.TextChoices):
         Automatique = 'Automatique'
         Manuelle= 'Manuelle'
 
     marque = models.CharField(max_length=100)
     model = models.CharField(max_length=100)
-    year = models.IntegerField()
     fuel_type = models.CharField(max_length=100)
     capacity = models.IntegerField()
-    transmission = models.CharField(choices = transmission.choices,max_length=12)
+    transmission = models.CharField(choices = boite.choices,max_length=12)
+    prix_location= models.IntegerField( default= 30000)
+    image = models.CharField(max_length=100 , default='')
 
     
-with open('car_data.json') as file:
-    data = json.load(file)
+# with open('car_data.json') as file:
+#     data = json.load(file)
     
-# Connexion à la base de données
-cnx = mysql.connector.connect(
-    host='localhost',
-    user='el_rawane',
-    password='007700',
-    database='gestion_reservation'
-)
+# # Connexion à la base de données
+# cnx = mysql.connector.connect(
+#     host='localhost',
+#     user='el_rawane',
+#     password='007700',
+#     database='gestion_reservation'
+# )
 
-# Création d'un curseur pour exécuter des requêtes SQL
-cursor = cnx.cursor()
-for record in data:
-    query = "INSERT INTO Booking_voiture (marque, model, year, fuel_type, capacity, transmission) VALUES (%s, %s, %s, %s, %s, %s)"
-    values = (record['marque'], record['model'], record['year'], record['fuel_type'], record['capacity'], record['transmission'])
-    cursor.execute(query, values)
+# # Création d'un curseur pour exécuter des requêtes SQL
+# cursor = cnx.cursor()
+# for record in data:
+#     print(record)
+#     query = "INSERT INTO Booking_voiture (marque, model, fuel_type, capacity, transmission, prix_location, image) VALUES (%s, %s, %s, %s,%s , %s, %s)"
+#     values = (record['marque'], record['model'], record['fuel_type'], record['capacity'], record['transmission'], record['prix_location'],record['image'])
+#     cursor.execute(query, values)
 
-# Valider les modifications dans la base de données
-cnx.commit()
+# # Valider les modifications dans la base de données
+# cnx.commit()
 
-# Fermer le curseur et la connexion
-cursor.close()
-cnx.close()
+# # Fermer le curseur et la connexion
+# cursor.close()
+# cnx.close()
+
+class Reservation_voiture(models.Model):
+    voiture = models.ForeignKey(voiture,to_field='id' ,on_delete=models.CASCADE ,related_name='voiture_id')
+    utilisateur = models.ForeignKey(User,to_field='id', on_delete=models.CASCADE , related_name='utilisateur_id')
+    date_debut_location = models.DateField()
+    date_fin_location = models.DateField()
+    # Autres champs de la réservation
+    
+

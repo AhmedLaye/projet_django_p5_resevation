@@ -1,0 +1,126 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/detail_voiture.css' %}">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/css_resto/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_resto/vendors/linericon/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_resto/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_resto/vendors/owl-carousel/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_resto/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_resto/vendors/nice-select/css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_resto/vendors/owl-carousel/owl.carousel.min.css' %}">
+    <!-- main css -->
+    <link rel="stylesheet" href="{% static 'css/css_resto/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/css_resto/responsive.css' %}">
+        <title>Detail_Voiture</title>
+    </head>
+    <body>
+            <!--================Header =================-->
+            <header class="header_area">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <a class="navbar-brand logo_h" href="index.html"><span class="fs-1 h1 ">K</span>aay reserver</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                            <ul class="nav navbar-nav menu_nav ml-auto">
+                                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li> 
+                                <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Accomodation</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                                <li class="nav-item submenu dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Blog Details</a></li>
+                                    </ul>
+                                </li> 
+                                <li class="nav-item"><a class="nav-link" href="#">Elemests</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                            </ul>
+                        </div> 
+                    </nav>
+                </div>
+            </header>
+               <!--================Banner Area =================-->
+        <!-- <section class="banner_area">
+            <div class="booking_table d_flex align-items-center">
+            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" style="background-image: url('https://img.freepik.com/photos-gratuite/complexe-divertissement-type-station-balneaire-populaire-piscines-parcs-aquatiques-turquie-plus-5-millions-visiteurs-par-an-amara-dolce-vita-hotel-luxe-recours-tekirova-kemer_146671-18728.jpg?w=1380&t=st=1684855561~exp=1684856161~hmac=7af4d314e86ded4e5081437fcff2fa57287dd3d02752ef3deb52d4e361027b4a');background-attachment: fixed;"></div>
+				<div class="container">
+					<div class="banner_content text-center">
+						<h6>Decouvrez nos</h6>
+						<h2>Hôtels</h2>
+						<p>If you are looking at blank cassettes on the web, you may be very confused at the<br> difference in price. You may see some for as low as $.17 each.</p>
+						<a href="#" class="btn theme_btn button_hover">Get Started</a>
+					</div>
+				</div>
+            </div>
+            </div>
+
+          
+        </section> -->
+        <div class="annonce_reservation">Reservez Maintenant</div>
+        <div class="containerE">
+            <div class="car-details">
+                <img src="{% static 'images/' %}{{ car.image }}" alt="Voiture">
+                <h2>{{car.marque}}</h2>
+                <p>Description de la voiture</p>
+                <p>{{car.model}}</p>
+                <p>{{car.transmission}}</p>
+                <!-- Ajoutez ici d'autres détails de la voiture -->
+            </div>
+    
+            <div class="reservation-form">
+                <h2>Réserver cette voiture</h2>
+                <form method="post" action="{% url 'reservation' %}">
+                    {% csrf_token %}
+                    <label for="date_debut">Date de début:</label>
+                    <input type="date" id="date_debut" name="date_debut" required><br><br>
+            
+                    <label for="date_fin">Date de fin:</label>
+                    <input type="date" id="date_fin" name="date_fin" required><br><br>
+
+                    <label for="identifiant_voiture">Identifiant Voiture:</label>
+                    <input type="hidden" name="identifiant_voiture" value="{{car.id}}" readonly>
+                    <p>DK-098{{car.id}}-AT</p>
+
+            
+                    <input type="submit" value="Réserver">
+                </form>
+            </div>
+        </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+    <script src="{% static 'js_resto/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'js_resto/popper.js' %}"></script>
+    <script src="{% static 'js_resto/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js_resto/vendors/owl-carousel/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js_resto/jquery.ajaxchimp.min.js' %}"></script>
+    <script src="{% static 'js_resto/mail-script.js' %}"></script>
+    <script src="{% static 'js_resto/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js' %}"></script>
+    <script src="{% static 'js_resto/vendors/nice-select/js/jquery.nice-select.js' %}"></script>
+    <script src="{% static 'js_resto/mail-script.js' %}"></script>
+    <script src="{% static 'js_resto/stellar.js' %}"></script>
+    <script src="{% static 'js_resto/vendors/lightbox/simpleLightbox.min.js' %}"></script>
+    <script src="{% static 'js_resto/custom.js' %}"></script>
+</body>
+</html>
