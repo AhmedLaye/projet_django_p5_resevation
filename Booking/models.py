@@ -1,13 +1,34 @@
-from django.db import models
+from django.db import models, connection
 import csv
 import json
-import mysql.connector
-
 from django.contrib.auth.models import User
-from django.db import models
 import pandas as pd
 from django.db import connection
 import csv
+#class du service vol
+class Vol(models.Model):
+    origin = models.CharField(max_length=100)
+    destination = models.CharField(max_length=100)
+    depart_time = models.TimeField()
+    depart_weekday = models.IntegerField()
+    duration = models.DurationField()
+    arrival_time = models.TimeField()
+    arrival_weekday = models.IntegerField()
+    flight_no = models.CharField(max_length=100)
+    airline_code = models.CharField(max_length=100)
+    airline = models.CharField(max_length=100)
+    economy_fare = models.IntegerField(null=True)
+    business_fare = models.IntegerField(null=True)
+    first_fare = models.IntegerField(null=True)
+    
+class Reservationv(models.Model):
+    email = models.EmailField()
+
+    nom = models.CharField(max_length=50)
+    prenom = models.CharField(max_length=50)
+    def __str__(self):
+        return f"{self.nom} {self.prenom} {self.email}"
+
 # Create your models here.
 class Utilisateur(models.Model):
     nom = models.CharField(max_length=50)
@@ -41,7 +62,6 @@ class Hotels(models.Model):
                     note_moyenne = row[3]
                     site_web = row[4]
                     telephone = row[0]
-
                     # Vérifier l'existence des données avant de les insérer
                     query_check = "SELECT * FROM Booking_hotels WHERE nom = %s"
                     cursor.execute(query_check, [nom])
@@ -70,7 +90,6 @@ class Reservation(models.Model):
     date_depart = models.DateField()
     # Autres champs de la réservation
     nombre_invite = models.IntegerField()
-
 # Create your models here.
 class voiture(models.Model):
     
@@ -97,8 +116,7 @@ class voiture(models.Model):
 #     password='007700',
 #     database='gestion_reservation'
 # )
-
-# # Création d'un curseur pour exécuter des requêtes SQL
+ # Création d'un curseur pour exécuter des requêtes SQL
 # cursor = cnx.cursor()
 # for record in data:
 #     print(record)
@@ -120,4 +138,3 @@ class Reservation_voiture(models.Model):
     date_fin_location = models.DateField()
     # Autres champs de la réservation
     
-
